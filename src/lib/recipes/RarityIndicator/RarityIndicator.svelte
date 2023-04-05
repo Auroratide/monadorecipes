@@ -1,27 +1,27 @@
 <script lang="ts">
 	import type { Rarity } from "$lib/recipes/Recipe"
+	import { Color } from "$lib/design/Color"
 
 	export let rarity: Rarity
 
 	$: label = `Rarity ${rarity}`
-	
+
 	const colors = [
-		["#5e9bbc", "#313d77"],
-		["#f267bc", "#ef6b7b"],
-		["#f8d08a", "#ef717c"],
+		Color.valueOf(Color.icon.common()),
+		Color.valueOf(Color.icon.uncommon()),
+		Color.valueOf(Color.icon.rare()),
 	]
 
-	$: backgroundTop = colors[rarity - 1][0]
-	$: backgroundBottom = colors[rarity - 1][1]
+	$: background = colors[rarity - 1]
 </script>
 
-<span class="max-rarity-width centered isolated" role="img" aria-label={label} title={label} style:--background-top={backgroundTop} style:--background-bottom={backgroundBottom}>
-	<span class="diamond top"></span>
+<span class="max-rarity-width centered isolated" role="img" aria-label={label} title={label} style:--icon-bg={background}>
+	<span class="diamond top {Color.border.regular()}"></span>
 	{#if rarity > 1}
-		<span class="diamond overlap-left middle"></span>
+		<span class="diamond overlap-left middle {Color.border.regular()}"></span>
 	{/if}
 	{#if rarity > 2}
-		<span class="diamond overlap-left bottom"></span>
+		<span class="diamond overlap-left bottom {Color.border.regular()}"></span>
 	{/if}
 </span>
 
@@ -39,8 +39,8 @@
 		display: inline-block;
 		width: 0.7071em; /* 1 / sqrt(2) */
 		height: 0.7071em;
-		border: 0.0625em solid white;
-		background: linear-gradient(135deg, var(--background-top), var(--background-bottom));
+		border: 0.0625em solid;
+		background: var(--icon-bg);
 		transform: rotate(45deg);
 		aspect-ratio: 1;
 	}

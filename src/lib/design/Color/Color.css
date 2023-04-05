@@ -1,0 +1,23 @@
+:root {
+	--color-text-regular: hsl(0, 0%, 100%);
+	--color-text-muted: hsl(223, 85%, 89%);
+
+	--color-bg-dark: hsl(237, 80%, 10%);
+
+	--color-border-regular: hsl(0, 0%, 100%);
+
+	--color-icon-common: linear-gradient(135deg, hsl(201, 41%, 55%), hsl(230, 42%, 33%));
+	--color-icon-uncommon: linear-gradient(135deg, hsl(323, 84%, 68%), hsl(353, 80%, 68%));
+	--color-icon-rare: linear-gradient(135deg, hsl(38, 89%, 76%), hsl(353, 80%, 68%));
+}
+
+.color-text-regular { color: var(--color-text-regular); }
+.color-text-muted { color: var(--color-text-muted); }
+
+.color-bg-dark { background-color: var(--color-bg-dark); }
+
+.color-border-regular { border-color: var(--color-border-regular); }
+
+.color-icon-common { background: var(--color-icon-common); }
+.color-icon-uncommon { background: var(--color-icon-uncommon); }
+.color-icon-rare { background: var(--color-icon-rare); }

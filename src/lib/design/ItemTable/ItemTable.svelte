@@ -1,17 +1,44 @@
 <script lang="ts">
+	import { Font } from "$lib/design/Font"
+	import { Color } from "$lib/design/Color"
+
 	export let items: any[]
-	export let headings: string[]
+	export let headings: string[];
 </script>
 
-<table>
+
+
+
+<table class="spaced-rows">
 	<thead>
 		{#each headings as heading}
-			<th>{heading}</th>
+			<th class="{Font({ size: '1-star' })} {Color.text.muted()} normal-weight">
+				{heading}
+			</th>
 		{/each}
 	</thead>
 	<tbody>
 		{#each items as item}
-			<slot {item}><tr></tr></slot>
+			<tr class="blue-background">
+				<slot {item}></slot>
+			</tr>
 		{/each}
 	</tbody>
 </table>
+
+<style>
+	.spaced-rows {
+		border-collapse: separate;
+		border-spacing: 0 0.375em;
+	}
+
+	.normal-weight { font-weight: normal; }
+
+	tr {
+		margin-bottom: 1px;
+	}
+
+	.blue-background {
+		background: #29328d;
+	}
+</style>

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { TitledPanel } from "$lib/design/TitledPanel"
-	import { ItemTable, ItemRow } from "$lib/design/ItemTable"
+	import { ItemTable } from "$lib/design/ItemTable"
 	import { PanFriedTatari } from "$lib/recipes/pan-fried-tatari"
 </script>
 
@@ -21,6 +21,5 @@
 		["Lemon", "Common", 1],
 		["Parsley", "Common", 1],
 	]}>
-		<ItemRow></ItemRow>
 	</ItemTable>
 </TitledPanel>

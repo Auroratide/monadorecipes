@@ -4,4 +4,6 @@
 
 body {
    font-family: "MgOpenCosmetica", serif;
+   background-color: var(--color-bg-dark);
+   color: var(--color-text-regular);
 }
