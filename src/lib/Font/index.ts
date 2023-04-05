@@ -1,3 +1,3 @@
 import "./Font.css"
 
-export { default } from "./Font"
+export * from "./Font"

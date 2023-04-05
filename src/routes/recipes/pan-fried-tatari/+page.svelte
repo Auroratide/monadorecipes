@@ -1,5 +1,5 @@
 <script lang="ts">
-	import TitledPanel from "$lib/TitledPanel.svelte"
+	import { TitledPanel } from "$lib/TitledPanel"
 </script>
 
 <svelte:head>

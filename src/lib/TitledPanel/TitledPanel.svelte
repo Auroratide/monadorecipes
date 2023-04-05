@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Font from "$lib/Font"
+	import { Font } from "$lib/Font"
 
 	export let title: string
 </script>
