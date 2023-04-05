@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+	<title>Monado Recipes: Eat Food from Xenoblade Chronicles</title>
+</svelte:head>
+
+<h1>Monado Recipes</h1>
+<p>Under construction.</p>
+<ul>
+	<li><a href="/recipes/pan-fried-tatari">Pan-Fried Tatari</a></li>
+</ul>
