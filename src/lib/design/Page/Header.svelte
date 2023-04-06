@@ -17,7 +17,7 @@
 
 <style>
 	.large-spacing {
-		padding: 2em 2em;
+		padding: 2rem 2rem;
 	}
 
 	.bottom-border {
@@ -35,7 +35,7 @@
 	}
 
 	nav {
-		padding: 0.125em 2em;
+		padding: 0.25rem 2rem;
 		max-width: 80%;
 	}
 </style>
