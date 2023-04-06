@@ -12,7 +12,7 @@
 <table class="spaced-rows">
 	<thead>
 		{#each headings as heading}
-			<th class="{Font({ size: '1-star' })} {Color.text.muted()} normal-weight">
+			<th class="{Font.size.stars(1)} {Color.text.muted()} normal-weight">
 				{heading}
 			</th>
 		{/each}
