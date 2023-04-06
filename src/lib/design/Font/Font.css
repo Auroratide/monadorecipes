@@ -1,9 +1,9 @@
 :root {
-	--font-size-1-star: 0.875rem;
-	--font-size-2-star: 1rem;
-	--font-size-3-star: 1.125rem;
-	--font-size-4-star: 1.25rem;
-	--font-size-5-star: 1.5rem;
+	--font-size-1-star: clamp(0.875rem, 1.75vw, 1.00625rem);
+	--font-size-2-star: clamp(1rem, 2vw, 1.15rem);
+	--font-size-3-star: clamp(1.125rem, 2.25vw, 1.29375rem);
+	--font-size-4-star: clamp(1.375rem, 2.75vw, 1.58125rem);
+	--font-size-5-star: clamp(1.75rem, 3.5vw, 2.0125rem);
 }
 
 .font-size-1-star {

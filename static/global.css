@@ -4,6 +4,7 @@
 
 body {
    font-family: "MgOpenCosmetica", serif;
+   font-size: var(--font-size-2-star);
    background-color: var(--color-bg-dark);
    color: var(--color-text-regular);
    margin: 0;
