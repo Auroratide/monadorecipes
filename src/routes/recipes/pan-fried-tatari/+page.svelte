@@ -1,25 +1,17 @@
 <script lang="ts">
+	import { Page } from "$lib/design/Page"
 	import { TitledPanel } from "$lib/design/TitledPanel"
-	import { ItemTable } from "$lib/design/ItemTable"
+	import { ItemTable, ItemCell } from "$lib/design/ItemTable"
+	import { RarityIndicator } from "$lib/recipes/RarityIndicator"
 	import { PanFriedTatari } from "$lib/recipes/pan-fried-tatari"
 </script>
 
-<svelte:head>
-	<title>Monado Recipes: Pan-Fried Tatari</title>
-</svelte:head>
-
-<h1>Pan-Fried Tatari</h1>
-<TitledPanel title="Ingredients">
-	<ItemTable let:item headings={["Name", "Rarity", "Needed"]} items={[
-		["Tatari", "Common", 1],
-		["Flour", "Common", 1],
-		["Egg", "Common", 1],
-		["Oil", "Common", 1],
-		["Salt", "Common", 1],
-		["Pepper", "Common", 1],
-		["Butter", "Common", 1],
-		["Lemon", "Common", 1],
-		["Parsley", "Common", 1],
-	]}>
-	</ItemTable>
-</TitledPanel>
+<Page title="Pan-Fried Tatari">
+	<TitledPanel title="Ingredients">
+		<ItemTable let:item headings={["Name", "Rarity", "Needed"]} items={PanFriedTatari.ingredients}>
+			<ItemCell>{item.name}</ItemCell>
+			<ItemCell><RarityIndicator rarity={item.rarity} /></ItemCell>
+			<ItemCell>{item.measure.amount} {item.measure.unit}</ItemCell>
+		</ItemTable>
+	</TitledPanel>
+</Page>

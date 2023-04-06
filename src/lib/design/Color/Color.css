@@ -3,8 +3,11 @@
 	--color-text-muted: hsl(223, 85%, 89%);
 
 	--color-bg-dark: hsl(237, 80%, 10%);
+	--color-bg-panel: linear-gradient(45deg, hsla(227, 62%, 46%, 0.98), hsla(227, 61%, 29%, 0.9));
 
 	--color-border-regular: hsl(0, 0%, 100%);
+	--color-border-muted: hsl(224, 46%, 74%);
+	--color-border-dark: hsl(240, 14%, 46%);
 
 	--color-icon-common: linear-gradient(135deg, hsl(201, 41%, 55%), hsl(230, 42%, 33%));
 	--color-icon-uncommon: linear-gradient(135deg, hsl(323, 84%, 68%), hsl(353, 80%, 68%));
@@ -15,8 +18,11 @@
 .color-text-muted { color: var(--color-text-muted); }
 
 .color-bg-dark { background-color: var(--color-bg-dark); }
+.color-bg-panel { background: var(--color-bg-panel); }
 
 .color-border-regular { border-color: var(--color-border-regular); }
+.color-border-muted { border-color: var(--color-border-muted); }
+.color-border-dark { border-color: var(--color-border-dark); }
 
 .color-icon-common { background: var(--color-icon-common); }
 .color-icon-uncommon { background: var(--color-icon-uncommon); }

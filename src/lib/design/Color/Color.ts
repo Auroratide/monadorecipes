@@ -5,9 +5,12 @@ export const Color = {
 	},
 	background: {
 		dark: () => "color-bg-dark",
+		panel: () => "color-bg-panel",
 	},
 	border: {
 		regular: () => "color-border-regular",
+		muted: () => "color-border-muted",
+		dark: () => "color-border-dark",
 	},
 	icon: {
 		common: () => "color-icon-common",
