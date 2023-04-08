@@ -7,7 +7,7 @@
 </script>
 
 <header>
-	<div class="{Color.background.panel()} {Color.border.muted()} large-spacing bottom-border">
+	<div class="{Color.background.banner()} {Color.border.muted()} large-spacing bottom-border">
 		<h1 class="{Font.size.stars(5)}">{title}</h1>
 	</div>
 	<nav aria-label="Site" class="{Font.size.stars(4)} {Color.background.dark()} {Color.border.dark()} bottom-border right-border rounded-corner">

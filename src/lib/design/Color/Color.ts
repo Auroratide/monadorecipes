@@ -5,7 +5,7 @@ export const Color = {
 	},
 	background: {
 		dark: () => "color-bg-dark",
-		panel: () => "color-bg-panel",
+		banner: () => "color-bg-banner",
 	},
 	border: {
 		regular: () => "color-border-regular",

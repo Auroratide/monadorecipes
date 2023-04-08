@@ -6,9 +6,6 @@
 	export let headings: string[];
 </script>
 
-
-
-
 <table class="spaced-rows">
 	<thead>
 		{#each headings as heading}

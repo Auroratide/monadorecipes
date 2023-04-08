@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { Font } from "$lib/design/Font"
-	import { Url } from "$lib/Url"
 	import Header from "./Header.svelte"
 
 	export let title: string;
