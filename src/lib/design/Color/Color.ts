@@ -1,10 +1,14 @@
+type CanBeTranslucent = {
+	translucent?: boolean
+}
+
 export const Color = {
 	text: {
 		regular: () => "color-text-regular",
 		muted: () => "color-text-muted",
 	},
 	background: {
-		dark: () => "color-bg-dark",
+		dark: (options: CanBeTranslucent = {}) => `color-bg-dark${options.translucent ? " color-bg-translucent" : ""}`,
 		banner: () => "color-bg-banner",
 	},
 	border: {
