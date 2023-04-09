@@ -10,6 +10,11 @@ export type RecipeType = typeof RecipeType[keyof typeof RecipeType]
 export type Recipe = {
 	name: string,
 	type: RecipeType,
+	image: {
+		src: string,
+		alt: string,
+	},
+	description: string,
 	ingredients: MeasuredIngredient[],
 	directions: Directions,
 }

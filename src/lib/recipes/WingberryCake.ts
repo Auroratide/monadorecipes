@@ -2,11 +2,17 @@ import type { Recipe } from "./Recipe"
 import { RecipeType, IngredientPreparation } from "./Recipe"
 import { MeasureUnit, MeasureAmount } from "./Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
+import WingberryCakeImg from "./wingberry-cake.png"
 
 // ref: https://www.allrecipes.com/recipe/26016/cranberry-upside-down-coffee-cake/
 export const WingberryCake: Recipe = {
 	name: "Wingberry Cake",
 	type: RecipeType.Dessert,
+	image: {
+		src: WingberryCakeImg,
+		alt: "Wingberry Cake",
+	},
+	description: "A delicious cranberry cake.",
 	ingredients: [ {
 		...Ingredients.BrownSugar,
 		measure: {

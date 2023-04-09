@@ -1,9 +1,11 @@
 :root {
 	--color-text-regular: hsl(0, 0%, 100%);
 	--color-text-muted: hsl(223, 85%, 89%);
+	--color-text-dark: hsl(213, 23%, 23%);
 
 	--color-bg-dark: hsl(237, 80%, 10%);
 	--color-bg-dark-translucent: hsla(237, 80%, 10%, 0.8);
+	--color-bg-light: hsla(218, 35%, 85%, 0.9);
 	--color-bg-banner: linear-gradient(45deg, hsla(227, 62%, 46%, 0.98), hsla(227, 61%, 29%, 0.9));
 
 	--color-border-regular: hsl(0, 0%, 100%);
@@ -17,8 +19,10 @@
 
 .color-text-regular { color: var(--color-text-regular); }
 .color-text-muted { color: var(--color-text-muted); }
+.color-text-dark { color: var(--color-text-dark); }
 
 .color-bg-dark { background-color: var(--color-bg-dark); }
+.color-bg-light { background-color: var(--color-bg-light); }
 .color-bg-banner { background: var(--color-bg-banner); }
 .color-bg-dark.color-bg-translucent { background-color: var(--color-bg-dark-translucent); }
 

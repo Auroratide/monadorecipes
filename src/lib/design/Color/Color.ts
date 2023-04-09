@@ -6,9 +6,11 @@ export const Color = {
 	text: {
 		regular: () => "color-text-regular",
 		muted: () => "color-text-muted",
+		dark: () => "color-text-dark",
 	},
 	background: {
 		dark: (options: CanBeTranslucent = {}) => `color-bg-dark${options.translucent ? " color-bg-translucent" : ""}`,
+		light: () => "color-bg-light",
 		banner: () => "color-bg-banner",
 	},
 	border: {

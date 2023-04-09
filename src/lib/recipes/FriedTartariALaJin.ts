@@ -6,6 +6,11 @@ import * as Ingredients from "$lib/ingredients/ingredients"
 export const FriedTartariALaJin: Recipe = {
 	name: "Fried Tatari à la Jin",
 	type: RecipeType.Meat,
+	image: {
+		src: "",
+		alt: "",
+	},
+	description: "A delicious fried meat dish.",
 	ingredients: [ {
 		...Ingredients.ChickenBreast,
 		measure: {
