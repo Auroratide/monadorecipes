@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Color } from "$lib/design/Color"
 	import { Font } from "$lib/design/Font"
+	import { Container } from "$lib/design/Container"
 	import { Url } from "$lib/Url"
 
 	export let title: string;
@@ -8,10 +9,14 @@
 
 <header>
 	<div class="{Color.background.banner()} {Color.border.muted()} large-spacing bottom-border">
-		<h1 class="{Font.size.stars(5)}">{title}</h1>
+		<div class="{Container()}">
+			<h1 class="{Font.size.stars(5)}">{title}</h1>
+		</div>
 	</div>
 	<nav aria-label="Site" class="{Font.size.stars(4)} {Color.background.dark()} {Color.border.dark()} bottom-border right-border rounded-corner">
-		<a href="{Url.home()}" class="{Color.text.muted()}">More Recipes</a>
+		<div class="{Container()}">
+			<a href="{Url.home()}" class="{Color.text.muted()}">More Recipes</a>
+		</div>
 	</nav>
 </header>
 
@@ -36,6 +41,5 @@
 
 	nav {
 		padding: 0.25rem 2rem;
-		max-width: 80%;
 	}
 </style>
