@@ -3,6 +3,7 @@
 	import { TitledPanel } from "$lib/design/TitledPanel"
 	import { ItemTable, ItemCell } from "$lib/design/ItemTable"
 	import { RarityIndicator } from "$lib/ingredients/RarityIndicator"
+	import { FormattedMeasure } from "$lib/recipes/Measure"
 	import { WingberryCake } from "$lib/recipes/WingberryCake"
 </script>
 
@@ -11,7 +12,13 @@
 		<ItemTable let:item headings={["Name", "Rarity", "Needed"]} items={WingberryCake.ingredients}>
 			<ItemCell>{item.name}</ItemCell>
 			<ItemCell><RarityIndicator rarity={item.rarity} /></ItemCell>
-			<ItemCell>{item.measure?.amount} {item.measure?.unit}</ItemCell>
+			<ItemCell>
+				{#if item.measure}
+					<FormattedMeasure value={item.measure} />
+				{:else}
+					<span>—</span>
+				{/if}
+			</ItemCell>
 		</ItemTable>
 	</TitledPanel>
 </Page>

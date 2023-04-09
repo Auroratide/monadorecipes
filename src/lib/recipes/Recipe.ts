@@ -1,4 +1,5 @@
 import type { Ingredient } from "$lib/ingredients/Ingredient"
+import type { Measure } from "$lib/recipes/Measure"
 
 export const RecipeType = {
 	Meat: "meat",
@@ -15,20 +16,6 @@ export type Recipe = {
 export type MeasuredIngredient = Ingredient & {
 	preparation?: IngredientPreparation,
 	measure?: Measure,
-}
-
-export const MeasureUnit = {
-	Teaspoons: 'teaspoons',
-	Tablespoons: 'tablespoons',
-	Cups: 'cups',
-	Pounds: 'pounds',
-	Quantity: 'quantity',
-} as const
-export type MeasureUnit = typeof MeasureUnit[keyof typeof MeasureUnit]
-
-export type Measure = {
-	amount: number,
-	unit: MeasureUnit,
 }
 
 export const IngredientPreparation = {

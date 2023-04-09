@@ -1,5 +1,6 @@
 import type { Recipe } from "./Recipe"
-import { RecipeType, MeasureUnit } from "./Recipe"
+import { RecipeType } from "./Recipe"
+import { MeasureUnit, MeasureAmount } from "./Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
 
 export const FriedTartariALaJin: Recipe = {
@@ -8,37 +9,37 @@ export const FriedTartariALaJin: Recipe = {
 	ingredients: [ {
 		...Ingredients.ChickenBreast,
 		measure: {
-			amount: 1,
+			amount: MeasureAmount(1),
 			unit: MeasureUnit.Pounds,
 		},
 	}, {
 		...Ingredients.Beef,
 		measure: {
-			amount: 1,
+			amount: MeasureAmount(1),
 			unit: MeasureUnit.Pounds,
 		},
 	}, {
 		...Ingredients.Flour,
 		measure: {
-			amount: 1,
+			amount: MeasureAmount(1),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.Oregano,
 		measure: {
-			amount: 1,
+			amount: MeasureAmount(1),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
 		...Ingredients.Paprika,
 		measure: {
-			amount: 1,
+			amount: MeasureAmount(1),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
 		...Ingredients.Cumin,
 		measure: {
-			amount: 1,
+			amount: MeasureAmount(1),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
