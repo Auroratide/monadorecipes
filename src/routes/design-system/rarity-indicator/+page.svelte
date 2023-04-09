@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { RarityIndicator } from "$lib/recipes/RarityIndicator"
+	import { RarityIndicator } from "$lib/ingredients/RarityIndicator"
 </script>
 
 <ul>

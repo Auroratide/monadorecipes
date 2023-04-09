@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { ItemTable, ItemCell } from "$lib/design/ItemTable"
-	import { RarityIndicator } from "$lib/recipes/RarityIndicator";
+	import { RarityIndicator } from "$lib/ingredients/RarityIndicator";
 
 	const items = [ {
 		name: "Plumage Peach",
