@@ -4,6 +4,7 @@
 	import { ItemTable, ItemCell } from "$lib/design/ItemTable"
 	import { RarityIndicator } from "$lib/ingredients/RarityIndicator"
 	import { FormattedMeasure } from "$lib/recipes/Measure"
+	import { RecipeSteps } from "$lib/recipes/RecipeSteps"
 	import { WingberryCake } from "$lib/recipes/WingberryCake"
 </script>
 
@@ -20,5 +21,8 @@
 				{/if}
 			</ItemCell>
 		</ItemTable>
+	</TitledPanel>
+	<TitledPanel title="Directions">
+		<RecipeSteps steps={WingberryCake.directions.steps} />
 	</TitledPanel>
 </Page>

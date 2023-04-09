@@ -48,5 +48,8 @@ export const FriedTartariALaJin: Recipe = {
 		...Ingredients.BlackPepper,
 	}, {
 		...Ingredients.VegetableOil,
-	} ]
+	} ],
+	directions: {
+		steps: [],
+	},
 }

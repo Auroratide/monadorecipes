@@ -11,6 +11,7 @@ export type Recipe = {
 	name: string,
 	type: RecipeType,
 	ingredients: MeasuredIngredient[],
+	directions: Directions,
 }
 
 export type MeasuredIngredient = Ingredient & {
@@ -22,3 +23,7 @@ export const IngredientPreparation = {
 	Chopped: 'chopped',
 } as const
 export type IngredientPreparation = typeof IngredientPreparation[keyof typeof IngredientPreparation]
+
+export type Directions = {
+	steps: string[],
+}

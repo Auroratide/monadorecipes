@@ -92,5 +92,16 @@ export const WingberryCake: Recipe = {
 			amount: MeasureAmount(1, 4),
 			unit: MeasureUnit.Teaspoons,
 		},
-	} ]
+	} ],
+	directions: {
+		steps: [
+			"Preheat oven to 350°F (175°C). Grease a 9×9-inch baking pan.",
+			"Sift together the flour, baking powder, baking soda, nutmeg, and salt. Set aside.",
+			"In a saucepan over medium heat, combine brown sugar and the ⅓ cup of butter. Bring to a boil, then pour into the bottom of the baking pan.",
+			"Sprinkle the cranberries and almonds over the brown sugar mixture.",
+			"In a large bowl, cream together the remaining ½ cup of butter and the white sugar until light and fluffy. Beat in the eggs one at a time, then stir in the honey. Beat in the flour mixture alternately with the sour cream. Spread the batter over the cranberries and almonds.",
+			"Bake for 60 minutes, or until an inserted toothpick comes out clean.",
+			"Cool in the pan for 15 minutes, then invert onto a serving plate. Enjoy!",
+		],
+	},
 }
