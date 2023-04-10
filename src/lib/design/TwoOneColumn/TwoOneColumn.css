@@ -1,0 +1,15 @@
+.two-one-column {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.two-one-column > :first-child {
+	flex: 2 1 calc(2 * var(--container-width) / 5 - 1rem);
+}
+
+.two-one-column > :last-child {
+	flex: 3 1 calc(3 * var(--container-width) / 5 - 1rem);
+}

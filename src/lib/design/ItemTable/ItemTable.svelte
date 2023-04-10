@@ -6,7 +6,7 @@
 	export let headings: string[];
 </script>
 
-<table class="spaced-rows">
+<table class="spaced-rows full-width">
 	<thead>
 		{#each headings as heading}
 			<th class="{Font.size.stars(1)} {Color.text.muted()} normal-weight">
@@ -24,6 +24,10 @@
 </table>
 
 <style>
+	.full-width {
+		width: 100%;
+	}
+
 	.spaced-rows {
 		border-collapse: separate;
 		border-spacing: 0 0.375em;

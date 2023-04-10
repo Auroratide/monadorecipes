@@ -6,26 +6,29 @@
 	import { RarityIndicator } from "$lib/ingredients/RarityIndicator"
 	import { FormattedMeasure } from "$lib/recipes/Measure"
 	import { RecipeSteps } from "$lib/recipes/RecipeSteps"
+	import { TwoOneColumn } from "$lib/design/TwoOneColumn"
 	import { WingberryCake } from "$lib/recipes/WingberryCake"
 </script>
 
 <Page title="{WingberryCake.name}">
-	<QuestPanel imageSrc={WingberryCake.image.src} imageAlt={WingberryCake.image.alt}>
-		<p>{WingberryCake.description}</p>
-	</QuestPanel>
-	<TitledPanel title="Ingredients">
-		<ItemTable let:item headings={["Name", "Rarity", "Needed"]} items={WingberryCake.ingredients}>
-			<ItemCell>{item.name}</ItemCell>
-			<ItemCell><RarityIndicator rarity={item.rarity} /></ItemCell>
-			<ItemCell>
-				{#if item.measure}
-					<FormattedMeasure value={item.measure} />
-				{:else}
-					<span>—</span>
-				{/if}
-			</ItemCell>
-		</ItemTable>
-	</TitledPanel>
+	<div class="{TwoOneColumn()}">
+		<QuestPanel imageSrc={WingberryCake.image.src} imageAlt={WingberryCake.image.alt}>
+			<p>{WingberryCake.description}</p>
+		</QuestPanel>
+		<TitledPanel title="Ingredients">
+			<ItemTable let:item headings={["Name", "Rarity", "Needed"]} items={WingberryCake.ingredients}>
+				<ItemCell>{item.name}</ItemCell>
+				<ItemCell align="center"><RarityIndicator rarity={item.rarity} /></ItemCell>
+				<ItemCell align="center">
+					{#if item.measure}
+						<FormattedMeasure value={item.measure} />
+					{:else}
+						<span>—</span>
+					{/if}
+				</ItemCell>
+			</ItemTable>
+		</TitledPanel>
+	</div>
 	<TitledPanel title="Directions">
 		<RecipeSteps steps={WingberryCake.directions.steps} />
 	</TitledPanel>

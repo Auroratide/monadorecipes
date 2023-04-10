@@ -19,7 +19,7 @@
 		display: block;
 		width: 100%;
 		max-width: min(600px, 90%);
-		margin: auto;
+		margin: 0 auto;
 	}
 
 	.column {
