@@ -3,13 +3,14 @@
 	flex-direction: row-reverse;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	gap: 1rem;
+	column-gap: 1rem;
+	row-gap: 2rem;
 }
 
 .two-one-column > :first-child {
-	flex: 2 1 calc(2 * var(--container-width) / 5 - 1rem);
+	flex: 2 1 calc(2 * var(--container-width) / 5 - 1rem - var(--container-padding));
 }
 
 .two-one-column > :last-child {
-	flex: 3 1 calc(3 * var(--container-width) / 5 - 1rem);
+	flex: 3 1 calc(3 * var(--container-width) / 5 - 1rem - var(--container-padding));
 }

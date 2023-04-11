@@ -12,6 +12,12 @@
 
 <Backdrop />
 <Header {title} />
-<main class="{Container()}">
+<main class="{Container()} pad-block">
 	<slot></slot>
 </main>
+
+<style>
+	.pad-block {
+		padding-block: 2rem;
+	}
+</style>

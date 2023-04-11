@@ -1,8 +1,10 @@
 :root {
 	--container-width: 1050px;
+	--container-padding: clamp(0.5rem, 1.5vw, 2rem);
 }
 
 .container {
 	max-width: var(--container-width);
+	padding-inline: var(--container-padding);
 	margin: auto;
 }
