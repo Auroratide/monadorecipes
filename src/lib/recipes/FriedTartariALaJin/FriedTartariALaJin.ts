@@ -1,6 +1,6 @@
-import type { Recipe } from "./Recipe"
-import { RecipeType } from "./Recipe"
-import { MeasureUnit, MeasureAmount } from "./Measure"
+import type { Recipe } from "../Recipe"
+import { RecipeType } from "../Recipe"
+import { MeasureUnit, MeasureAmount } from "../Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
 
 export const FriedTartariALaJin: Recipe = {
