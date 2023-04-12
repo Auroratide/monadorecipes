@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Page } from "$lib/design/Page"
+	import { Color } from "$lib/design/Color"
 	import { TitledPanel } from "$lib/design/TitledPanel"
 	import { ItemTable, ItemCell } from "$lib/design/ItemTable"
 	import { QuestPanel } from "$lib/design/QuestPanel"
@@ -21,7 +22,9 @@
 				<ItemCell align="center"><RarityIndicator rarity={item.rarity} /></ItemCell>
 				<ItemCell align="center">
 					{#if item.measure}
-						<FormattedMeasure value={item.measure} />
+						<span class="{Color.text.emphasized()}">
+							<FormattedMeasure value={item.measure} />
+						</span>
 					{:else}
 						<span>—</span>
 					{/if}

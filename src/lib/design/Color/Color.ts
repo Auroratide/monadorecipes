@@ -6,6 +6,7 @@ export const Color = {
 	text: {
 		regular: () => "color-text-regular",
 		muted: () => "color-text-muted",
+		emphasized: () => "color-text-emphasized",
 		dark: () => "color-text-dark",
 	},
 	background: {

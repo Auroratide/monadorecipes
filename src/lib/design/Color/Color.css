@@ -1,6 +1,7 @@
 :root {
 	--color-text-regular: hsl(0, 0%, 100%);
 	--color-text-muted: hsl(223, 85%, 89%);
+	--color-text-emphasized: hsl(210, 100%, 89%);
 	--color-text-dark: hsl(213, 23%, 23%);
 
 	--color-bg-dark: hsl(237, 80%, 10%);
@@ -20,6 +21,7 @@
 
 .color-text-regular { color: var(--color-text-regular); }
 .color-text-muted { color: var(--color-text-muted); }
+.color-text-emphasized { color: var(--color-text-emphasized); }
 .color-text-dark { color: var(--color-text-dark); }
 
 .color-bg-dark { background-color: var(--color-bg-dark); }
