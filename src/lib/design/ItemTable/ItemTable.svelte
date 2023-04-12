@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Font } from "$lib/design/Font"
 	import { Color } from "$lib/design/Color"
+	import { TriangleCorners } from "$lib/design/TriangleCorners"
 
 	export let items: any[]
 	export let headings: string[];
@@ -16,7 +17,7 @@
 	</thead>
 	<tbody>
 		{#each items as item}
-			<tr class="blue-background">
+			<tr class="{Color.background.medium()} {TriangleCorners({})}">
 				<slot {item}></slot>
 			</tr>
 		{/each}
@@ -37,9 +38,5 @@
 
 	tr {
 		margin-bottom: 1px;
-	}
-
-	.blue-background {
-		background: #29328d;
 	}
 </style>

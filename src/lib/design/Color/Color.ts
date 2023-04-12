@@ -10,6 +10,7 @@ export const Color = {
 	},
 	background: {
 		dark: (options: CanBeTranslucent = {}) => `color-bg-dark${options.translucent ? " color-bg-translucent" : ""}`,
+		medium: () => "color-bg-medium",
 		light: () => "color-bg-light",
 		banner: () => "color-bg-banner",
 	},

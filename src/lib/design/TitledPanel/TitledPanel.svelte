@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { Color } from "$lib/design/Color"
 	import { Font } from "$lib/design/Font"
+	import { TriangleCorners } from "$lib/design/TriangleCorners"
 
 	export let title: string;
 </script>
 
 <section class="reposition-for-overlap">
-	<h2 class="{Font.size.stars(3)} shiny-background triangle-corner-right-only overlap-bottom label-padding partial-width">{title}</h2>
+	<h2 class="{Font.size.stars(3)} {TriangleCorners({ type: "right" })} shiny-background overlap-bottom label-padding partial-width">{title}</h2>
 	<div class="{Color.background.dark({ translucent: true })} {Color.border.dark()} panel-padding space-for-top-overlap bordered">
 		<slot></slot>
 	</div>
@@ -19,11 +20,6 @@
 
 	.shiny-background {
 		background: linear-gradient(hsl(239, 56%, 50%), hsl(228, 72%, 60%) 50%, hsl(229, 64%, 56%) 52%, hsl(224, 75%, 60%));
-	}
-
-	.triangle-corner-right-only {
-		--triangle-corner-width: 0.75rem;
-		clip-path: polygon(0 0, calc(100% - var(--triangle-corner-width)) 0, 100% 50%, calc(100% - var(--triangle-corner-width)) 100%, 0 100%);
 	}
 
 	.overlap-bottom {
