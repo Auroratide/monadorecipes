@@ -24,6 +24,8 @@
 		content: "Step " counter(directions);
 		font-weight: bold;
 		font-size: var(--font-size-1-star);
+		color: var(--color-text-emphasized);
+		-webkit-text-stroke: 0.01em var(--color-bg-medium);
 		margin-bottom: 0.25rem;
 		counter-increment: directions;
 	}
