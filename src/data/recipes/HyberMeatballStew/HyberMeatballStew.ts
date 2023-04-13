@@ -2,13 +2,14 @@ import { IngredientPreparation, type Recipe } from "../../../lib/recipes/Recipe"
 import { RecipeType } from "../../../lib/recipes/Recipe"
 import { MeasureUnit, MeasureAmount } from "../../../lib/recipes/Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
+import MainImg from "./HyberMeatballStew.png"
 
 export const HyberMeatballStew: Recipe = {
 	name: "Hyber Meatball Stew",
 	type: RecipeType.Veggie,
 	image: {
-		src: "",
-		alt: "",
+		src: MainImg,
+		alt: "Hyber Meatball Stew",
 	},
 	description: "Stew with meatballs.",
 	ingredients: [ {
