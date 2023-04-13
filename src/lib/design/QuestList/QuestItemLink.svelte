@@ -2,6 +2,7 @@
 	import type { QuestItem } from "./QuestItem";
 	import { Elevated } from "../Elevated";
 	import { Color } from "../Color";
+	import { Font } from "../Font";
 
 	export let baseUrl: string;
 	export let item: QuestItem;
@@ -9,7 +10,7 @@
 
 <a class="{Elevated()} overlap-container set-aspect-ratio" href="{baseUrl}/{item.id}">
 	<img src="{item.image.src}" alt="" />
-	<p class="{Color.text.regular()} {Color.background.shiny({ translucent: true })} overlap-bottom">{item.name}</p>
+	<p class="{Color.text.regular()} {Color.background.shiny({ translucent: true })} {Font.size.stars(3)} overlap-bottom">{item.name}</p>
 </a>
 
 <style>

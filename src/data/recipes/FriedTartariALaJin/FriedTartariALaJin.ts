@@ -6,11 +6,11 @@ import MainImg from "./FriedTartariALaJin.png"
 
 export const FriedTartariALaJin: Recipe = {
 	id: "fried-tartari-a-la-jin",
-	name: "Fried Tatari à la Jin",
+	name: "Fried Tartari à la Jin",
 	type: RecipeType.Meat,
 	image: {
 		src: MainImg,
-		alt: "Fried Tatari à la Jin",
+		alt: "Fried Tartari à la Jin",
 	},
 	description: "A delicious fried meat dish.",
 	ingredients: [ {

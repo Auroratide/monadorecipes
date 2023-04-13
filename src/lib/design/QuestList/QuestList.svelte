@@ -1,18 +1,31 @@
 <script lang="ts">
 	import type { QuestItem } from "./QuestItem";
 	import QuestItemLink from "./QuestItemLink.svelte";
+	import SearchBar from "./SearchBar.svelte";
 	import { Container } from "../Container";
 	import { Elevated } from "../Elevated";
 	import { Color } from "../Color";
+	import { goto } from "$app/navigation";
+	import { page } from "$app/stores";
 
 	export let baseUrl: string;
 	export let items: QuestItem[];
+
+	$: filteredItems = items.filter((item) => {
+		return item.name.toLocaleLowerCase().includes($page.url.searchParams.get("q") ?? "");
+	})
+
+	const search = (event: CustomEvent<{ textFilter: string }>) => {
+		const { textFilter } = event.detail;
+		goto(`?q=${textFilter}`);
+	};
 </script>
 
-<section class="{Elevated()} {Color.background.light({ translucent: true })} pad-block">
-	<div class="{Container()}">
+<section class="{Elevated()} {Color.background.light({ translucent: true })} overlap-container">
+	<SearchBar on:search={search} />
+	<div class="{Container()} pad-block">
 		<ul class="no-list three-columns">
-			{#each items as item (item.id)}
+			{#each filteredItems as item (item.id)}
 				<li>
 					<QuestItemLink {baseUrl} {item} />
 				</li>
@@ -22,6 +35,10 @@
 </section>
 
 <style>
+	.overlap-container {
+		position: relative;
+	}
+
 	.pad-block {
 		padding-block: 3rem;
 	}

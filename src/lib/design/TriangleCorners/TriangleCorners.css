@@ -1,5 +1,5 @@
 .triangle-corners {
-	--triangle-corners-width: 1em;
+	--triangle-corners-width: 0.75em;
 }
 
 .triangle-corners.triangle-corners-right {
