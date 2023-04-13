@@ -13,7 +13,7 @@
 	--color-bg-shiny: linear-gradient(hsl(239, 56%, 50%), hsl(228, 72%, 60%) 50%, hsl(229, 64%, 56%) 52%, hsl(224, 75%, 60%));
 	--color-bg-shiny-translucent: linear-gradient(hsla(239, 56%, 50%, 0.925), hsla(228, 72%, 60%, 0.925) 50%, hsla(229, 64%, 56%, 0.925) 52%, hsla(224, 75%, 60%, 0.925));
 
-	--color-border-regular: hsl(0, 0%, 100%);
+	--color-border-regular: hsl(208, 94%, 93%);
 	--color-border-muted: hsl(224, 46%, 74%);
 	--color-border-dark: hsl(240, 14%, 46%);
 	--color-border-selected: hsl(323, 84%, 68%);

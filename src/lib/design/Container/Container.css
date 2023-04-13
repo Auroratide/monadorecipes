@@ -8,3 +8,11 @@
 	padding-inline: var(--container-padding);
 	margin: auto;
 }
+
+.container-padding-left {
+	padding-left: max(calc(50vw - var(--container-width) / 2), var(--container-padding));
+}
+
+.container-padding-right {
+	padding-right: max(calc(50vw - var(--container-width) / 2), var(--container-padding));
+}

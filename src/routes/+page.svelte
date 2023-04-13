@@ -5,7 +5,7 @@
 	import { Backdrop, BackdropScene } from "$lib/design/Backdrop";
 	import { QuestList } from "$lib/design/QuestList";
 	import { Url } from "$lib/Url";
-	import { Font } from "$lib/design/Font";
+	import { PageTitle } from "$lib/design/PageTitle";
 
 	const list = [FriedTartariALaJin, WingberryCake, HyberMeatballStew]
 </script>
@@ -15,10 +15,16 @@
 </svelte:head>
 
 <Backdrop scene={BackdropScene.Titans} />
-<header>
-	<h1>Monado Recipes</h1>
-	<p>Xenoblade Chronicles Cuisine</p>
+<header class="space-within">
+	<PageTitle title="Monado Recipes" subtitle="Xenoblade Chronicles Cuisine" />
 </header>
 <main>
 	<QuestList baseUrl={Url.recipes()} items={list} />
 </main>
+
+<style>
+	.space-within {
+		padding-top: 0.5rem;
+		padding-bottom: 2rem;
+	}
+</style>
