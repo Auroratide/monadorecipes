@@ -1,6 +1,6 @@
-import type { Recipe } from "../Recipe"
-import { RecipeType, IngredientPreparation } from "../Recipe"
-import { MeasureUnit, MeasureAmount } from "../Measure"
+import type { Recipe } from "../../../lib/recipes/Recipe"
+import { RecipeType, IngredientPreparation } from "../../../lib/recipes/Recipe"
+import { MeasureUnit, MeasureAmount } from "../../../lib/recipes/Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
 import WingberryCakeImg from "./wingberry-cake.png"
 

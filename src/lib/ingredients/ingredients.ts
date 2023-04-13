@@ -10,6 +10,11 @@ export const Beef: Ingredient = {
 	rarity: 2,
 }
 
+export const GroundBeef: Ingredient = {
+	name: "Ground Beef",
+	rarity: 2,
+}
+
 export const Flour: Ingredient = {
 	name: "Flour",
 	rarity: 1,
@@ -113,4 +118,19 @@ export const BakingSoda: Ingredient = {
 export const Nutmeg: Ingredient = {
 	name: "Nutmeg",
 	rarity: 3,
+}
+
+export const BreadCrumbs: Ingredient = {
+	name: "Bread Crumbs",
+	rarity: 1,
+}
+
+export const ItalianSeasoning: Ingredient = {
+	name: "Italian Seasoning",
+	rarity: 2,
+}
+
+export const Onion: Ingredient = {
+	name: "Onion",
+	rarity: 1,
 }

@@ -3,6 +3,7 @@ import type { Measure } from "$lib/recipes/Measure"
 
 export const RecipeType = {
 	Meat: "meat",
+	Veggie: "veggie",
 	Dessert: "dessert",
 } as const
 export type RecipeType = typeof RecipeType[keyof typeof RecipeType]
