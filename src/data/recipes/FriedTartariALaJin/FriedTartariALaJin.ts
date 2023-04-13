@@ -5,6 +5,7 @@ import * as Ingredients from "$lib/ingredients/ingredients"
 import MainImg from "./FriedTartariALaJin.png"
 
 export const FriedTartariALaJin: Recipe = {
+	id: "fried-tartari-a-la-jin",
 	name: "Fried Tatari à la Jin",
 	type: RecipeType.Meat,
 	image: {

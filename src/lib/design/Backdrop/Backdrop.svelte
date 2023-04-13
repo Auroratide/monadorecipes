@@ -1,8 +1,10 @@
 <script lang="ts">
-	import TornaCamp from "./torna-camp.png";
+	import type { BackdropScene } from "./BackdropScene";
+
+	export let scene: BackdropScene;
 </script>
 
-<div class="backdrop" aria-hidden="true" style:--url="url({TornaCamp})"></div>
+<div class="backdrop" aria-hidden="true" style:--url="url({scene})"></div>
 
 <style>
 	.backdrop {

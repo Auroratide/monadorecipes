@@ -1,6 +1,8 @@
 import { base } from "$app/paths"
 
+const slash = (str: string) => (str ? `/${str}` : '')
+
 export const Url = {
-	home: () => `/${base}`,
-	recipes: (id = '') => `/${base}/recipes/${id}`,
+	home: () => `${slash(base)}/`,
+	recipes: (id = '') => `${slash(base)}${slash("recipes")}${slash(id)}`,
 }

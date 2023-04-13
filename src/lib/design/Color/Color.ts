@@ -12,13 +12,15 @@ export const Color = {
 	background: {
 		dark: (options: CanBeTranslucent = {}) => `color-bg-dark${options.translucent ? " color-bg-translucent" : ""}`,
 		medium: () => "color-bg-medium",
-		light: () => "color-bg-light",
+		light: (options: CanBeTranslucent = {}) => `color-bg-light${options.translucent ? " color-bg-translucent" : ""}`,
 		banner: () => "color-bg-banner",
+		shiny: (options: CanBeTranslucent = {}) => `color-bg-shiny${options.translucent ? " color-bg-translucent" : ""}`,
 	},
 	border: {
 		regular: () => "color-border-regular",
 		muted: () => "color-border-muted",
 		dark: () => "color-border-dark",
+		selected: () => "color-border-selected",
 	},
 	icon: {
 		common: () => "color-icon-common",

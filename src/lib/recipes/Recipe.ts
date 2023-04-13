@@ -9,6 +9,7 @@ export const RecipeType = {
 export type RecipeType = typeof RecipeType[keyof typeof RecipeType]
 
 export type Recipe = {
+	id: string,
 	name: string,
 	type: RecipeType,
 	image: {

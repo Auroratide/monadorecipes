@@ -7,7 +7,7 @@
 </script>
 
 <section class="reposition-for-overlap">
-	<h2 class="{Font.size.stars(3)} {TriangleCorners({ type: "right" })} shiny-background overlap-bottom label-padding partial-width">{title}</h2>
+	<h2 class="{Font.size.stars(3)} {TriangleCorners({ type: "right" })} {Color.background.shiny()} overlap-bottom label-padding partial-width">{title}</h2>
 	<div class="{Color.background.dark({ translucent: true })} {Color.border.dark()} panel-padding space-for-top-overlap bordered">
 		<slot></slot>
 	</div>
@@ -16,10 +16,6 @@
 <style>
 	.reposition-for-overlap {
 		transform: translateY(-1rem);
-	}
-
-	.shiny-background {
-		background: linear-gradient(hsl(239, 56%, 50%), hsl(228, 72%, 60%) 50%, hsl(229, 64%, 56%) 52%, hsl(224, 75%, 60%));
 	}
 
 	.overlap-bottom {

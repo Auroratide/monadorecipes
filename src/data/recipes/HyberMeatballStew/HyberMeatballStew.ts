@@ -5,6 +5,7 @@ import * as Ingredients from "$lib/ingredients/ingredients"
 import MainImg from "./HyberMeatballStew.png"
 
 export const HyberMeatballStew: Recipe = {
+	id: "hyber-meatball-stew",
 	name: "Hyber Meatball Stew",
 	type: RecipeType.Veggie,
 	image: {
