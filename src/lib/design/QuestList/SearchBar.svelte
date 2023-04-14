@@ -7,10 +7,11 @@
 	import { createEventDispatcher } from "svelte";
 	import { Spacing } from "../Spacing";
 	import { page } from "$app/stores";
+	import { browser } from "$app/environment";
 
 	const dispatch = createEventDispatcher()
 
-	let textFilter = $page.url.searchParams.get("q") ?? "";
+	let textFilter = browser ? $page.url.searchParams.get("q") ?? "" : "";
 
 	const submit = () => {
 		dispatch("search", {

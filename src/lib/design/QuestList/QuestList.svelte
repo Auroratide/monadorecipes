@@ -7,12 +7,13 @@
 	import { Color } from "../Color";
 	import { goto } from "$app/navigation";
 	import { page } from "$app/stores";
+	import { browser } from "$app/environment";
 
 	export let baseUrl: string;
 	export let items: QuestItem[];
 
 	$: filteredItems = items.filter((item) => {
-		const searchTerm = $page.url.searchParams.get("q") ?? "";
+		const searchTerm = browser ? $page.url.searchParams.get("q") ?? "" : "";
 		return item.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase());
 	})
 

@@ -5,8 +5,8 @@ const slash = (str: string) => (str ? `/${str}` : '')
 export const Api = (url: string) => `${url}.json`
 
 export const Url = {
-	home: () => `${slash(base)}/`,
-	recipes: (id = '') => `${slash(base)}${slash("recipes")}${slash(id)}`,
+	home: () => `${base}/`,
+	recipes: (id = '') => `${base}${slash("recipes")}${slash(id)}`,
 }
 
 export const External = {
