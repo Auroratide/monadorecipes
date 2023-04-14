@@ -26,6 +26,10 @@
 	font-size: var(--font-size-5-star);
 }
 
+.font-size-large-icon {
+	font-size: 125%;
+}
+
 .font-shadowed {
 	text-shadow: 0.0625em 0.05em 0 var(--color-bg-medium);
 }

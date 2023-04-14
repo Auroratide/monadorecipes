@@ -43,3 +43,9 @@ a:hover, a:focus {
    color: var(--color-text-regular);
    text-decoration: underline;
 }
+
+svg.icon {
+	display: block;
+	width: 1em;
+	height: 1em;
+}

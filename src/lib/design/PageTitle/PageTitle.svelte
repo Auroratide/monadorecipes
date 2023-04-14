@@ -11,7 +11,9 @@
 
 <hgroup class="{Elevated({ useFilter: true })}">
 	<h1 class="{Font.size.stars(5)} {Font.shadowed()} {TriangleCorners({ type: "right" })} clipped-border row">
-		<span class="{TriangleCorners({ type: "right" })} {ContainerPadding({ side: "left" })} {Color.background.shiny()} triangle-padding-right on-top inset">📖</span>
+		<span class="{TriangleCorners({ type: "right" })} {ContainerPadding({ side: "left" })} {Color.background.shiny()} {Font.size.largeIcon()} triangle-padding-right-small on-top inset">
+			<slot name="icon"></slot>
+		</span>
 		<span class="{TriangleCorners({ type: "right" })} bg-shiny-light row-fill triangle-padding-right overlapped-left on-bottom inset">{title}</span>
 	</h1>
 	<p class="{Font.size.stars(3)} {Color.border.muted()} {Color.background.banner()} {ContainerPadding({ side: "right" })} border-block padding-tight row-fill overlapped-left">{subtitle}</p>
@@ -53,6 +55,12 @@
 	.triangle-padding-right {
 		padding-top: 0.75rem;
 		padding-bottom: 0.75rem;
+		padding-right: 1em;
+	}
+
+	.triangle-padding-right-small {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
 		padding-right: 1em;
 	}
 

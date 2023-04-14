@@ -5,6 +5,7 @@
 	import { Url } from "$lib/Url";
 	import { PageTitle } from "$lib/design/PageTitle";
 	import Footer from "$lib/design/Page/Footer.svelte";
+	import CookingIcon from "$lib/design/icons/CookingIcon.svelte";
 
 	export let data: PageData;
 	$: list = data.items
@@ -16,7 +17,9 @@
 
 <Backdrop scene={BackdropScene.Titans} />
 <header class="space-within">
-	<PageTitle title="Monado Recipes" subtitle="Xenoblade Chronicles Cuisine" />
+	<PageTitle title="Monado Recipes" subtitle="Xenoblade Chronicles Cuisine">
+		<CookingIcon slot="icon" />
+	</PageTitle>
 </header>
 <main>
 	<QuestList baseUrl={Url.recipes()} items={list} />
