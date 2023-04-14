@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Font } from "../Font";
 	import { Color } from "../Color";
+	import { Spacing } from "../Spacing";
 	import { Elevated } from "../Elevated";
 	import { TriangleCorners } from "../TriangleCorners";
 	import { ContainerPadding } from "../Container";
@@ -11,12 +12,14 @@
 
 <hgroup class="{Elevated({ useFilter: true })}">
 	<h1 class="{Font.size.stars(5)} {Font.shadowed()} {TriangleCorners({ type: "right" })} clipped-border row">
-		<span class="{TriangleCorners({ type: "right" })} {ContainerPadding({ side: "left" })} {Color.background.shiny()} {Font.size.largeIcon()} triangle-padding-right-small on-top inset">
+		<span class="{TriangleCorners({ type: "right" })} {ContainerPadding({ side: "left" })} {Color.background.shiny()} {Font.size.largeIcon()} {Spacing.centeredIcon()} triangle-padding-right on-top inset" style:--spacing-stars="0">
 			<slot name="icon"></slot>
 		</span>
-		<span class="{TriangleCorners({ type: "right" })} bg-shiny-light row-fill triangle-padding-right overlapped-left on-bottom inset">{title}</span>
+		<span class="{TriangleCorners({ type: "right" })} {Spacing.centeredLabel({ alignment: "left" })} bg-shiny-light row-fill triangle-padding-right overlapped-left on-bottom inset" style="{Spacing.stars(4)}">
+			{title}
+		</span>
 	</h1>
-	<p class="{Font.size.stars(3)} {Color.border.muted()} {Color.background.banner()} {ContainerPadding({ side: "right" })} border-block padding-tight row-fill overlapped-left">{subtitle}</p>
+	<p class="{Font.size.stars(3)} {Color.border.muted()} {Color.background.banner()} {ContainerPadding({ side: "right" })} border-block {Spacing.centeredLabel({ alignment: "left" })} row-fill overlapped-left">{subtitle}</p>
 </hgroup>
 
 <style>
@@ -31,11 +34,6 @@
 		border-right-width: 0;
 		border-left-width: 0;
 		border-style: solid;
-	}
-
-	.padding-tight {
-		padding: 0.25em 0.5em 0.125em;
-		line-height: 1;
 	}
 
 	.clipped-border {
@@ -53,14 +51,10 @@
 	}
 
 	.triangle-padding-right {
-		padding-top: 0.75rem;
-		padding-bottom: 0.75rem;
 		padding-right: 1em;
 	}
 
 	.triangle-padding-right-small {
-		padding-top: 0.5rem;
-		padding-bottom: 0.5rem;
 		padding-right: 1em;
 	}
 

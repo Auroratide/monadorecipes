@@ -3,6 +3,7 @@
 	import { Elevated } from "../Elevated";
 	import { Color } from "../Color";
 	import { Font } from "../Font";
+	import { Spacing } from "../Spacing";
 
 	export let baseUrl: string;
 	export let item: QuestItem;
@@ -10,7 +11,7 @@
 
 <a class="{Elevated()} overlap-container set-aspect-ratio" href="{baseUrl}/{item.id}">
 	<img src="{item.image.src}" alt="" />
-	<p class="{Color.text.regular()} {Color.background.shiny({ translucent: true })} {Font.size.stars(3)} overlap-bottom">{item.name}</p>
+	<p class="{Color.text.regular()} {Color.background.shiny({ translucent: true })} {Font.size.stars(3)} {Spacing.centeredLabel()} overlap-bottom">{item.name}</p>
 </a>
 
 <style>
@@ -36,9 +37,7 @@
 
 	p {
 		margin: 0;
-		padding: 0.25em 0.5em 0.125em;
-		text-align: center;
-		line-height: 1;
+		padding-inline: 0.5em;
 	}
 
 	.overlap-bottom {

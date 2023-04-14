@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Rarity } from "$lib/recipes/Recipe"
+	import type { Rarity } from "../Ingredient"
 	import { Color } from "$lib/design/Color"
 
 	export let rarity: Rarity
@@ -27,11 +27,16 @@
 
 <style>
 	.max-rarity-width {
-		display: inline-block;
+		display: inline-flex;
 		width: 1.667em;
 	}
 
-	.centered { text-align: center; }
+	.centered {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
 
 	.isolated { isolation: isolate; }
 
@@ -46,7 +51,7 @@
 	}
 
 	.overlap-left {
-		margin-left: -0.667em;
+		margin-left: -0.4em;
 	}
 
 	.top {

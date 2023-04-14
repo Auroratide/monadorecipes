@@ -5,6 +5,7 @@
 	import { Elevated } from "../Elevated";
 	import { VisuallyHidden } from "../VisuallyHidden";
 	import { createEventDispatcher } from "svelte";
+	import { Spacing } from "../Spacing";
 	import { page } from "$app/stores";
 
 	const dispatch = createEventDispatcher()
@@ -22,7 +23,7 @@
 	<search class="{Container()} {Color.background.banner()} {TriangleCorners({})} overlap-top centered">
 		<form on:submit|preventDefault={submit} method="get">
 			<label for="text-filter" class="{VisuallyHidden()}">Search</label>
-			<input id="text-filter" type="search" name="q" bind:value={textFilter} on:blur|preventDefault={submit} placeholder="Search" class="invisible-input centered long-input" />
+			<input id="text-filter" type="search" name="q" bind:value={textFilter} on:blur|preventDefault={submit} placeholder="Search" class="invisible-input {Spacing.centeredLabel()} long-input" />
 		</form>
 	</search>
 </div>
@@ -32,6 +33,13 @@
 		display: block;
 		width: calc(100% - 2 * var(--container-padding));
 		padding: 0.25em 1em;
+	}
+
+	form {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.overlap-top {
@@ -54,6 +62,7 @@
 
 	.invisible-input::placeholder {
 		opacity: 1;
+		color: var(--color-text-emphasized);
 	}
 
 	.invisible-input:focus::placeholder {

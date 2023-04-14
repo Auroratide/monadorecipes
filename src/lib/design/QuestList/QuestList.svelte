@@ -12,12 +12,13 @@
 	export let items: QuestItem[];
 
 	$: filteredItems = items.filter((item) => {
-		return item.name.toLocaleLowerCase().includes($page.url.searchParams.get("q") ?? "");
+		const searchTerm = $page.url.searchParams.get("q") ?? "";
+		return item.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase());
 	})
 
 	const search = (event: CustomEvent<{ textFilter: string }>) => {
 		const { textFilter } = event.detail;
-		goto(`?q=${textFilter}`);
+		goto(`?q=${textFilter}`, { replaceState: true });
 	};
 </script>
 

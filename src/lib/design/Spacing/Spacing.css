@@ -1,0 +1,56 @@
+:root {
+	--spacing-stars-0: 0;
+	--spacing-stars-1: 0.5;
+	--spacing-stars-2: 1;
+	--spacing-stars-3: 1.375;
+	--spacing-stars-4: 1.6;
+	--spacing-stars-5: 3.5;
+}
+
+.spacing-centered-label {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding-block:
+		calc(var(--spacing-stars, 1) * 0.25em)
+		calc(var(--spacing-stars, 1) * 0.25em - 0.15em);
+	line-height: 1;
+}
+
+.spacing-centered-label.spacing-centered-label-left {
+	text-align: left;
+	justify-content: flex-start;
+}
+
+.spacing-centered-label.spacing-centered-label-center {
+	text-align: center;
+	justify-content: center;
+}
+
+.spacing-centered-label.spacing-centered-label-right {
+	text-align: right;
+	justify-content: flex-end;
+}
+
+.spacing-centered-icon {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding-block: calc(var(--spacing-stars, 1) * 0.25em);
+	line-height: 1;
+}
+
+.spacing-centered-icon.spacing-centered-icon-left {
+	text-align: left;
+	justify-content: flex-start;
+}
+
+.spacing-centered-icon.spacing-centered-icon-center {
+	text-align: center;
+	justify-content: center;
+}
+
+.spacing-centered-icon.spacing-centered-icon-right {
+	text-align: right;
+	justify-content: flex-end;
+}

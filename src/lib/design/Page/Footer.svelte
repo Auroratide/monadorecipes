@@ -5,8 +5,7 @@
 </script>
 
 <FooterBar>
-	<FooterItem href="{External.source}">
+	<FooterItem href="{External.source}" text="Open source">
 		<GithubIcon slot="icon" />
-		<span>Open Source</span>
 	</FooterItem>
 </FooterBar>

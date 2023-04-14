@@ -1,13 +1,14 @@
 <script lang="ts">
 	import { Color } from "$lib/design/Color"
 	import { Font } from "$lib/design/Font"
+	import { Spacing } from "$lib/design/Spacing"
 	import { TriangleCorners } from "$lib/design/TriangleCorners"
 
 	export let title: string;
 </script>
 
 <section class="reposition-for-overlap">
-	<h2 class="{Font.size.stars(3)} {TriangleCorners({ type: "right" })} {Color.background.shiny()} overlap-bottom label-padding partial-width">{title}</h2>
+	<h2 class="{Font.size.stars(3)} {TriangleCorners({ type: "right" })} {Color.background.shiny()} {Spacing.centeredLabel({ alignment: "left" })} overlap-bottom label-padding partial-width">{title}</h2>
 	<div class="{Color.background.dark({ translucent: true })} {Color.border.dark()} panel-padding space-for-top-overlap bordered">
 		<slot></slot>
 	</div>
@@ -23,7 +24,7 @@
 	}
 
 	.label-padding {
-		padding: 0.25rem 1rem;
+		padding-inline: 1rem;
 	}
 
 	.partial-width {

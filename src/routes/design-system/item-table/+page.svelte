@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ItemTable, ItemCell } from "$lib/design/ItemTable"
+	import { ItemTable, ItemTextCell } from "$lib/design/ItemTable"
 	import { RarityIndicator } from "$lib/ingredients/RarityIndicator";
 
 	const items = [ {
@@ -21,8 +21,8 @@
 </script>
 
 <ItemTable let:item headings={["Name", "Rarity", "Owned", "Needed"]} {items}>
-	<ItemCell>{item.name}</ItemCell>
-	<ItemCell><RarityIndicator rarity={item.rarity} /></ItemCell>
-	<ItemCell>{item.owned}</ItemCell>
-	<ItemCell>{item.needed}</ItemCell>
+	<ItemTextCell>{item.name}</ItemTextCell>
+	<ItemTextCell><RarityIndicator rarity={item.rarity} /></ItemTextCell>
+	<ItemTextCell>{item.owned}</ItemTextCell>
+	<ItemTextCell>{item.needed}</ItemTextCell>
 </ItemTable>
