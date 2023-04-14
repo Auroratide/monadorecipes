@@ -19,5 +19,9 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.2.0"
 	},
-	"type": "module"
+	"type": "module",
+	"packageManager": "pnpm@7.30.5",
+	"engines": {
+		"pnpm": "^7.0.0"
+	}
 }
