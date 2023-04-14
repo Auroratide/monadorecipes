@@ -35,6 +35,10 @@
 		padding: 1rem;
 	}
 
+	.panel-padding :global(p:last-child) {
+		margin-bottom: 0;
+	}
+
 	.space-for-top-overlap {
 		padding-top: 1.5rem;
 	}

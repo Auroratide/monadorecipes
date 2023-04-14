@@ -7,6 +7,7 @@ export const Api = (url: string) => `${url}.json`
 export const Url = {
 	home: () => `${base}/`,
 	recipes: (id = '') => `${base}${slash("recipes")}${slash(id)}`,
+	legalDisclaimers: () => `${base}${slash("legal-disclaimers")}`,
 }
 
 export const External = {
