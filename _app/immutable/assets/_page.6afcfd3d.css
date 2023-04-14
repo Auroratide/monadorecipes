@@ -1,0 +1,16 @@
+.full-width.svelte-w3e9yn{width:100%}.spaced-rows.svelte-w3e9yn{border-collapse:separate;border-spacing:0 0.375em}.normal-weight.svelte-w3e9yn{font-weight:normal}tr.svelte-w3e9yn{margin-bottom:1px}td.svelte-qb197f{padding-inline:1.5em;line-height:1}td.svelte-qb197f{padding-inline:1.5em;line-height:1}img.svelte-1cj976k{display:block;width:100%;max-width:min(600px, 90%);margin:0 auto}.column.svelte-1cj976k{display:flex;flex-direction:column;gap:1.5rem}.padded.svelte-1cj976k{padding:2rem}.lined.svelte-1cj976k{background:linear-gradient(transparent 1.15em, hsl(217, 24%, 61%) 1.15em);background-size:1em 1.25em}.lined.svelte-1cj976k p{line-height:1.25;margin-bottom:1.25em}.lined.svelte-1cj976k p:last-child{margin-bottom:0}.max-rarity-width.svelte-wfybjp{display:inline-flex;width:1.667em}.centered.svelte-wfybjp{flex-direction:row;align-items:center;justify-content:center;text-align:center}.isolated.svelte-wfybjp{isolation:isolate}.diamond.svelte-wfybjp{display:inline-block;width:0.7071em;height:0.7071em;border:0.0625em solid;background:var(--icon-bg);transform:rotate(45deg);aspect-ratio:1}.overlap-left.svelte-wfybjp{margin-left:-0.4em}.top.svelte-wfybjp{position:relative;z-index:3}.middle.svelte-wfybjp{position:relative;z-index:2}.bottom.svelte-wfybjp{position:relative;z-index:1}ol.svelte-f7n8t0{padding:0;counter-reset:directions}li.svelte-f7n8t0{list-style:none;margin-bottom:1rem}li.svelte-f7n8t0::before{display:block;content:"Step " counter(directions);font-weight:bold;font-size:var(--font-size-1-star);color:var(--color-text-emphasized);-webkit-text-stroke:0.01em var(--color-bg-medium);margin-bottom:0.25rem;counter-increment:directions}.two-one-column {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	column-gap: 1rem;
+	row-gap: 2rem;
+}
+
+.two-one-column > :first-child {
+	flex: 2 1 calc(2 * var(--container-width) / 5 - 1rem - var(--container-padding));
+}
+
+.two-one-column > :last-child {
+	flex: 3 1 calc(3 * var(--container-width) / 5 - 1rem - var(--container-padding));
+}
