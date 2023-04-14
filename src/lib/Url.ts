@@ -8,3 +8,7 @@ export const Url = {
 	home: () => `${slash(base)}/`,
 	recipes: (id = '') => `${slash(base)}${slash("recipes")}${slash(id)}`,
 }
+
+export const External = {
+	source: "https://github.com/Auroratide/monadorecipes",
+} as const

@@ -13,7 +13,7 @@ export const Color = {
 		dark: (options: CanBeTranslucent = {}) => `color-bg-dark${options.translucent ? " color-bg-translucent" : ""}`,
 		medium: () => "color-bg-medium",
 		light: (options: CanBeTranslucent = {}) => `color-bg-light${options.translucent ? " color-bg-translucent" : ""}`,
-		banner: () => "color-bg-banner",
+		banner: (options: CanBeTranslucent = {}) => `color-bg-banner${options.translucent ? " color-bg-translucent" : ""}`,
 		shiny: (options: CanBeTranslucent = {}) => `color-bg-shiny${options.translucent ? " color-bg-translucent" : ""}`,
 	},
 	border: {

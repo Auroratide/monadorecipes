@@ -4,6 +4,7 @@
 	import { QuestList } from "$lib/design/QuestList";
 	import { Url } from "$lib/Url";
 	import { PageTitle } from "$lib/design/PageTitle";
+	import Footer from "$lib/design/Page/Footer.svelte";
 
 	export let data: PageData;
 	$: list = data.items
@@ -20,6 +21,7 @@
 <main>
 	<QuestList baseUrl={Url.recipes()} items={list} />
 </main>
+<Footer />
 
 <style>
 	.space-within {

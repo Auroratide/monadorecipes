@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Header from "./Header.svelte"
+	import Footer from "./Footer.svelte"
 	import { Container } from "$lib/design/Container"
 	import { Backdrop, BackdropScene } from "$lib/design/Backdrop"
 
@@ -15,6 +16,7 @@
 <main class="{Container()} pad-block">
 	<slot></slot>
 </main>
+<Footer />
 
 <style>
 	.pad-block {
