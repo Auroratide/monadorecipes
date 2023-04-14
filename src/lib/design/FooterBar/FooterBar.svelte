@@ -5,9 +5,11 @@
 </script>
 
 <footer class="{Font.size.stars(1)} {Color.text.emphasized()} {Color.background.banner({ translucent: true })} {Color.border.dark()} border-top fixed-to-bottom padded">
-	<ul class="{Container()} horizontal-list">
-		<slot></slot>
-	</ul>
+	<div class="{Container()}">
+		<ul class="horizontal-list">
+			<slot></slot>
+		</ul>
+	</div>
 </footer>
 
 <style>

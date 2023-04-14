@@ -30,7 +30,7 @@
 <style>
 	search {
 		display: block;
-		width: 100%;
+		width: calc(100% - 2 * var(--container-padding));
 		padding: 0.25em 1em;
 	}
 
