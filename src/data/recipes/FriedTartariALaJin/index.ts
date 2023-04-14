@@ -1,1 +1,1 @@
-export * from "./FriedTartariALaJin"
+export { default } from "./FriedTartariALaJin"

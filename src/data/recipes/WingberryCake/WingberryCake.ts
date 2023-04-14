@@ -5,7 +5,7 @@ import * as Ingredients from "$lib/ingredients/ingredients"
 import MainImage from "./WingberryCake.png"
 
 // ref: https://www.allrecipes.com/recipe/26016/cranberry-upside-down-coffee-cake/
-export const WingberryCake: Recipe = {
+const recipe: Recipe = {
 	id: "wingberry-cake",
 	name: "Wingberry Cake",
 	type: RecipeType.Dessert,
@@ -112,3 +112,5 @@ export const WingberryCake: Recipe = {
 		],
 	},
 }
+
+export default recipe

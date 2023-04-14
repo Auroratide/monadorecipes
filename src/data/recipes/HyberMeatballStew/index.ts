@@ -1,1 +1,1 @@
-export * from "./HyberMeatballStew"
+export { default } from "./HyberMeatballStew"

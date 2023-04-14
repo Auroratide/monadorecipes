@@ -1,1 +1,1 @@
-export * from "./WingberryCake"
+export { default } from "./WingberryCake"

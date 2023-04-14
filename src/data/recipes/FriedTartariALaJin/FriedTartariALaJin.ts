@@ -4,7 +4,7 @@ import { MeasureUnit, MeasureAmount } from "../../../lib/recipes/Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
 import MainImg from "./FriedTartariALaJin.png"
 
-export const FriedTartariALaJin: Recipe = {
+const recipe: Recipe = {
 	id: "fried-tartari-a-la-jin",
 	name: "Fried Tartari à la Jin",
 	type: RecipeType.Meat,
@@ -60,3 +60,5 @@ export const FriedTartariALaJin: Recipe = {
 		steps: [],
 	},
 }
+
+export default recipe
