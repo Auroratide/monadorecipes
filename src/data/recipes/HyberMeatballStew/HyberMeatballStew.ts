@@ -1,6 +1,6 @@
-import { IngredientPreparation, type Recipe } from "../../../lib/recipes/Recipe"
-import { RecipeType } from "../../../lib/recipes/Recipe"
-import { MeasureUnit, MeasureAmount } from "../../../lib/recipes/Measure"
+import { IngredientPreparation, type Recipe } from "$lib/recipes/Recipe"
+import { RecipeType, RecipeSource } from "$lib/recipes/Recipe"
+import { MeasureUnit, MeasureAmount } from "$lib/recipes/Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
 import MainImg from "./HyberMeatballStew.png"
 
@@ -8,6 +8,9 @@ const recipe: Recipe = {
 	id: "hyber-meatball-stew",
 	name: "Hyber Meatball Stew",
 	type: RecipeType.Veggie,
+	source: RecipeSource.Aegaeon,
+	timeInMinutes: 60,
+	rarity: 2,
 	image: {
 		src: MainImg,
 		alt: "Hyber Meatball Stew",

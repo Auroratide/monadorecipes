@@ -4,7 +4,7 @@
 	import { TitledPanel } from "$lib/design/TitledPanel"
 	import { ItemTable, ItemTextCell, ItemIconCell } from "$lib/design/ItemTable"
 	import { QuestPanel } from "$lib/design/QuestPanel"
-	import { RarityIndicator } from "$lib/ingredients/RarityIndicator"
+	import { RarityIndicator } from "$lib/rarity/RarityIndicator"
 	import { FormattedMeasure } from "$lib/recipes/Measure"
 	import { RecipeSteps } from "$lib/recipes/RecipeSteps"
 	import { TwoOneColumn } from "$lib/design/TwoOneColumn"

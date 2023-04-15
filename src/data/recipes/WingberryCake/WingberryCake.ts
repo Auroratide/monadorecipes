@@ -1,6 +1,6 @@
-import type { Recipe } from "../../../lib/recipes/Recipe"
-import { RecipeType, IngredientPreparation } from "../../../lib/recipes/Recipe"
-import { MeasureUnit, MeasureAmount } from "../../../lib/recipes/Measure"
+import type { Recipe } from "$lib/recipes/Recipe"
+import { RecipeType, IngredientPreparation, RecipeSource } from "$lib/recipes/Recipe"
+import { MeasureUnit, MeasureAmount } from "$lib/recipes/Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
 import MainImage from "./WingberryCake.png"
 
@@ -9,6 +9,9 @@ const recipe: Recipe = {
 	id: "wingberry-cake",
 	name: "Wingberry Cake",
 	type: RecipeType.Dessert,
+	source: RecipeSource.Jin,
+	timeInMinutes: 90,
+	rarity: 3,
 	image: {
 		src: MainImage,
 		alt: "Wingberry Cake",

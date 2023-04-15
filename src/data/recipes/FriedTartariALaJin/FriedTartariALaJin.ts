@@ -1,6 +1,6 @@
-import type { Recipe } from "../../../lib/recipes/Recipe"
-import { RecipeType } from "../../../lib/recipes/Recipe"
-import { MeasureUnit, MeasureAmount } from "../../../lib/recipes/Measure"
+import type { Recipe } from "$lib/recipes/Recipe"
+import { RecipeType, RecipeSource } from "$lib/recipes/Recipe"
+import { MeasureUnit, MeasureAmount } from "$lib/recipes/Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
 import MainImg from "./FriedTartariALaJin.png"
 
@@ -8,6 +8,9 @@ const recipe: Recipe = {
 	id: "fried-tartari-a-la-jin",
 	name: "Fried Tartari à la Jin",
 	type: RecipeType.Meat,
+	source: RecipeSource.Jin,
+	timeInMinutes: 30,
+	rarity: 3,
 	image: {
 		src: MainImg,
 		alt: "Fried Tartari à la Jin",

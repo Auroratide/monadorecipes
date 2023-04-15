@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Rarity } from "../Ingredient"
+	import type { Rarity } from "../Rarity"
 	import { Color } from "$lib/design/Color"
 
 	export let rarity: Rarity

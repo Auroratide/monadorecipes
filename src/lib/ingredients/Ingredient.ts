@@ -1,4 +1,4 @@
-export type Rarity = 1 | 2 | 3
+import type { Rarity } from "$lib/rarity/Rarity"
 
 export type Ingredient = {
 	name: string,
