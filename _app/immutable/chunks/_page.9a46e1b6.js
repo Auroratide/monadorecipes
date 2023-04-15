@@ -1,1 +1,0 @@
-import{e as t}from"./index.2defaa64.js";import{A as n,U as a}from"./Url.91259d5a.js";const s=async({fetch:o,params:r})=>o(n(a.recipes(r.id))).then(e=>{if(e.ok)return e.json();throw t(404,"Recipe not found")}),p=Object.freeze(Object.defineProperty({__proto__:null,load:s},Symbol.toStringTag,{value:"Module"}));export{p as _,s as l};
