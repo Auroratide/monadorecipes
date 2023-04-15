@@ -10,10 +10,14 @@
 </script>
 
 <div class="{Color.background.banner({ translucent: true })} {Spacing.panel()} {Color.border.dark({ outset: true })} bordered bolt-container">
-	<svelte:element this={htag} class="{Font.size.stars(1)} {Color.text.muted()} {Spacing.after()}">
-		{title}
-	</svelte:element>
-	<slot></slot>
+	{#if title}
+		<svelte:element this={htag} class="{Font.size.stars(1)} {Color.text.muted()} {Spacing.after()}">
+			{title}
+		</svelte:element>
+	{/if}
+	<div class="last-no-margin">
+		<slot></slot>
+	</div>
 	<div aria-hidden="true" class="bolt top left"></div>
 	<div aria-hidden="true" class="bolt top right"></div>
 	<div aria-hidden="true" class="bolt bottom left"></div>
@@ -41,5 +45,9 @@
 	.bordered {
 		border-width: 0.0625rem;
 		border-style: solid;
+	}
+
+	.last-no-margin > *:last-child {
+		margin-bottom: 0;
 	}
 </style>

@@ -11,6 +11,7 @@
 	import { OneColumn } from "$lib/design/OneColumn"
 	import { BasicPanel } from "$lib/design/BasicPanel"
 	import { FlatDl } from "$lib/design/FlatDl"
+	import { RichText } from "$lib/rich-text/RenderedRichText"
 	import type { Recipe } from "../Recipe"
 	
 	export let recipe: Recipe;
@@ -53,5 +54,20 @@
 	</div>
 	<TitledPanel title="Directions">
 		<RecipeSteps steps={recipe.directions.steps} />
+	</TitledPanel>
+	<TitledPanel title="Interpretation">
+		<div class="{TwoOneColumn()}" style:--container-width="calc(1050px - 2rem)">
+			<BasicPanel title="Game Ingredients">
+				<FlatDl>
+					{#each Object.entries(recipe.gameIngredients) as ingredient}
+						<dt>{ingredient[0]}</dt>
+						<dd>&times;{ingredient[1]}</dd>
+					{/each}
+				</FlatDl>
+			</BasicPanel>
+			<BasicPanel>
+				<RichText value={recipe.interpretation} />
+			</BasicPanel>
+		</div>
 	</TitledPanel>
 </Page>

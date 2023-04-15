@@ -51,6 +51,14 @@ const recipe: Recipe = {
 	directions: {
 		steps: [],
 	},
+	gameIngredients: {
+		"Feris Beastmeat": 2,
+		"Sour Avocado": 1,
+		"Barbed Tomato": 1,
+		"Confusion Ivy": 1,
+		"Lucky Lettuce": 2,
+	},
+	interpretation: "",
 }
 
 export default recipe

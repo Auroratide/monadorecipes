@@ -62,6 +62,14 @@ const recipe: Recipe = {
 	directions: {
 		steps: [],
 	},
+	gameIngredients: {
+		"Buloofo Beastmeat": 2,
+		"Rhogul Birdmeat": 2,
+		"Weeping Flour": 1,
+		"Nest Extract": 1,
+		"Barbed Tomato": 2,
+	},
+	interpretation: "",
 }
 
 export default recipe

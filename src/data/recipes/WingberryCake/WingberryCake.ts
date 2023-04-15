@@ -114,6 +114,18 @@ const recipe: Recipe = {
 			"Cool in the pan for 15 minutes, then invert onto a serving plate. Enjoy!",
 		],
 	},
+	gameIngredients: {
+		"Cranberry Bell": 2,
+		"Ruska Flour": 2,
+		"Weeping Flour": 2,
+		"Melosian Honey": 1,
+		"Lactonut": 1,
+	},
+	interpretation: `
+		<p>Jin's Wingberry Cake is, as its name implies, a cake that gets its flavor from berries and its crunch from nuts. Due to the large amounts of flour in the recipe, we interpret this as a kind of upside-down coffee cake.</p>
+		<p>Cranberry Bells imply that cranberries are the fruit of choice. As for the nut, we chose almonds since almonds sometimes used as a milk alternative; in other words, a "Lactonut" is a milky nut.</p>
+		<p>Finally, many coffee cake recipes ask for either vanilla extract or cinnamon. For this recipe, we substitute those with honey since Jin's recipe calls for Melosian Honey.</p>
+	`,
 }
 
 export default recipe

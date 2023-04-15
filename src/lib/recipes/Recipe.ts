@@ -1,6 +1,7 @@
 import type { Ingredient } from "$lib/ingredients/Ingredient"
 import type { Rarity } from "$lib/rarity/Rarity"
 import type { Measure } from "$lib/recipes/Measure"
+import type { RichText } from "$lib/rich-text/RichText"
 
 export const RecipeType = {
 	Meat: "meat",
@@ -33,6 +34,8 @@ export type Recipe = {
 	description: string,
 	ingredients: MeasuredIngredient[],
 	directions: Directions,
+	gameIngredients: Record<string, number>,
+	interpretation: RichText,
 }
 
 export type MeasuredIngredient = Ingredient & {
