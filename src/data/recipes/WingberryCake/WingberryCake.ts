@@ -3,7 +3,6 @@ import { RecipeType, IngredientPreparation } from "../../../lib/recipes/Recipe"
 import { MeasureUnit, MeasureAmount } from "../../../lib/recipes/Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
 import MainImage from "./WingberryCake.png"
-import { Url } from "$lib/Url"
 
 // ref: https://www.allrecipes.com/recipe/26016/cranberry-upside-down-coffee-cake/
 const recipe: Recipe = {
@@ -11,7 +10,7 @@ const recipe: Recipe = {
 	name: "Wingberry Cake",
 	type: RecipeType.Dessert,
 	image: {
-		src: Url.asset(MainImage),
+		src: MainImage,
 		alt: "Wingberry Cake",
 	},
 	description: "A delicious cranberry cake.",

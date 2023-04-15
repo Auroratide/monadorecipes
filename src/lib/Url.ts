@@ -8,7 +8,6 @@ export const Url = {
 	home: () => `${base}/`,
 	recipes: (id = '') => `${base}${slash("recipes")}${slash(id)}`,
 	legalDisclaimers: () => `${base}${slash("legal-disclaimers")}`,
-	asset: (path: string) => `${base}${path}`,
 }
 
 export const External = {

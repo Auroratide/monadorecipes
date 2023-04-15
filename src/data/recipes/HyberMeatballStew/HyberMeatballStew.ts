@@ -3,14 +3,13 @@ import { RecipeType } from "../../../lib/recipes/Recipe"
 import { MeasureUnit, MeasureAmount } from "../../../lib/recipes/Measure"
 import * as Ingredients from "$lib/ingredients/ingredients"
 import MainImg from "./HyberMeatballStew.png"
-import { Url } from "$lib/Url"
 
 const recipe: Recipe = {
 	id: "hyber-meatball-stew",
 	name: "Hyber Meatball Stew",
 	type: RecipeType.Veggie,
 	image: {
-		src: Url.asset(MainImg),
+		src: MainImg,
 		alt: "Hyber Meatball Stew",
 	},
 	description: "Stew with meatballs.",
