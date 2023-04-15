@@ -1,0 +1,5 @@
+.one-column {
+	display: flex;
+	flex-direction: column;
+	gap: calc(var(--spacing-stars, 1) * 1rem);
+}

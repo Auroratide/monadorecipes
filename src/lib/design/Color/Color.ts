@@ -2,6 +2,10 @@ type CanBeTranslucent = {
 	translucent?: boolean
 }
 
+type CanBeOutset = {
+	outset?: boolean,
+}
+
 export const Color = {
 	text: {
 		regular: () => "color-text-regular",
@@ -19,7 +23,7 @@ export const Color = {
 	border: {
 		regular: () => "color-border-regular",
 		muted: () => "color-border-muted",
-		dark: () => "color-border-dark",
+		dark: (options: CanBeOutset = {}) => `color-border-dark${options.outset ? " color-border-outset" : ""}`,
 		selected: () => "color-border-selected",
 	},
 	icon: {

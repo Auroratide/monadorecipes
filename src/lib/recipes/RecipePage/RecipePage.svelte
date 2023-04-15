@@ -8,6 +8,9 @@
 	import { FormattedMeasure } from "$lib/recipes/Measure"
 	import { RecipeSteps } from "$lib/recipes/RecipeSteps"
 	import { TwoOneColumn } from "$lib/design/TwoOneColumn"
+	import { OneColumn } from "$lib/design/OneColumn"
+	import { BasicPanel } from "$lib/design/BasicPanel"
+	import { FlatDl } from "$lib/design/FlatDl"
 	import type { Recipe } from "../Recipe"
 	
 	export let recipe: Recipe;
@@ -15,9 +18,21 @@
 
 <Page title="{recipe.name}">
 	<div class="{TwoOneColumn()}">
-		<QuestPanel imageSrc={recipe.image.src} imageAlt={recipe.image.alt}>
-			<p>{recipe.description}</p>
-		</QuestPanel>
+		<div class="{OneColumn()}">
+			<QuestPanel imageSrc={recipe.image.src} imageAlt={recipe.image.alt}>
+				<p>{recipe.description}</p>
+			</QuestPanel>
+			<BasicPanel title="Info">
+				<FlatDl>
+					<dt>Time</dt>
+					<dd>{recipe.timeInMinutes} min</dd>
+					<dt>Source</dt>
+					<dd>{recipe.source}</dd>
+					<dt>Rarity</dt>
+					<dd><RarityIndicator rarity={recipe.rarity} /></dd>
+				</FlatDl>
+			</BasicPanel>
+		</div>
 		<TitledPanel title="Ingredients">
 			<ItemTable let:item headings={["Name", "Rarity", "Needed"]} items={recipe.ingredients}>
 				<ItemTextCell>{item.name}</ItemTextCell>

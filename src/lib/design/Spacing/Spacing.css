@@ -54,3 +54,11 @@
 	text-align: right;
 	justify-content: flex-end;
 }
+
+.spacing-panel {
+	padding: calc(var(--spacing-stars, 1) * 0.5em) calc(var(--spacing-stars, 1) * 1em);
+}
+
+.spacing-after {
+	margin-block-end: calc(var(--spacing-stars, 1) * 0.5em);
+}
