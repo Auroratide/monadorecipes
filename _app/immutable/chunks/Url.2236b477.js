@@ -1,1 +1,0 @@
-import{b as e}from"./paths.60fbbb2c.js";const a=s=>s?`/${s}`:"",r=s=>`${s}.json`,c={home:()=>`${e}/`,recipes:(s="")=>`${e}${a("recipes")}${a(s)}`,legalDisclaimers:()=>`${e}${a("legal-disclaimers")}`,asset:s=>`${e}${s}`},i={source:"https://github.com/Auroratide/monadorecipes"};export{r as A,i as E,c as U};
