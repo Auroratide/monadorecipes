@@ -12,6 +12,7 @@
 	import { BasicPanel } from "$lib/design/BasicPanel"
 	import { FlatDl } from "$lib/design/FlatDl"
 	import { RichText } from "$lib/rich-text/RenderedRichText"
+	import { VisuallyHidden } from "$lib/design/VisuallyHidden";
 	import type { Recipe } from "../Recipe"
 	
 	export let recipe: Recipe;
@@ -57,7 +58,7 @@
 	</TitledPanel>
 	<TitledPanel title="Interpretation">
 		<div class="{TwoOneColumn()}" style:--container-width="calc(1050px - 2rem)">
-			<BasicPanel title="Game Ingredients">
+			<BasicPanel title="Game Ingredients" titleLevel={3}>
 				<FlatDl>
 					{#each Object.entries(recipe.gameIngredients) as ingredient}
 						<dt>{ingredient[0]}</dt>
@@ -66,6 +67,7 @@
 				</FlatDl>
 			</BasicPanel>
 			<BasicPanel>
+				<h3 class="{VisuallyHidden()}">Description</h3>
 				<RichText value={recipe.interpretation} />
 			</BasicPanel>
 		</div>
