@@ -12,8 +12,8 @@
 	export let baseUrl: string;
 	export let items: QuestItem[];
 
+	$: searchTerm = browser ? $page.url.searchParams.get("q") ?? "" : "";
 	$: filteredItems = items.filter((item) => {
-		const searchTerm = browser ? $page.url.searchParams.get("q") ?? "" : "";
 		return item.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase());
 	})
 
@@ -26,13 +26,17 @@
 <section class="{Elevated()} {Color.background.light({ translucent: true })} overlap-container">
 	<SearchBar on:search={search} />
 	<div class="{Container()} pad-block">
-		<ul class="no-list three-columns">
-			{#each filteredItems as item (item.id)}
-				<li>
-					<QuestItemLink {baseUrl} {item} />
-				</li>
-			{/each}
-		</ul>
+		{#if filteredItems.length > 0}
+			<ul class="no-list three-columns">
+				{#each filteredItems as item (item.id)}
+					<li>
+						<QuestItemLink {baseUrl} {item} />
+					</li>
+				{/each}
+			</ul>
+		{:else}
+			<p class="{Color.text.dark()} center" aria-live="assertive">No recipes found for "{searchTerm}".</p>
+		{/if}
 	</div>
 </section>
 
@@ -57,5 +61,9 @@
 		grid-template-columns: repeat(auto-fill, minmax(min(calc(max(33.3%, var(--column-width, calc(var(--container-width) / 3))) - var(--gap-size) - var(--container-padding)), 100%), 1fr));
 		gap: var(--gap-size);
 		max-width: 100%;
+	}
+
+	.center {
+		text-align: center;
 	}
 </style>
