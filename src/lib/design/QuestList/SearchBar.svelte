@@ -12,19 +12,33 @@
 	const dispatch = createEventDispatcher()
 
 	let textFilter = browser ? $page.url.searchParams.get("q") ?? "" : "";
+	let searchField: HTMLInputElement;
 
 	const submit = () => {
 		dispatch("search", {
 			textFilter,
 		});
+
+		// keep focus after a soft page refresh
+		if (browser) {
+			setTimeout(() => searchField.focus(), 0);
+		}
 	};
+
+	let lastInput = "";
+	$: {
+		if (textFilter === "" && textFilter !== lastInput) {
+			submit();
+		}
+		lastInput = textFilter;
+	}
 </script>
 
 <div class="{Elevated({ useFilter: true })}">
 	<search class="{Container()} {Color.background.banner()} {TriangleCorners({})} overlap-top centered">
 		<form on:submit|preventDefault={submit} method="get">
 			<label for="text-filter" class="{VisuallyHidden()}">Search</label>
-			<input id="text-filter" type="search" name="q" bind:value={textFilter} on:blur|preventDefault={submit} placeholder="Search" class="invisible-input {Spacing.centeredLabel()} long-input" />
+			<input bind:this={searchField} id="text-filter" type="search" name="q" bind:value={textFilter} placeholder="Search" class="invisible-input {Spacing.centeredLabel()} long-input" />
 		</form>
 	</search>
 </div>
