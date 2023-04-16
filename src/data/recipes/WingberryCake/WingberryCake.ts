@@ -16,7 +16,7 @@ const recipe: Recipe = {
 		src: MainImage,
 		alt: "Wingberry Cake",
 	},
-	description: "A delicious cranberry cake.",
+	description: "A cranberry and almond upside-down coffee cake made with honey instead of vanilla.",
 	ingredients: [ {
 		...Ingredients.BrownSugar,
 		measure: {
