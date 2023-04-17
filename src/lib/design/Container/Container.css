@@ -10,9 +10,9 @@
 }
 
 .container-padding-left {
-	padding-left: max(calc(50vw - var(--container-width) / 2), var(--container-padding));
+	padding-left: max(calc(50vw - var(--container-width) / 2 + var(--container-padding)), var(--container-padding));
 }
 
 .container-padding-right {
-	padding-right: max(calc(50vw - var(--container-width) / 2), var(--container-padding));
+	padding-right: max(calc(50vw - var(--container-width) / 2 + var(--container-padding)), var(--container-padding));
 }

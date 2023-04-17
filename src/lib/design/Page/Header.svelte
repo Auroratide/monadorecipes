@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Color } from "$lib/design/Color"
 	import { Font } from "$lib/design/Font"
-	import { Container } from "$lib/design/Container"
+	import { Container, ContainerPadding } from "$lib/design/Container"
 	import { Spacing } from "$lib/design/Spacing"
 	import { Url } from "$lib/Url"
 
@@ -14,8 +14,8 @@
 			<h1 class="{Font.size.stars(5)} {Spacing.centeredLabel({ alignment: "left" })}" style="{Spacing.stars(5)}">{title}</h1>
 		</div>
 	</div>
-	<nav aria-label="Site" class="{Font.size.stars(4)} {Color.background.dark()} {Color.border.dark()} bottom-border right-border rounded-corner">
-		<div class="{Container()}">
+	<nav aria-label="Site" class="{Font.size.stars(4)} {Color.background.darkShiny()} {Color.border.dark()} bottom-border right-border rounded-corner">
+		<div class="{ContainerPadding({ side: "left" })}">
 			<span class="{Spacing.centeredLabel({ alignment: "left" })}" style="{Spacing.stars(1)}">
 				<a href="{Url.home()}" class="{Color.text.muted()}">More Recipes</a>
 			</span>
@@ -43,6 +43,11 @@
 	}
 
 	nav {
-		padding: 0.25rem 2rem;
+		padding-block: 0.25rem;
+		margin-right: max(2rem, 20%);
+	}
+
+	nav a {
+		text-decoration: none;
 	}
 </style>
