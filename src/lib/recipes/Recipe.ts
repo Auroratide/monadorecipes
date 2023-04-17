@@ -46,6 +46,7 @@ export type MeasuredIngredient = Ingredient & {
 export const IngredientPreparation = {
 	Chopped: "chopped",
 	Cubed: "cubed",
+	Minced: "minced",
 } as const
 export type IngredientPreparation = typeof IngredientPreparation[keyof typeof IngredientPreparation]
 

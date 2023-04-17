@@ -71,6 +71,13 @@ const recipe: Recipe = {
 			unit: MeasureUnit.Tablespoons,
 		},
 	}, {
+		...Ingredients.Garlic,
+		preparation: IngredientPreparation.Minced,
+		measure: {
+			amount: MeasureAmount(1),
+			unit: MeasureUnit.Teaspoons,
+		},
+	}, {
 		...Ingredients.Honey,
 		measure: {
 			amount: MeasureAmount(1),
@@ -84,7 +91,7 @@ const recipe: Recipe = {
 			"Mix the flour, oregano, paprika, cumin, salt, and pepper in a bowl. Coat the chicken and beef with this mixture.",
 			"Heat the oil in a pan over medium-high heat. Pan-fry the chicken and beef until golden brown. It is best to fry each meat separately since they cook at different rates. Chicken takes about 5 to 6 minutes on one side and 2 minutes on the other, while beef takes about 4 minutes on one side and 1 minute on the other.",
 			"Remove the meat and set them aside, but keep the remaining oil in the pan.",
-			"Add the tomato paste to the pan and mix with the oil over medium heat. Gradiually stir in the honey.",
+			"Add the tomato paste and garlic to the pan and mix with the oil over medium heat. Gradually stir in the honey.",
 			"After about 1 minute, add in all the meat to the pan and stir until the meat is coated. Sprinkle some oregano for garnish.",
 			"Serve with rice!",
 		],
