@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Page } from "$lib/design/Page"
 	import { Color } from "$lib/design/Color"
+	import { Font } from "$lib/design/Font"
 	import { TitledPanel } from "$lib/design/TitledPanel"
 	import { ItemTable, ItemTextCell, ItemIconCell } from "$lib/design/ItemTable"
 	import { QuestPanel } from "$lib/design/QuestPanel"
@@ -37,7 +38,13 @@
 		</div>
 		<TitledPanel title="Ingredients">
 			<ItemTable let:item headings={["Name", "Rarity", "Needed"]} items={recipe.ingredients}>
-				<ItemTextCell>{item.name}</ItemTextCell>
+				<ItemTextCell>
+					<span>{item.name}</span>
+					{#if item.preparation}
+						<span>&nbsp;</span>
+						<span class="{Font.size.stars(1)}">({item.preparation})</span>
+					{/if}
+				</ItemTextCell>
 				<ItemIconCell align="center">
 					<RarityIndicator rarity={item.rarity} />
 				</ItemIconCell>
