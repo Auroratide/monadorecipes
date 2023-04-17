@@ -47,7 +47,7 @@
 		border-style: solid;
 	}
 
-	.last-no-margin > *:last-child {
+	.last-no-margin > :global(*:last-child) {
 		margin-bottom: 0;
 	}
 </style>
