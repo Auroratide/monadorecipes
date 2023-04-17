@@ -1,7 +1,7 @@
 import { IngredientPreparation, type Recipe } from "$lib/recipes/Recipe"
 import { RecipeType, RecipeSource } from "$lib/recipes/Recipe"
 import { MeasureUnit, MeasureAmount } from "$lib/recipes/Measure"
-import * as Ingredients from "$lib/ingredients/ingredients"
+import * as Ingredients from "$data/ingredients"
 import MainImg from "./HyberMeatballStew.png"
 
 const recipe: Recipe = {

@@ -1,7 +1,7 @@
 import type { Recipe } from "$lib/recipes/Recipe"
 import { RecipeType, IngredientPreparation, RecipeSource } from "$lib/recipes/Recipe"
 import { MeasureUnit, MeasureAmount } from "$lib/recipes/Measure"
-import * as Ingredients from "$lib/ingredients/ingredients"
+import * as Ingredients from "$data/ingredients"
 import MainImage from "./WingberryCake.png"
 
 // ref: https://www.allrecipes.com/recipe/26016/cranberry-upside-down-coffee-cake/

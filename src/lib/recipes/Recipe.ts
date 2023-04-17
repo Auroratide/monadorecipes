@@ -1,4 +1,4 @@
-import type { Ingredient } from "$lib/ingredients/Ingredient"
+import type { Ingredient } from "$lib/recipes/Ingredient"
 import type { Rarity } from "$lib/rarity/Rarity"
 import type { Measure } from "$lib/recipes/Measure"
 import type { RichText } from "$lib/rich-text/RichText"

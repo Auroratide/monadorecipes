@@ -1,4 +1,4 @@
-import type { Ingredient } from "./Ingredient"
+import type { Ingredient } from "../lib/recipes/Ingredient"
 
 export const ChickenBreast: Ingredient = {
 	name: "Chicken Breast",
