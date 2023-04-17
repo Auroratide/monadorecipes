@@ -39,11 +39,12 @@
 		<TitledPanel title="Ingredients">
 			<ItemTable let:item headings={["Name", "Rarity", "Needed"]} items={recipe.ingredients}>
 				<ItemTextCell>
-					<span>{item.name}</span>
-					{#if item.preparation}
-						<span>&nbsp;</span>
-						<span class="{Font.size.stars(1)}">({item.preparation})</span>
-					{/if}
+					<span>
+						{item.name}
+						{#if item.preparation}
+							<span class="{Font.size.stars(1)}">({item.preparation})</span>
+						{/if}
+					</span>
 				</ItemTextCell>
 				<ItemIconCell align="center">
 					<RarityIndicator rarity={item.rarity} />
