@@ -9,10 +9,3 @@
 		<slot></slot>
 	</span>
 </td>
-
-<style>
-	td {
-		padding-inline: 1.5em;
-		line-height: 1;
-	}
-</style>

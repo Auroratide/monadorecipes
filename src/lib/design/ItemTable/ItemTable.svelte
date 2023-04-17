@@ -39,4 +39,17 @@
 	tr {
 		margin-bottom: 1px;
 	}
+
+	tr > :global(td) {
+		padding-inline: 0.5em;
+		line-height: 1;
+	}
+
+	tr > :global(td:first-child) {
+		padding-inline-start: 1.5em;
+	}
+
+	tr > :global(td:last-child) {
+		padding-inline-end: 1.5em;
+	}
 </style>
