@@ -6,6 +6,7 @@ import type { RichText } from "$lib/rich-text/RichText"
 export const RecipeType = {
 	Meat: "meat",
 	Veggie: "veggie",
+	Staple: "staple",
 	Dessert: "dessert",
 } as const
 export type RecipeType = typeof RecipeType[keyof typeof RecipeType]
@@ -47,6 +48,7 @@ export const IngredientPreparation = {
 	Chopped: "chopped",
 	Cubed: "cubed",
 	Minced: "minced",
+	Sliced: "sliced",
 } as const
 export type IngredientPreparation = typeof IngredientPreparation[keyof typeof IngredientPreparation]
 

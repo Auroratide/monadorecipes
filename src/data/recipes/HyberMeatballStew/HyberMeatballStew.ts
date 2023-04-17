@@ -1,6 +1,6 @@
 import { IngredientPreparation, type Recipe } from "$lib/recipes/Recipe"
 import { RecipeType, RecipeSource } from "$lib/recipes/Recipe"
-import { MeasureUnit, MeasureAmount } from "$lib/recipes/Measure"
+import { MeasureUnit, MeasureAmountFraction } from "$lib/recipes/Measure"
 import * as Ingredients from "$data/ingredients"
 import MainImg from "./HyberMeatballStew.png"
 
@@ -19,32 +19,32 @@ const recipe: Recipe = {
 	ingredients: [ {
 		...Ingredients.GroundBeef,
 		measure: {
-			amount: MeasureAmount(3, 2),
+			amount: MeasureAmountFraction(3, 2),
 			unit: MeasureUnit.Pounds,
 		},
 	}, {
 		...Ingredients.Eggs,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Quantity,
 		},
 	}, {
 		...Ingredients.BreadCrumbs,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.Onion,
 		preparation: IngredientPreparation.Chopped,
 		measure: {
-			amount: MeasureAmount(1, 4),
+			amount: MeasureAmountFraction(1, 4),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.ItalianSeasoning,
 		measure: {
-			amount: MeasureAmount(1, 2),
+			amount: MeasureAmountFraction(1, 2),
 			unit: MeasureUnit.Teaspoons,
 		},
 	} ],

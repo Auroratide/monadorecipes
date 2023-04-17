@@ -1,6 +1,6 @@
 import type { Recipe } from "$lib/recipes/Recipe"
 import { RecipeType, IngredientPreparation, RecipeSource } from "$lib/recipes/Recipe"
-import { MeasureUnit, MeasureAmount } from "$lib/recipes/Measure"
+import { MeasureUnit, MeasureAmountFraction } from "$lib/recipes/Measure"
 import * as Ingredients from "$data/ingredients"
 import MainImage from "./WingberryCake.png"
 
@@ -20,86 +20,86 @@ const recipe: Recipe = {
 	ingredients: [ {
 		...Ingredients.BrownSugar,
 		measure: {
-			amount: MeasureAmount(2, 3),
+			amount: MeasureAmountFraction(2, 3),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.Butter,
 		measure: {
-			amount: MeasureAmount(1, 3),
+			amount: MeasureAmountFraction(1, 3),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.Cranberries,
 		measure: {
-			amount: MeasureAmount(5, 4),
+			amount: MeasureAmountFraction(5, 4),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.Almonds,
 		preparation: IngredientPreparation.Chopped,
 		measure: {
-			amount: MeasureAmount(1, 2),
+			amount: MeasureAmountFraction(1, 2),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.Butter,
 		measure: {
-			amount: MeasureAmount(1, 2),
+			amount: MeasureAmountFraction(1, 2),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.WhiteSugar,
 		measure: {
-			amount: MeasureAmount(3, 4),
+			amount: MeasureAmountFraction(3, 4),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.Eggs,
 		measure: {
-			amount: MeasureAmount(2),
+			amount: MeasureAmountFraction(2),
 			unit: MeasureUnit.Quantity,
 		},
 	}, {
 		...Ingredients.Honey,
 		measure: {
-			amount: MeasureAmount(3),
+			amount: MeasureAmountFraction(3),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
 		...Ingredients.SourCream,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.Flour,
 		measure: {
-			amount: MeasureAmount(3, 2),
+			amount: MeasureAmountFraction(3, 2),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.BakingPowder,
 		measure: {
-			amount: MeasureAmount(3, 2),
+			amount: MeasureAmountFraction(3, 2),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
 		...Ingredients.BakingSoda,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
 		...Ingredients.Nutmeg,
 		measure: {
-			amount: MeasureAmount(1, 2),
+			amount: MeasureAmountFraction(1, 2),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
 		...Ingredients.Salt,
 		measure: {
-			amount: MeasureAmount(1, 4),
+			amount: MeasureAmountFraction(1, 4),
 			unit: MeasureUnit.Teaspoons,
 		},
 	} ],

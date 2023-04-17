@@ -3,6 +3,7 @@ export const MeasureUnit = {
 	Tablespoons: 'tablespoons',
 	Cups: 'cups',
 	Pounds: 'pounds',
+	Ounces: 'ounces',
 	Quantity: 'quantity',
 } as const
 export type MeasureUnit = typeof MeasureUnit[keyof typeof MeasureUnit]
@@ -16,14 +17,29 @@ export const pluralizedMeasureUnit = (unit: MeasureUnit, amount: MeasureAmount):
 	}
 }
 
-
-export const MeasureAmount = (numerator: number, denominator = 1) => ({
+export const MeasureAmountFraction = (numerator: number, denominator = 1) => ({
 	numerator,
 	denominator,
 })
-export type MeasureAmount = ReturnType<typeof MeasureAmount>
-export const measureToNumber = (amount: MeasureAmount): number =>
-	amount.numerator / amount.denominator
+export type MeasureAmountFraction = ReturnType<typeof MeasureAmountFraction>
+
+export const MeasureAmountDecimal = (decimal: number) => ({
+	decimal,
+})
+export type MeasureAmountDecimal = ReturnType<typeof MeasureAmountDecimal>
+
+export type MeasureAmount = MeasureAmountFraction | MeasureAmountDecimal
+
+export const isDecimal = (amount: MeasureAmount): amount is MeasureAmountDecimal =>
+	"decimal" in amount
+
+export const measureToNumber = (amount: MeasureAmount): number => {
+	if (isDecimal(amount)) {
+		return amount.decimal
+	} else {
+		return amount.numerator / amount.denominator
+	}
+}
 
 export type Measure = {
 	amount: MeasureAmount,

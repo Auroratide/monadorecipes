@@ -1,6 +1,6 @@
 import { IngredientPreparation, type Recipe } from "$lib/recipes/Recipe"
 import { RecipeType, RecipeSource } from "$lib/recipes/Recipe"
-import { MeasureUnit, MeasureAmount } from "$lib/recipes/Measure"
+import { MeasureUnit, MeasureAmountFraction } from "$lib/recipes/Measure"
 import * as Ingredients from "$data/ingredients"
 import MainImg from "./FriedTartariALaJin.png"
 
@@ -20,38 +20,38 @@ const recipe: Recipe = {
 		...Ingredients.ChickenBreast,
 		preparation: IngredientPreparation.Cubed,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Pounds,
 		},
 	}, {
 		...Ingredients.Beef,
 		preparation: IngredientPreparation.Cubed,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Pounds,
 		},
 	}, {
 		...Ingredients.Flour,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Cups,
 		},
 	}, {
 		...Ingredients.Oregano,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
 		...Ingredients.Paprika,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
 		...Ingredients.Cumin,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
@@ -61,26 +61,26 @@ const recipe: Recipe = {
 	}, {
 		...Ingredients.VegetableOil,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Tablespoons,
 		},
 	}, {
 		...Ingredients.TomatoPaste,
 		measure: {
-			amount: MeasureAmount(2),
+			amount: MeasureAmountFraction(2),
 			unit: MeasureUnit.Tablespoons,
 		},
 	}, {
 		...Ingredients.Garlic,
 		preparation: IngredientPreparation.Minced,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Teaspoons,
 		},
 	}, {
 		...Ingredients.Honey,
 		measure: {
-			amount: MeasureAmount(1),
+			amount: MeasureAmountFraction(1),
 			unit: MeasureUnit.Tablespoons,
 		},
 	}, {

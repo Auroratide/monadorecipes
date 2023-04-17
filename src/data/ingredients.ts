@@ -134,3 +134,33 @@ export const Onion: Ingredient = {
 	name: "Onion",
 	rarity: 1,
 }
+
+export const Potatos: Ingredient = {
+	name: "Potatos",
+	rarity: 1,
+}
+
+export const PortobelloMushrooms: Ingredient = {
+	name: "Portobello Mushrooms",
+	rarity: 2,
+}
+
+export const Carrots: Ingredient = {
+	name: "Carrots",
+	rarity: 1,
+}
+
+export const GoldenCurryMix: Ingredient = {
+	name: "Golden Curry Mix (hot)",
+	rarity: 3,
+}
+
+export const Ketchup: Ingredient = {
+	name: "Ketchup",
+	rarity: 1,
+}
+
+export const Cayenne: Ingredient = {
+	name: "Cayenne",
+	rarity: 2,
+}
