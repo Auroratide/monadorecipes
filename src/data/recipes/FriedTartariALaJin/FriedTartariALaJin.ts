@@ -1,4 +1,4 @@
-import type { Recipe } from "$lib/recipes/Recipe"
+import { IngredientPreparation, type Recipe } from "$lib/recipes/Recipe"
 import { RecipeType, RecipeSource } from "$lib/recipes/Recipe"
 import { MeasureUnit, MeasureAmount } from "$lib/recipes/Measure"
 import * as Ingredients from "$data/ingredients"
@@ -18,12 +18,14 @@ const recipe: Recipe = {
 	description: "A delicious fried meat dish.",
 	ingredients: [ {
 		...Ingredients.ChickenBreast,
+		preparation: IngredientPreparation.Cubed,
 		measure: {
 			amount: MeasureAmount(1),
 			unit: MeasureUnit.Pounds,
 		},
 	}, {
 		...Ingredients.Beef,
+		preparation: IngredientPreparation.Cubed,
 		measure: {
 			amount: MeasureAmount(1),
 			unit: MeasureUnit.Pounds,
@@ -58,9 +60,34 @@ const recipe: Recipe = {
 		...Ingredients.BlackPepper,
 	}, {
 		...Ingredients.VegetableOil,
+		measure: {
+			amount: MeasureAmount(1),
+			unit: MeasureUnit.Tablespoons,
+		},
+	}, {
+		...Ingredients.TomatoPaste,
+		measure: {
+			amount: MeasureAmount(2),
+			unit: MeasureUnit.Tablespoons,
+		},
+	}, {
+		...Ingredients.Honey,
+		measure: {
+			amount: MeasureAmount(1),
+			unit: MeasureUnit.Tablespoons,
+		},
+	}, {
+		...Ingredients.Rice,
 	} ],
 	directions: {
-		steps: [],
+		steps: [
+			"Mix the flour, oregano, paprika, cumin, salt, and pepper in a bowl. Coat the chicken and beef with this mixture.",
+			"Heat the oil in a pan over medium-high heat. Pan-fry the chicken and beef until golden brown. It is best to fry each meat separately since they cook at different rates. Chicken takes about 5 to 6 minutes on one side and 2 minutes on the other, while beef takes about 4 minutes on one side and 1 minute on the other.",
+			"Remove the meat and set them aside, but keep the remaining oil in the pan.",
+			"Add the tomato paste to the pan and mix with the oil over medium heat. Gradiually stir in the honey.",
+			"After about 1 minute, add in all the meat to the pan and stir until the meat is coated. Sprinkle some oregano for garnish.",
+			"Serve with rice!",
+		],
 	},
 	gameIngredients: {
 		"Buloofo Beastmeat": 2,
