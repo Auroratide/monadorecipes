@@ -1,0 +1,57 @@
+.button {
+	--spacing-stars: 2;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: var(--color-text-regular);
+	cursor: pointer;
+	padding-inline: 2em;
+	filter: drop-shadow(var(--elevated-shadow));
+
+
+	/* display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease-in-out; */
+}
+
+a.button {
+	text-decoration: none;
+}
+
+a.button:hover, a.button:focus {
+	text-decoration: none;
+}
+
+.button::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(hsla(300, 52%, 50%, 0.925), hsla(296, 55%, 59%, 0.925) 50%, hsla(297, 58%, 53%, 0.925) 54%, hsla(295, 66%, 47%, 0.925));
+	clip-path: polygon(var(--triangle-corners-width) 0, calc(100% - var(--triangle-corners-width)) 0, 100% 50%, calc(100% - var(--triangle-corners-width)) 100%, var(--triangle-corners-width) 100%, 0 50%);
+	z-index: -1;
+}
+
+.button:hover::before,
+.button:focus::before {
+	filter: brightness(1.12);
+}
+
+.button:active::before {
+	filter: brightness(0.92);
+	background: hsla(295, 66%, 47%, 0.925);
+}
