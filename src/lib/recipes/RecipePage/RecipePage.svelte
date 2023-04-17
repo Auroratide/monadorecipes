@@ -13,7 +13,9 @@
 	import { BasicPanel } from "$lib/design/BasicPanel"
 	import { FlatDl } from "$lib/design/FlatDl"
 	import { RichText } from "$lib/rich-text/RenderedRichText"
-	import { VisuallyHidden } from "$lib/design/VisuallyHidden";
+	import { VisuallyHidden } from "$lib/design/VisuallyHidden"
+	import { External } from "$lib/Url"
+	import { Button } from "$lib/design/Button"
 	import type { Recipe } from "../Recipe"
 	
 	export let recipe: Recipe;
@@ -80,4 +82,12 @@
 			</BasicPanel>
 		</div>
 	</TitledPanel>
+	<aside>
+		<h2 class="{VisuallyHidden()}">Feedback</h2>
+		<p class="{Font.size.stars(3)}" style:text-align="center" style:padding-block="1.25rem">
+			<a href="{External.feedback(recipe.name)}" class="{Button()}" target="_blank">
+				Have feedback?
+			</a>
+		</p>
+	</aside>
 </Page>
