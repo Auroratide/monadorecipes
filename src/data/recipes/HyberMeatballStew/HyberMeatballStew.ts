@@ -2,7 +2,7 @@ import { IngredientPreparation, type Recipe } from "$lib/recipes/Recipe"
 import { RecipeType, RecipeSource } from "$lib/recipes/Recipe"
 import { MeasureUnit, MeasureAmountFraction } from "$lib/recipes/Measure"
 import * as Ingredients from "$data/ingredients"
-import MainImg from "./HyberMeatballStew.png"
+import MainImg from "./HyberMeatballStew.png?w=600;1600&format=webp;png&picture"
 
 const recipe: Recipe = {
 	id: "hyber-meatball-stew",
@@ -12,7 +12,7 @@ const recipe: Recipe = {
 	timeInMinutes: 60,
 	rarity: 2,
 	image: {
-		src: MainImg,
+		...MainImg,
 		alt: "Hyber Meatball Stew",
 	},
 	description: "Stew with meatballs.",

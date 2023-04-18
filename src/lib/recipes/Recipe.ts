@@ -2,6 +2,7 @@ import type { Ingredient } from "$lib/recipes/Ingredient"
 import type { Rarity } from "$lib/rarity/Rarity"
 import type { Measure } from "$lib/recipes/Measure"
 import type { RichText } from "$lib/rich-text/RichText"
+import type { Image, WithAlt } from "$lib/image/Image"
 
 export const RecipeType = {
 	Meat: "meat",
@@ -28,10 +29,7 @@ export type Recipe = {
 	source: RecipeSource,
 	rarity: Rarity,
 	timeInMinutes: number,
-	image: {
-		src: string,
-		alt: string,
-	},
+	image: Image & WithAlt,
 	description: string,
 	ingredients: MeasuredIngredient[],
 	directions: Directions,

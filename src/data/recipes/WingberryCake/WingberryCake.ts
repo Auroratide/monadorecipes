@@ -2,7 +2,7 @@ import type { Recipe } from "$lib/recipes/Recipe"
 import { RecipeType, IngredientPreparation, RecipeSource } from "$lib/recipes/Recipe"
 import { MeasureUnit, MeasureAmountFraction } from "$lib/recipes/Measure"
 import * as Ingredients from "$data/ingredients"
-import MainImage from "./WingberryCake.png"
+import MainImage from "./WingberryCake.png?w=600;1600&format=webp;png&picture"
 
 // ref: https://www.allrecipes.com/recipe/26016/cranberry-upside-down-coffee-cake/
 const recipe: Recipe = {
@@ -13,7 +13,7 @@ const recipe: Recipe = {
 	timeInMinutes: 90,
 	rarity: 3,
 	image: {
-		src: MainImage,
+		...MainImage,
 		alt: "Wingberry Cake",
 	},
 	description: "A cranberry and almond upside-down coffee cake made with honey instead of vanilla.",

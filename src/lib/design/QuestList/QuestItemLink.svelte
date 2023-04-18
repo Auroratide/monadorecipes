@@ -4,13 +4,14 @@
 	import { Color } from "../Color";
 	import { Font } from "../Font";
 	import { Spacing } from "../Spacing";
+	import ResponsiveImage from "$lib/image/ResponsiveImage/ResponsiveImage.svelte";
 
 	export let baseUrl: string;
 	export let item: QuestItem;
 </script>
 
 <a class="{Elevated()} overlap-container set-aspect-ratio" href="{baseUrl}/{item.id}">
-	<img src="{item.image.src}" alt="" />
+	<ResponsiveImage image={item.image} alt="" />
 	<p class="{Color.text.regular()} {Color.background.shiny({ translucent: true })} {Font.size.stars(3)} {Spacing.centeredLabel()} overlap-bottom">{item.name}</p>
 </a>
 
@@ -27,12 +28,6 @@
 
 	a:hover, a:focus {
 		outline: 0.25em solid var(--color-border-selected);
-	}
-
-	img {
-		width: 100%;
-		height: auto;
-		display: block;
 	}
 
 	p {

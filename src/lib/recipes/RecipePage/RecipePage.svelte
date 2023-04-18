@@ -16,15 +16,19 @@
 	import { VisuallyHidden } from "$lib/design/VisuallyHidden"
 	import { External } from "$lib/Url"
 	import { Button } from "$lib/design/Button"
+	import { ResponsiveImage } from "$lib/image/ResponsiveImage"
 	import type { Recipe } from "../Recipe"
 	
 	export let recipe: Recipe;
+
+	console.log(recipe.image)
 </script>
 
 <Page title="{recipe.name}">
 	<div class="{TwoOneColumn()}">
 		<div class="{OneColumn()}">
-			<QuestPanel imageSrc={recipe.image.src} imageAlt={recipe.image.alt}>
+			<QuestPanel>
+				<ResponsiveImage slot="image" image={recipe.image} alt="{recipe.image.alt}" />
 				<p>{recipe.description}</p>
 			</QuestPanel>
 			<BasicPanel title="Info">

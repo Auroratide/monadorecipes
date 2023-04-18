@@ -17,7 +17,8 @@
 		"svelte-check": "^3.0.1",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
-		"vite": "^4.2.0"
+		"vite": "^4.2.0",
+		"vite-imagetools": "^4.0.19"
 	},
 	"type": "module",
 	"packageManager": "pnpm@7.30.5",

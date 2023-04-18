@@ -2,7 +2,7 @@ import { IngredientPreparation, type Recipe } from "$lib/recipes/Recipe"
 import { RecipeType, RecipeSource } from "$lib/recipes/Recipe"
 import { MeasureUnit, MeasureAmountFraction } from "$lib/recipes/Measure"
 import * as Ingredients from "$data/ingredients"
-import MainImg from "./FriedTartariALaJin.png"
+import MainImg from "./FriedTartariALaJin.png?w=600;1600&format=webp;png&picture"
 
 const recipe: Recipe = {
 	id: "fried-tartari-a-la-jin",
@@ -12,7 +12,7 @@ const recipe: Recipe = {
 	timeInMinutes: 30,
 	rarity: 3,
 	image: {
-		src: MainImg,
+		...MainImg,
 		alt: "Fried Tartari à la Jin",
 	},
 	description: "A delicious fried meat dish.",
