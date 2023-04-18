@@ -2,6 +2,10 @@
 	--triangle-corners-width: 0.75em;
 }
 
+.triangle-corners {
+	--triangle-corners-width: 0.75em;
+}
+
 .triangle-corners.triangle-corners-right {
 	clip-path: polygon(0 0, calc(100% - var(--triangle-corners-width)) 0, 100% 50%, calc(100% - var(--triangle-corners-width)) 100%, 0 100%);
 }
