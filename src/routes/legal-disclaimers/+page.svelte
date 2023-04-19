@@ -1,9 +1,11 @@
 <script lang="ts">
 	import { Page } from "$lib/design/Page";
 	import { TitledPanel } from "$lib/design/TitledPanel";
+	import BookIcon from "$lib/design/icons/BookIcon.svelte";
 </script>
 
 <Page title="Legal Disclaimers">
+	<BookIcon slot="header-icon" />
 	<TitledPanel title="Fair Use Notice">
 		<p>This site may make use of copyrighted material the use of which has not always been specifically authorized by the copyright owner.</p>
 		<p>This constitutes a "fair use" of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the material on this site is offered publicly and without profit, to the public users of the internet for comment and nonprofit educational and informational purposes.</p>
