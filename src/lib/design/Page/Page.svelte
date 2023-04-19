@@ -3,6 +3,7 @@
 	import Footer from "./Footer.svelte"
 	import { Container } from "$lib/design/Container"
 	import { Backdrop, BackdropScene } from "$lib/design/Backdrop"
+	import CookingIcon from "../icons/CookingIcon.svelte"
 
 	export let title: string;
 </script>
@@ -13,7 +14,9 @@
 
 <Backdrop scene={BackdropScene.TornaCamp} />
 <Header {title}>
-	<slot slot="icon" name="header-icon"></slot>
+	<slot slot="icon" name="header-icon">
+		<CookingIcon />
+	</slot>
 </Header>
 <main class="{Container()} pad-block">
 	<slot></slot>

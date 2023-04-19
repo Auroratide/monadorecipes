@@ -4,7 +4,7 @@
 	import { Container, ContainerPadding } from "$lib/design/Container"
 	import { Spacing } from "$lib/design/Spacing"
 	import { Url } from "$lib/Url"
-	import DessertsIcon from "$lib/design/icons/DessertIcon.svelte";
+	import CookingIcon from "../icons/CookingIcon.svelte"
 
 	export let title: string;
 </script>
@@ -13,7 +13,9 @@
 	<div class="{Color.background.banner()} {Color.border.muted()} bottom-border">
 		<div class="{Container()} row">
 			<div class="{Font.size.stars(5)} {Spacing.centeredIcon({ alignment: "left" })}">
-				<slot name="icon"></slot>
+				<slot name="icon">
+					<CookingIcon />
+				</slot>
 			</div>
 			<h1 class="{Font.size.stars(5)} {Spacing.centeredLabel({ alignment: "left" })}" style="{Spacing.stars(5)}">{title}</h1>
 		</div>
