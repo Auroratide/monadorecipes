@@ -19,6 +19,7 @@
 	import { ResponsiveImage } from "$lib/image/ResponsiveImage"
 	import { RecipeTypeIcon } from "$lib/recipes/RecipeTypeIcon"
 	import type { Recipe } from "../Recipe"
+	import IngredientTypeIcon from "../IngredientTypeIcon/IngredientTypeIcon.svelte";
 	
 	export let recipe: Recipe;
 
@@ -45,7 +46,10 @@
 			</BasicPanel>
 		</div>
 		<TitledPanel title="Ingredients">
-			<ItemTable let:item headings={["Name", "Rarity", "Needed"]} items={recipe.ingredients}>
+			<ItemTable let:item headings={["", "Name", "Rarity", "Needed"]} items={recipe.ingredients}>
+				<ItemIconCell align="center" noSpace>
+					<IngredientTypeIcon type={item.type} />
+				</ItemIconCell>
 				<ItemTextCell>
 					<span>
 						{item.name}
