@@ -9,6 +9,7 @@ export const RecipeType = {
 	Veggie: "veggie",
 	Staple: "staple",
 	Dessert: "dessert",
+	Seafood: "seafood",
 } as const
 export type RecipeType = typeof RecipeType[keyof typeof RecipeType]
 

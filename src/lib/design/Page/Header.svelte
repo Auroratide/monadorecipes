@@ -4,13 +4,17 @@
 	import { Container, ContainerPadding } from "$lib/design/Container"
 	import { Spacing } from "$lib/design/Spacing"
 	import { Url } from "$lib/Url"
+	import DessertsIcon from "$lib/design/icons/DessertIcon.svelte";
 
 	export let title: string;
 </script>
 
 <header>
 	<div class="{Color.background.banner()} {Color.border.muted()} bottom-border">
-		<div class="{Container()}">
+		<div class="{Container()} row">
+			<div class="{Font.size.stars(5)} {Spacing.centeredIcon({ alignment: "left" })}">
+				<slot name="icon"></slot>
+			</div>
 			<h1 class="{Font.size.stars(5)} {Spacing.centeredLabel({ alignment: "left" })}" style="{Spacing.stars(5)}">{title}</h1>
 		</div>
 	</div>
@@ -24,6 +28,12 @@
 </header>
 
 <style>
+	.row {
+		display: flex;
+		flex-direction: row;
+		gap: 0.75em;
+	}
+
 	.large-spacing {
 		padding: 2rem 2rem;
 	}

@@ -17,6 +17,7 @@
 	import { External } from "$lib/Url"
 	import { Button } from "$lib/design/Button"
 	import { ResponsiveImage } from "$lib/image/ResponsiveImage"
+	import { RecipeTypeIcon } from "$lib/recipes/RecipeTypeIcon"
 	import type { Recipe } from "../Recipe"
 	
 	export let recipe: Recipe;
@@ -25,6 +26,7 @@
 </script>
 
 <Page title="{recipe.name}">
+	<RecipeTypeIcon slot="header-icon" type={recipe.type} />
 	<div class="{TwoOneColumn()}">
 		<div class="{OneColumn()}">
 			<QuestPanel>

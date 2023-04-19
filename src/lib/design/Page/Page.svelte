@@ -12,7 +12,9 @@
 </svelte:head>
 
 <Backdrop scene={BackdropScene.TornaCamp} />
-<Header {title} />
+<Header {title}>
+	<slot slot="icon" name="header-icon"></slot>
+</Header>
 <main class="{Container()} pad-block">
 	<slot></slot>
 </main>
