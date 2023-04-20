@@ -22,8 +22,6 @@
 	import IngredientTypeIcon from "../IngredientTypeIcon/IngredientTypeIcon.svelte";
 	
 	export let recipe: Recipe;
-
-	console.log(recipe.image)
 </script>
 
 <Page title="{recipe.name}">
