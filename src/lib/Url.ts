@@ -7,6 +7,7 @@ export const Api = (url: string) => `${url}.json`
 export const Url = {
 	home: () => `${base}/`,
 	recipes: (id = '') => `${base}${slash("recipes")}${slash(id)}`,
+	about: () => `${base}${slash("about")}`,
 	legalDisclaimers: () => `${base}${slash("legal-disclaimers")}`,
 } as const
 
