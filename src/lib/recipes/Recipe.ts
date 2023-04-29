@@ -27,6 +27,7 @@ export type RecipeSource = typeof RecipeSource[keyof typeof RecipeSource]
 export type Recipe = {
 	id: string,
 	name: string,
+	unlisted?: boolean,
 	type: RecipeType,
 	source: RecipeSource,
 	rarity: Rarity,

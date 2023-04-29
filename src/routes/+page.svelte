@@ -6,9 +6,10 @@
 	import { PageTitle } from "$lib/design/PageTitle";
 	import Footer from "$lib/design/Page/Footer.svelte";
 	import CookingIcon from "$lib/design/icons/CookingIcon.svelte";
+	import type { Recipe } from "$lib/recipes/Recipe";
 
 	export let data: PageData;
-	$: list = data.items
+	$: list = data.items.filter((item: Recipe) => !item.unlisted);
 </script>
 
 <svelte:head>
