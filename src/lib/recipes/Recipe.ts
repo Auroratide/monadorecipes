@@ -38,6 +38,7 @@ export type Recipe = {
 	directions: Directions,
 	gameIngredients: Record<string, number>,
 	interpretation: RichText,
+	references?: string[],
 }
 
 export type MeasuredIngredient = Ingredient & {
