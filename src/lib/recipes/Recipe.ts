@@ -46,12 +46,15 @@ export type MeasuredIngredient = Ingredient & {
 }
 
 export const IngredientPreparation = {
+	Whole: "whole",
+	Halved: "halved",
 	Chopped: "chopped",
 	Cubed: "cubed",
 	Minced: "minced",
 	Sliced: "sliced",
+	Custom: (value: string) => value,
 } as const
-export type IngredientPreparation = typeof IngredientPreparation[keyof typeof IngredientPreparation]
+export type IngredientPreparation = typeof IngredientPreparation[keyof typeof IngredientPreparation] | ReturnType<typeof IngredientPreparation.Custom>
 
 export type Directions = {
 	steps: string[],

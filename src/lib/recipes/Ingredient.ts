@@ -10,6 +10,7 @@ export const IngredientType = {
 	Dairy: "Dairy",
 	Spice: "Spice",
 	Oil: "Oil",
+	Liquid: "Liquid",
 }
 export type IngredientType = typeof IngredientType[keyof typeof IngredientType]
 

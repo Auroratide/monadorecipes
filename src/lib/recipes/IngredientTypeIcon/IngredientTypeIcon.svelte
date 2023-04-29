@@ -27,4 +27,6 @@
 	<FlowerIcon />
 {:else if type === IngredientType.Oil}
 	<FlowerIcon />
+{:else if type === IngredientType.Liquid}
+	<FlowerIcon />
 {/if}

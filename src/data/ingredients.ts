@@ -43,6 +43,12 @@ export const Oregano: Ingredient = {
 	rarity: 2,
 }
 
+export const RedPepperFlakes: Ingredient = {
+	name: "Red Pepper Flakes",
+	type: IngredientType.Spice,
+	rarity: 1,
+}
+
 export const Paprika: Ingredient = {
 	name: "Paprika",
 	type: IngredientType.Spice,
@@ -61,8 +67,20 @@ export const VegetableOil: Ingredient = {
 	rarity: 1,
 }
 
+export const OliveOil: Ingredient = {
+	name: "Olive Oil",
+	type: IngredientType.Oil,
+	rarity: 2,
+}
+
 export const TomatoPaste: Ingredient = {
 	name: "Tomato Paste",
+	type: IngredientType.Vegetable,
+	rarity: 1,
+}
+
+export const CherryTomatoes: Ingredient = {
+	name: "Cherry Tomatoes",
 	type: IngredientType.Vegetable,
 	rarity: 1,
 }
@@ -196,5 +214,47 @@ export const Ketchup: Ingredient = {
 export const Cayenne: Ingredient = {
 	name: "Cayenne",
 	type: IngredientType.Spice,
+	rarity: 2,
+}
+
+export const Capers: Ingredient = {
+	name: "Capers",
+	type: IngredientType.Vegetable,
+	rarity: 2,
+}
+
+export const WhiteWine: Ingredient = {
+	name: "White Wine",
+	type: IngredientType.Liquid,
+	rarity: 3,
+}
+
+export const Water: Ingredient = {
+	name: "Water",
+	type: IngredientType.Liquid,
+	rarity: 1,
+}
+
+export const CastelvetranoOlives: Ingredient = {
+	name: "Castelvetrano Olives",
+	type: IngredientType.Vegetable,
+	rarity: 3,
+}
+
+export const Cod: Ingredient = {
+	name: "Cod",
+	type: IngredientType.Fish,
+	rarity: 2,
+}
+
+export const CrustyBread: Ingredient = {
+	name: "Crusty Bread",
+	type: IngredientType.Grain,
+	rarity: 1,
+}
+
+export const BokChoy: Ingredient = {
+	name: "Bok Choy",
+	type: IngredientType.Vegetable,
 	rarity: 2,
 }
