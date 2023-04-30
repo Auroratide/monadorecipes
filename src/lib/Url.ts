@@ -4,6 +4,8 @@ const slash = (str: string) => (str ? `/${str}` : '')
 
 export const Api = (url: string) => `${url}.json`
 
+export const Absolute = (url: string) => `https://monado.recipes${url}`
+
 export const Url = {
 	home: () => `${base}/`,
 	recipes: (id = '') => `${base}${slash("recipes")}${slash(id)}`,

@@ -7,15 +7,25 @@
 	import Footer from "$lib/design/Page/Footer.svelte";
 	import CookingIcon from "$lib/design/icons/CookingIcon.svelte";
 	import type { Recipe } from "$lib/recipes/Recipe";
+	import { buildOpenGraph, OpenGraphMeta } from "$lib/open-graph";
+	import { siteDescription } from "$data/description";
 
 	export let data: PageData;
 	$: list = data.items.filter((item: Recipe) => !item.unlisted);
+
+	const openGraph = buildOpenGraph({
+		title: "All Recipes",
+		image: "/favicon.svg",
+		relativeUrl: Url.home(),
+	})
 </script>
 
 <svelte:head>
 	<title>Monado Recipes: Eat Food from Xenoblade Chronicles</title>
+	<meta property="description" content={siteDescription} />
 </svelte:head>
 
+<OpenGraphMeta value={openGraph} />
 <Backdrop scene={BackdropScene.Titans} />
 <header class="space-within">
 	<PageTitle title="Monado Recipes" subtitle="Xenoblade Chronicles Cuisine">

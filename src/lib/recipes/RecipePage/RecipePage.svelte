@@ -14,17 +14,26 @@
 	import { FlatDl } from "$lib/design/FlatDl"
 	import { RichText } from "$lib/rich-text/RenderedRichText"
 	import { VisuallyHidden } from "$lib/design/VisuallyHidden"
-	import { External } from "$lib/Url"
+	import { Url, External } from "$lib/Url"
 	import { Button } from "$lib/design/Button"
 	import { ResponsiveImage } from "$lib/image/ResponsiveImage"
 	import { RecipeTypeIcon } from "$lib/recipes/RecipeTypeIcon"
 	import type { Recipe } from "../Recipe"
 	import IngredientTypeIcon from "../IngredientTypeIcon/IngredientTypeIcon.svelte";
+	import { buildOpenGraph, OpenGraphMeta } from "$lib/open-graph";
 	
 	export let recipe: Recipe;
+
+	$: openGraph = buildOpenGraph({
+		title: recipe.name,
+		description: recipe.description,
+		image: recipe.image.fallback.src,
+		relativeUrl: Url.recipes(recipe.id),
+	})
 </script>
 
-<Page title="{recipe.name}">
+<OpenGraphMeta value={openGraph} />
+<Page title="{recipe.name}" description={recipe.description}>
 	<RecipeTypeIcon slot="header-icon" type={recipe.type} />
 	<div class="{TwoOneColumn()}">
 		<div class="{OneColumn()}">

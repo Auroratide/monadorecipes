@@ -4,12 +4,15 @@
 	import { Container } from "$lib/design/Container"
 	import { Backdrop, BackdropScene } from "$lib/design/Backdrop"
 	import CookingIcon from "../icons/CookingIcon.svelte"
+	import { siteDescription } from "$data/description"
 
 	export let title: string;
+	export let description: string = siteDescription;
 </script>
 
 <svelte:head>
 	<title>{title} | Monado Recipes</title>
+	<meta property="description" content={description} />
 </svelte:head>
 
 <Backdrop scene={BackdropScene.TornaCamp} />
