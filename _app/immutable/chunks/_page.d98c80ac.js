@@ -1,0 +1,1 @@
+import{e as r}from"./index.2defaa64.js";import{A as t,U as n}from"./Url.db42dd76.js";const s=async({fetch:o})=>o(t(n.recipes())).then(e=>{if(e.ok)return e.json();throw r(500,"Could not fetch recipes")}),p=Object.freeze(Object.defineProperty({__proto__:null,load:s},Symbol.toStringTag,{value:"Module"}));export{p as _,s as l};
