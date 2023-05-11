@@ -78,7 +78,7 @@ const recipe: Recipe = {
 	}, {
 		...Ingredients.BlackPepper,
 	}, {
-		...Ingredients.Cod,
+		...Ingredients.Swai,
 		preparation: IngredientPreparation.Custom("6-oz fillets"),
 		measure: {
 			amount: MeasureAmountFraction(4),

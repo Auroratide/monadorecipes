@@ -247,6 +247,12 @@ export const Cod: Ingredient = {
 	rarity: 2,
 }
 
+export const Swai: Ingredient = {
+	name: "Swai Fish",
+	type: IngredientType.Fish,
+	rarity: 2,
+}
+
 export const CrustyBread: Ingredient = {
 	name: "Crusty Bread",
 	type: IngredientType.Grain,
