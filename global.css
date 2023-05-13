@@ -50,3 +50,14 @@ svg.icon {
 	width: 1em;
 	height: 1em;
 }
+
+@media print {
+   body {
+      background: none;
+      color: black;
+   }
+}
+
+@page {
+   margin: 0.25in 0.5in;
+}
