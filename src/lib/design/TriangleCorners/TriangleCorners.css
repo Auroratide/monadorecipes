@@ -13,3 +13,10 @@
 .triangle-corners.triangle-corners-both {
 	clip-path: polygon(var(--triangle-corners-width) 0, calc(100% - var(--triangle-corners-width)) 0, 100% 50%, calc(100% - var(--triangle-corners-width)) 100%, var(--triangle-corners-width) 100%, 0 50%);
 }
+
+@media print {
+	.triangle-corners.triangle-corners-right,
+	.triangle-corners.triangle-corners-both {
+		clip-path: none;
+	}
+}

@@ -29,4 +29,10 @@
 		margin-bottom: 0.25rem;
 		counter-increment: directions;
 	}
+
+	@media print {
+		li::before {
+			-webkit-text-stroke: 0;
+		}
+	}
 </style>

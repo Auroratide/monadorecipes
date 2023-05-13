@@ -1,0 +1,27 @@
+:root {
+	--border-width-1-star: 0.0625rem;
+}
+
+.bordered {
+	border-width: 0;
+	border-style: solid;
+}
+
+.bordered.bordered-top {
+	border-top-width: var(--border-width-1-star);
+}
+.bordered.bordered-right {
+	border-right-width: var(--border-width-1-star);
+}
+.bordered.bordered-bottom {
+	border-bottom-width: var(--border-width-1-star);
+}
+.bordered.bordered-left {
+	border-left-width: var(--border-width-1-star);
+}
+
+@media print {
+	:root {
+		--border-width-1-star: 1.5pt;
+	}
+}

@@ -10,3 +10,13 @@
 	box-shadow: none;
 	filter: drop-shadow(var(--elevated-shadow));
 }
+
+@media print {
+	.elevated {
+		box-shadow: none;
+	}
+
+	.elevated.elevated-use-filter {
+		filter: none;
+	}
+}

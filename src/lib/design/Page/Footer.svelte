@@ -16,4 +16,7 @@
 	<FooterItem href="{External.source}" text="Open source">
 		<GithubIcon slot="icon" />
 	</FooterItem>
+	<FooterItem printOnly href="{Url.home()}" text="Recipe by monado.recipes">
+		<CookingIcon slot="icon" />
+	</FooterItem>
 </FooterBar>

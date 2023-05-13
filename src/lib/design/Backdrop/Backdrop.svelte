@@ -20,4 +20,10 @@
 		z-index: -1;
 		pointer-events: none;
 	}
+
+	@media print {
+		.backdrop {
+			display: none;
+		}
+	}
 </style>

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Color } from "$lib/design/Color"
 	import { Font } from "$lib/design/Font"
+	import { Bordered } from "$lib/design/Bordered";
 	import { Container, ContainerPadding } from "$lib/design/Container"
 	import { Spacing } from "$lib/design/Spacing"
 	import { Url } from "$lib/Url"
@@ -10,7 +11,7 @@
 </script>
 
 <header>
-	<div class="{Color.background.banner()} {Color.border.muted()} bottom-border">
+	<div class="{Color.background.banner()} {Color.border.muted()} {Bordered({ bottom: true })}">
 		<div class="{Container()} row">
 			<div class="{Font.size.stars(5)} {Spacing.centeredIcon({ alignment: "left" })}">
 				<slot name="icon">
@@ -61,5 +62,11 @@
 
 	nav a {
 		text-decoration: none;
+	}
+
+	@media print {
+		nav {
+			display: none;
+		}
 	}
 </style>

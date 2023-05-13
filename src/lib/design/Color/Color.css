@@ -56,3 +56,25 @@
 .color-icon-common { background: var(--color-icon-common); }
 .color-icon-uncommon { background: var(--color-icon-uncommon); }
 .color-icon-rare { background: var(--color-icon-rare); }
+
+@media print {
+	:root {
+		--color-text-regular: black;
+		--color-text-muted: black;
+		--color-text-emphasized: black;
+		--color-text-dark: black;
+	}
+
+	.color-bg-dark,
+	.color-bg-medium,
+	.color-bg-light,
+	.color-bg-banner,
+	.color-bg-shiny,
+	.color-bg-dark-shiny,
+	.color-bg-dark.color-bg-translucent,
+	.color-bg-light.color-bg-translucent,
+	.color-bg-banner.color-bg-translucent,
+	.color-bg-shiny.color-bg-translucent {
+		background: none;
+	}
+}

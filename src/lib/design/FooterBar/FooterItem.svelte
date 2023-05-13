@@ -4,9 +4,10 @@
 
 	export let href: string | undefined = undefined;
 	export let text: string;
+	export let printOnly: boolean = false;
 </script>
 
-<li>
+<li class:print-only={printOnly}>
 	{#if href}
 		<a {href} class="center-elements">
 			<span class="{Color.text.regular()} {Spacing.centeredIcon()}" style="{Spacing.stars(1)}">
@@ -29,6 +30,10 @@
 </li>
 
 <style>
+	.print-only {
+		display: none;
+	}
+
 	a {
 		text-decoration: none;
 	}
@@ -39,5 +44,15 @@
 		align-items: center;
 		line-height: 1;
 		gap: 0.5em;
+	}
+
+	@media print {
+		li:not(.print-only) {
+			display: none;
+		}
+
+		li.print-only {
+			display: list-item;
+		}
 	}
 </style>
