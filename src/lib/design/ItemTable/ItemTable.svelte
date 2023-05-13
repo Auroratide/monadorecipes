@@ -9,11 +9,13 @@
 
 <table class="spaced-rows full-width">
 	<thead>
-		{#each headings as heading}
-			<th class="{Font.size.stars(1)} {Color.text.muted()} normal-weight">
-				{heading}
-			</th>
-		{/each}
+		<tr>
+			{#each headings as heading}
+				<th class="{Font.size.stars(1)} {Color.text.muted()} normal-weight">
+					{heading}
+				</th>
+			{/each}
+		</tr>
 	</thead>
 	<tbody>
 		{#each items as item}

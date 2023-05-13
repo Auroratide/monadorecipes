@@ -21,6 +21,7 @@
 	import type { Recipe } from "../Recipe"
 	import IngredientTypeIcon from "../IngredientTypeIcon/IngredientTypeIcon.svelte";
 	import { buildOpenGraph, OpenGraphMeta } from "$lib/open-graph";
+	import { RecipeIngredients } from "../RecipeIngredients";
 	
 	export let recipe: Recipe;
 
@@ -53,31 +54,7 @@
 			</BasicPanel>
 		</div>
 		<TitledPanel title="Ingredients">
-			<ItemTable let:item headings={["", "Name", "Rarity", "Needed"]} items={recipe.ingredients}>
-				<ItemIconCell align="center" noSpace>
-					<IngredientTypeIcon type={item.type} />
-				</ItemIconCell>
-				<ItemTextCell>
-					<span>
-						{item.name}
-						{#if item.preparation}
-							<span class="{Font.size.stars(1)}">({item.preparation})</span>
-						{/if}
-					</span>
-				</ItemTextCell>
-				<ItemIconCell align="center">
-					<RarityIndicator rarity={item.rarity} />
-				</ItemIconCell>
-				<ItemTextCell align="center">
-					{#if item.measure}
-						<span class="{Color.text.emphasized()}">
-							<FormattedMeasure value={item.measure} />
-						</span>
-					{:else}
-						<span>—</span>
-					{/if}
-				</ItemTextCell>
-			</ItemTable>
+			<RecipeIngredients ingredients={recipe.ingredients} />
 		</TitledPanel>
 	</div>
 	<TitledPanel title="Directions">
