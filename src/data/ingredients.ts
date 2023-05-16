@@ -264,3 +264,39 @@ export const BokChoy: Ingredient = {
 	type: IngredientType.Vegetable,
 	rarity: 2,
 }
+
+export const CondensedTomatoSoup: Ingredient = {
+	name: "Condensed Tomato Soup",
+	type: IngredientType.Vegetable,
+	rarity: 1,
+}
+
+export const BeefBroth: Ingredient = {
+	name: "Beef Broth",
+	type: IngredientType.Meat,
+	rarity: 1,
+}
+
+export const Parsley: Ingredient = {
+	name: "Parsley",
+	type: IngredientType.Vegetable,
+	rarity: 1,
+}
+
+export const Cabbage: Ingredient = {
+	name: "Cabbage",
+	type: IngredientType.Vegetable,
+	rarity: 1,
+}
+
+export const Avocado: Ingredient = {
+	name: "Avocado",
+	type: IngredientType.Vegetable,
+	rarity: 1,
+}
+
+export const WorchesishireSauce: Ingredient = {
+	name: "WorchesishireSauce",
+	type: IngredientType.Liquid,
+	rarity: 2,
+}

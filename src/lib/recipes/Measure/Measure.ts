@@ -6,6 +6,7 @@ export const MeasureUnit = {
 	Ounces: 'ounces',
 	Quantity: 'quantity',
 	Cloves: 'cloves',
+	Cans: 'cans',
 } as const
 export type MeasureUnit = typeof MeasureUnit[keyof typeof MeasureUnit]
 export const pluralizedMeasureUnit = (unit: MeasureUnit, amount: MeasureAmount): string => {
