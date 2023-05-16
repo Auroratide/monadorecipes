@@ -39,7 +39,7 @@ const recipe: Recipe = {
 		preparation: IngredientPreparation.Minced,
 		measure: {
 			amount: MeasureAmountFraction(1, 4),
-			unit: MeasureUnit.Cups,
+			unit: MeasureUnit.Quantity,
 		},
 	}, {
 		...Ingredients.ItalianSeasoning,
@@ -115,7 +115,7 @@ const recipe: Recipe = {
 			"In a large mixing bowl, combine the bread crumbs, egg, italian seasoning, 1 tsp salt, and minced onion.",
 			"Break apart the ground beef into the bowl, incorporating everything together. Form around 24 meatballs and set aside.",
 			"In a large pot, heat the oil on medium heat. Brown the meatballs in the oil, turning them so every side is covered. Remove the meatballs when browned and drain leftover oil.",
-			"In the large pot, mix together the tomato soup, beef broth, worchesishire sauce, potatoes, carrots, and onions. Season with salt and italian seasoning.",
+			"In the large pot, mix together the tomato soup, beef broth, worchesishire sauce, potatoes, and onions. Season with salt and italian seasoning.",
 			"Bring to a boil, then reduce heat and simmer for 35 minutes.",
 			"After 35 minutes, add in the cabbage and simmer for another 10 minutes.",
 			"While simmering, cut the avocados into thin slices and chop up the parsley for garnish.",

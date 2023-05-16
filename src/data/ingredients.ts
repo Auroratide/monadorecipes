@@ -296,7 +296,7 @@ export const Avocado: Ingredient = {
 }
 
 export const WorchesishireSauce: Ingredient = {
-	name: "WorchesishireSauce",
+	name: "Worchesishire Sauce",
 	type: IngredientType.Liquid,
 	rarity: 2,
 }
