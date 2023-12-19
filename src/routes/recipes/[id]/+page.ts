@@ -8,7 +8,7 @@ export const load: PageLoad = async ({ fetch, params }) => {
 		if (res.ok) {
 			return res.json() as Promise<Recipe>
 		} else {
-			throw error(404, "Recipe not found")
+			error(404, "Recipe not found");
 		}
 	})
 }
