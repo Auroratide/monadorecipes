@@ -18,6 +18,19 @@ export const pluralizedMeasureUnit = (unit: MeasureUnit, amount: MeasureAmount):
 		return unit
 	}
 }
+export const asPlural = (singular: string): MeasureUnit => {
+	switch (singular) {
+		case "teaspoon": return MeasureUnit.Teaspoons
+		case "tablespoon": return MeasureUnit.Tablespoons
+		case "cup": return MeasureUnit.Cups
+		case "pound": return MeasureUnit.Pounds
+		case "ounce": return MeasureUnit.Ounces
+		case "quantity": return MeasureUnit.Quantity
+		case "clove": return MeasureUnit.Cloves
+		case "can": return MeasureUnit.Cans
+		default: return singular as MeasureUnit
+	}
+}
 
 export const MeasureAmountFraction = (numerator: number, denominator = 1) => ({
 	numerator,

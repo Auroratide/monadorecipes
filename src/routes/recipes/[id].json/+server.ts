@@ -1,5 +1,5 @@
 import type { RequestHandler } from "@sveltejs/kit"
-import { getAllRecipes } from "$data"
+import { getAllRecipes } from "$recipes"
 
 export const GET: RequestHandler = async ({ params }) => {
 	const recipes = await getAllRecipes()
