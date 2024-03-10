@@ -13,8 +13,6 @@ Fish cooked in a spicy tomato-based soup with pearl-like olives.
 
 ## Ingredients
 
-("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
-
 | Ingredient           | Qualtity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Olive Oil            | 2 tablespoons  | 2      | Oil       |
