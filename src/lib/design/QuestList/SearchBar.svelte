@@ -21,7 +21,7 @@
 
 		// keep focus after a soft page refresh
 		if (browser) {
-			setTimeout(() => searchField.focus(), 0);
+			setTimeout(() => searchField.focus(), 2);
 		}
 	};
 
