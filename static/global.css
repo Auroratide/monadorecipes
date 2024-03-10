@@ -51,6 +51,8 @@ svg.icon {
 	height: 1em;
 }
 
+button { all: unset; }
+
 @media print {
    body {
       background: none;

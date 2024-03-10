@@ -86,10 +86,11 @@
 	</div>
 	<aside class="{NoPrint()}">
 		<h2 class="{VisuallyHidden()}">Feedback</h2>
-		<p class="{Font.size.stars(3)}" style:text-align="center" style:padding-block="1.25rem">
+		<p class="{Font.size.stars(3)} button-row" style:text-align="center" style:padding-block="1.25rem">
 			<a href="{External.feedback(recipe.name)}" class="{Button()}" target="_blank">
 				Have feedback?
 			</a>
+			<button on:click={() => window.print()} class="{Button()}">Print</button>
 		</p>
 	</aside>
 </Page>
@@ -124,5 +125,14 @@
 			padding: 0.5rem;
 			border: var(--border-width-1-star) solid var(--color-border-dark);
 		}
+	}
+
+	.button-row {
+		display: flex;
+		flex-direction: row;
+		gap: 1em;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
 	}
 </style>
