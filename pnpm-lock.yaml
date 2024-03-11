@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@auroratide/img-zoom':
-    specifier: ^0.1.0
-    version: 0.1.0
+    specifier: ^0.1.1
+    version: 0.1.1
 
 devDependencies:
   '@sveltejs/adapter-static':
@@ -57,8 +57,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@auroratide/img-zoom@0.1.0:
-    resolution: {integrity: sha512-teRkCp9dJ94w3awkWDFXNHuYvbyrOgZu4RNoihfrY7UiCA5w3OnXwIS9nxZBrhj6LiYtJE38N520gxYL/WU+bg==}
+  /@auroratide/img-zoom@0.1.1:
+    resolution: {integrity: sha512-A87Drv3OFgnOBlKz9xi9zyE6kq8AlldCmEZKWbygyN0YgWH6fABl++7pZtGXrXAxm72opkSntf2aU6RIikXRMg==}
     dev: false
 
   /@esbuild/aix-ppc64@0.19.12:
