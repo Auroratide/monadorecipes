@@ -39,7 +39,9 @@
 			<div class="{OneColumn()}">
 				<div class="print:square-images print:bordered-images">
 					<QuestPanel>
-						<ResponsiveImage slot="image" image={recipe.image} alt="{recipe.image.alt}" />
+						<img-zoom slot="image">
+							<ResponsiveImage image={recipe.image} alt="{recipe.image.alt}" />
+						</img-zoom>
 						<p class="{NoPrint()}">{recipe.description}</p>
 					</QuestPanel>
 				</div>

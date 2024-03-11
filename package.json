@@ -27,5 +27,8 @@
 	"packageManager": "pnpm@8.12.1",
 	"engines": {
 		"pnpm": "^8.0.0"
+	},
+	"dependencies": {
+		"@auroratide/img-zoom": "^0.1.0"
 	}
 }
