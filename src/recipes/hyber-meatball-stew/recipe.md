@@ -32,7 +32,7 @@ Stew with meatballs.
 
 ## Directions
 
-1. Chop the onion, potatoes, and cabbage into large chunks. Set aside.
+1. Chop the onion, potatoes, and cabbage into large chunks. Set aside. AND GO WAM
 2. In a large mixing bowl, combine the bread crumbs, egg, italian seasoning, 1 tsp salt, and minced onion.
 3. Break apart the ground beef into the bowl, incorporating everything together. Form around 24 meatballs and set aside.
 4. In a large pot, heat the oil on medium heat. Brown the meatballs in the oil, turning them so every side is covered. Remove the meatballs when browned and drain leftover oil.
