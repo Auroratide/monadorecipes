@@ -53,6 +53,8 @@ svg.icon {
 
 button { all: unset; }
 
+img-zoom { display: block; }
+
 @media print {
    body {
       background: none;
