@@ -27,7 +27,9 @@
 	}
 
 	a:hover, a:focus {
-		outline: 0.25em solid var(--color-border-selected);
+		outline-offset: 0;
+		outline: 0.333em solid var(--color-border-selected);
+		animation: var(--anim-focus);
 	}
 
 	p {
@@ -44,5 +46,11 @@
 
 	.set-aspect-ratio {
 		aspect-ratio: 16 / 9;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		a:hover, a:focus {
+			animation: none;
+		}
 	}
 </style>
