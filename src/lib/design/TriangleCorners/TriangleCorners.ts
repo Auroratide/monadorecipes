@@ -3,5 +3,5 @@ export type TriangleCornersOptions = {
 }
 
 export const TriangleCorners = ({
-	type = "both"
+	type = "both",
 }: TriangleCornersOptions) => `triangle-corners triangle-corners-${type}`

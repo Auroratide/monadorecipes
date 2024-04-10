@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { Spacing } from "../Spacing";
+	import { Spacing } from "../Spacing"
 
-	export let align: "left" | "center" | "right" = "left";
+	export let align: "left" | "center" | "right" = "left"
 </script>
 
 <td>

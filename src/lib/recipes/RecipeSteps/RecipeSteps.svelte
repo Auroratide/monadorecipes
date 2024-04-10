@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let steps: string[];
+	export let steps: string[]
 </script>
 
 <ol>

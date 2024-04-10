@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { OpenGraph } from "./OpenGraph";
+	import type { OpenGraph } from "./OpenGraph"
 
-	export let value: OpenGraph;
+	export let value: OpenGraph
 </script>
 
 <svelte:head>

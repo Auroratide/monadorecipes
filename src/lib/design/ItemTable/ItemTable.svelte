@@ -3,8 +3,8 @@
 	import { Color } from "$lib/design/Color"
 	import { TriangleCorners } from "$lib/design/TriangleCorners"
 
-	export let items: any[]
-	export let headings: string[];
+	export let items: unknown[]
+	export let headings: string[]
 </script>
 
 <table class="spaced-rows full-width">

@@ -1,6 +1,6 @@
 <script lang="ts">
-	export let numerator: number;
-	export let denominator: number;
+	export let numerator: number
+	export let denominator: number
 
 	$: n = numerator
 	$: d = denominator

@@ -6,8 +6,8 @@
 	import CookingIcon from "../icons/CookingIcon.svelte"
 	import { siteDescription } from "$data/description"
 
-	export let title: string;
-	export let description: string = siteDescription;
+	export let title: string
+	export let description: string = siteDescription
 </script>
 
 <svelte:head>

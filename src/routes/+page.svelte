@@ -1,17 +1,17 @@
 <script lang="ts">
-	import type { PageData } from "./$types";
-	import { Backdrop, BackdropScene } from "$lib/design/Backdrop";
-	import { QuestList } from "$lib/design/QuestList";
-	import { Url } from "$lib/Url";
-	import { PageTitle } from "$lib/design/PageTitle";
-	import Footer from "$lib/design/Page/Footer.svelte";
-	import CookingIcon from "$lib/design/icons/CookingIcon.svelte";
-	import type { Recipe } from "$lib/recipes/Recipe";
-	import { buildOpenGraph, OpenGraphMeta } from "$lib/open-graph";
-	import { siteDescription } from "$data/description";
+	import type { PageData } from "./$types"
+	import { Backdrop, BackdropScene } from "$lib/design/Backdrop"
+	import { QuestList } from "$lib/design/QuestList"
+	import { Url } from "$lib/Url"
+	import { PageTitle } from "$lib/design/PageTitle"
+	import Footer from "$lib/design/Page/Footer.svelte"
+	import CookingIcon from "$lib/design/icons/CookingIcon.svelte"
+	import type { Recipe } from "$lib/recipes/Recipe"
+	import { buildOpenGraph, OpenGraphMeta } from "$lib/open-graph"
+	import { siteDescription } from "$data/description"
 
-	export let data: PageData;
-	$: list = data.items.filter((item: Recipe) => !item.unlisted);
+	export let data: PageData
+	$: list = data.items.filter((item: Recipe) => !item.unlisted)
 
 	const openGraph = buildOpenGraph({
 		title: "All Recipes",

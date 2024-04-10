@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Page } from "$lib/design/Page";
-	import { BasicPanel } from "$lib/design/BasicPanel";
+	import { Page } from "$lib/design/Page"
+	import { BasicPanel } from "$lib/design/BasicPanel"
 </script>
 
 <Page title="About Monado Recipes">

@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type { Image } from '../Image';
+	import type { Image } from "../Image"
 
-	export let image: Image;
-	export let alt: string;
+	export let image: Image
+	export let alt: string
 </script>
 
 <picture>

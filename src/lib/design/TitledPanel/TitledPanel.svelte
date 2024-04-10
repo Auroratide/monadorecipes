@@ -5,7 +5,7 @@
 	import { Spacing } from "$lib/design/Spacing"
 	import { TriangleCorners } from "$lib/design/TriangleCorners"
 
-	export let title: string;
+	export let title: string
 </script>
 
 <section class="reposition-for-overlap">

@@ -1,1 +1,1 @@
-export const NoPrint = () => 'no-print'
+export const NoPrint = () => "no-print"

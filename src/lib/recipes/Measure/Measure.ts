@@ -1,12 +1,12 @@
 export const MeasureUnit = {
-	Teaspoons: 'teaspoons',
-	Tablespoons: 'tablespoons',
-	Cups: 'cups',
-	Pounds: 'pounds',
-	Ounces: 'ounces',
-	Quantity: 'quantity',
-	Cloves: 'cloves',
-	Cans: 'cans',
+	Teaspoons: "teaspoons",
+	Tablespoons: "tablespoons",
+	Cups: "cups",
+	Pounds: "pounds",
+	Ounces: "ounces",
+	Quantity: "quantity",
+	Cloves: "cloves",
+	Cans: "cans",
 } as const
 export type MeasureUnit = typeof MeasureUnit[keyof typeof MeasureUnit]
 export const pluralizedMeasureUnit = (unit: MeasureUnit, amount: MeasureAmount): string => {
@@ -20,15 +20,15 @@ export const pluralizedMeasureUnit = (unit: MeasureUnit, amount: MeasureAmount):
 }
 export const asPlural = (singular: string): MeasureUnit => {
 	switch (singular) {
-		case "teaspoon": return MeasureUnit.Teaspoons
-		case "tablespoon": return MeasureUnit.Tablespoons
-		case "cup": return MeasureUnit.Cups
-		case "pound": return MeasureUnit.Pounds
-		case "ounce": return MeasureUnit.Ounces
-		case "quantity": return MeasureUnit.Quantity
-		case "clove": return MeasureUnit.Cloves
-		case "can": return MeasureUnit.Cans
-		default: return singular as MeasureUnit
+	case "teaspoon": return MeasureUnit.Teaspoons
+	case "tablespoon": return MeasureUnit.Tablespoons
+	case "cup": return MeasureUnit.Cups
+	case "pound": return MeasureUnit.Pounds
+	case "ounce": return MeasureUnit.Ounces
+	case "quantity": return MeasureUnit.Quantity
+	case "clove": return MeasureUnit.Cloves
+	case "can": return MeasureUnit.Cans
+	default: return singular as MeasureUnit
 	}
 }
 

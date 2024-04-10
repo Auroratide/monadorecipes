@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { Page } from "$lib/design/Page";
-	import { BasicPanel } from "$lib/design/BasicPanel";
-	import { Url } from "$lib/Url";
+	import { Page } from "$lib/design/Page"
+	import { BasicPanel } from "$lib/design/BasicPanel"
+	import { Url } from "$lib/Url"
 </script>
 
 <Page title="Page not found">

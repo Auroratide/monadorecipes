@@ -1,7 +1,7 @@
-import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from "@sveltejs/adapter-static"
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte"
 
-const BASE_PATH = process.env.BASE_PATH ?? ''
+const BASE_PATH = process.env.BASE_PATH ?? ""
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -22,6 +22,6 @@ const config = {
 			"$recipes": "src/recipes",
 		},
 	},
-};
+}
 
-export default config;
+export default config

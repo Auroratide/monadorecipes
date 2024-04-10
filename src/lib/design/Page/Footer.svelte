@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { FooterBar, FooterItem } from "../FooterBar";
-	import CookingIcon from "../icons/CookingIcon.svelte";
-	import GithubIcon from "../icons/GithubIcon.svelte";
-	import BookIcon from "../icons/BookIcon.svelte";
-	import { Url, External } from "$lib/Url";
+	import { FooterBar, FooterItem } from "../FooterBar"
+	import CookingIcon from "../icons/CookingIcon.svelte"
+	import GithubIcon from "../icons/GithubIcon.svelte"
+	import BookIcon from "../icons/BookIcon.svelte"
+	import { Url, External } from "$lib/Url"
 </script>
 
 <FooterBar>

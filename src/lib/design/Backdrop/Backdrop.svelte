@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { BackdropScene } from "./BackdropScene";
+	import type { BackdropScene } from "./BackdropScene"
 
-	export let scene: BackdropScene;
+	export let scene: BackdropScene
 </script>
 
 <div class="backdrop" aria-hidden="true" style:--url="url({scene})"></div>

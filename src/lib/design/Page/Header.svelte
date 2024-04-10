@@ -1,13 +1,13 @@
 <script lang="ts">
 	import { Color } from "$lib/design/Color"
 	import { Font } from "$lib/design/Font"
-	import { Bordered } from "$lib/design/Bordered";
+	import { Bordered } from "$lib/design/Bordered"
 	import { Container, ContainerPadding } from "$lib/design/Container"
 	import { Spacing } from "$lib/design/Spacing"
 	import { Url } from "$lib/Url"
 	import CookingIcon from "../icons/CookingIcon.svelte"
 
-	export let title: string;
+	export let title: string
 </script>
 
 <header>

@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { Page } from "$lib/design/Page";
-	import { TitledPanel } from "$lib/design/TitledPanel";
-	import BookIcon from "$lib/design/icons/BookIcon.svelte";
+	import { Page } from "$lib/design/Page"
+	import { TitledPanel } from "$lib/design/TitledPanel"
+	import BookIcon from "$lib/design/icons/BookIcon.svelte"
 </script>
 
 <Page title="Legal Disclaimers">

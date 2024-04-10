@@ -1,36 +1,36 @@
 <script lang="ts">
-	import { TriangleCorners } from "../TriangleCorners";
-	import { Color } from "../Color";
-	import { Container } from "../Container";
-	import { Elevated } from "../Elevated";
-	import { VisuallyHidden } from "../VisuallyHidden";
-	import { createEventDispatcher } from "svelte";
-	import { Spacing } from "../Spacing";
-	import { page } from "$app/stores";
-	import { browser } from "$app/environment";
+	import { TriangleCorners } from "../TriangleCorners"
+	import { Color } from "../Color"
+	import { Container } from "../Container"
+	import { Elevated } from "../Elevated"
+	import { VisuallyHidden } from "../VisuallyHidden"
+	import { createEventDispatcher } from "svelte"
+	import { Spacing } from "../Spacing"
+	import { page } from "$app/stores"
+	import { browser } from "$app/environment"
 
 	const dispatch = createEventDispatcher()
 
-	let textFilter = browser ? $page.url.searchParams.get("q") ?? "" : "";
-	let searchField: HTMLInputElement;
+	let textFilter = browser ? $page.url.searchParams.get("q") ?? "" : ""
+	let searchField: HTMLInputElement
 
 	const submit = () => {
 		dispatch("search", {
 			textFilter,
-		});
+		})
 
 		// keep focus after a soft page refresh
 		if (browser) {
-			setTimeout(() => searchField.focus(), 2);
+			setTimeout(() => searchField.focus(), 2)
 		}
-	};
+	}
 
-	let lastInput = "";
+	let lastInput = ""
 	$: {
 		if (textFilter === "" && textFilter !== lastInput) {
-			submit();
+			submit()
 		}
-		lastInput = textFilter;
+		lastInput = textFilter
 	}
 </script>
 

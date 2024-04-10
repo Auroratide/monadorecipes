@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Color } from "../Color"
 	import { Container } from "../Container"
-	import { Bordered } from "../Bordered";
+	import { Bordered } from "../Bordered"
 	import { Font } from "../Font"
 </script>
 

@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { Font } from "../Font";
-	import { Color } from "../Color";
-	import { Spacing } from "../Spacing";
+	import { Font } from "../Font"
+	import { Color } from "../Color"
+	import { Spacing } from "../Spacing"
 
-	export let titleLevel: 2 | 3 | 4 | 5 | 6 = 2;
-	export let title: string | undefined = undefined;
+	export let titleLevel: 2 | 3 | 4 | 5 | 6 = 2
+	export let title: string | undefined = undefined
 
-	$: htag = `h${titleLevel}`;
+	$: htag = `h${titleLevel}`
 </script>
 
 <div class="{Color.background.banner({ translucent: true })} {Spacing.panel()} {Color.border.dark({ outset: true })} bordered bolt-container">

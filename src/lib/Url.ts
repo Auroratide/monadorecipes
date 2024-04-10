@@ -1,6 +1,6 @@
 import { base } from "$app/paths"
 
-const slash = (str: string) => (str ? `/${str}` : '')
+const slash = (str: string) => (str ? `/${str}` : "")
 
 export const Api = (url: string) => `${url}.json`
 
@@ -8,7 +8,7 @@ export const Absolute = (url: string) => `https://monado.recipes${url}`
 
 export const Url = {
 	home: () => `${base}/`,
-	recipes: (id = '') => `${base}${slash("recipes")}${slash(id)}`,
+	recipes: (id = "") => `${base}${slash("recipes")}${slash(id)}`,
 	about: () => `${base}${slash("about")}`,
 	legalDisclaimers: () => `${base}${slash("legal-disclaimers")}`,
 } as const

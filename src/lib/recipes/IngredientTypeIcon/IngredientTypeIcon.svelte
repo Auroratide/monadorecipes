@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { IngredientType } from "../Ingredient";
-	import VegetableIcon from "$lib/design/icons/VegetableIcon.svelte";
-	import SteakIcon from "$lib/design/icons/SteakIcon.svelte";
-	import FishIcon from "$lib/design/icons/FishIcon.svelte";
-	import StapleIcon from "$lib/design/icons/StapleIcon.svelte";
-	import FlowerIcon from "$lib/design/icons/FlowerIcon.svelte";
+	import { IngredientType } from "../Ingredient"
+	import VegetableIcon from "$lib/design/icons/VegetableIcon.svelte"
+	import SteakIcon from "$lib/design/icons/SteakIcon.svelte"
+	import FishIcon from "$lib/design/icons/FishIcon.svelte"
+	import StapleIcon from "$lib/design/icons/StapleIcon.svelte"
+	import FlowerIcon from "$lib/design/icons/FlowerIcon.svelte"
 
-	export let type: IngredientType;
+	export let type: IngredientType
 </script>
 
 {#if type === IngredientType.Vegetable}

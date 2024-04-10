@@ -1,26 +1,26 @@
 <script lang="ts">
-	import type { QuestItem } from "./QuestItem";
-	import QuestItemLink from "./QuestItemLink.svelte";
-	import SearchBar from "./SearchBar.svelte";
-	import { Container } from "../Container";
-	import { Elevated } from "../Elevated";
-	import { Color } from "../Color";
-	import { goto } from "$app/navigation";
-	import { page } from "$app/stores";
-	import { browser } from "$app/environment";
+	import type { QuestItem } from "./QuestItem"
+	import QuestItemLink from "./QuestItemLink.svelte"
+	import SearchBar from "./SearchBar.svelte"
+	import { Container } from "../Container"
+	import { Elevated } from "../Elevated"
+	import { Color } from "../Color"
+	import { goto } from "$app/navigation"
+	import { page } from "$app/stores"
+	import { browser } from "$app/environment"
 
-	export let baseUrl: string;
-	export let items: QuestItem[];
+	export let baseUrl: string
+	export let items: QuestItem[]
 
-	$: searchTerm = browser ? $page.url.searchParams.get("q") ?? "" : "";
+	$: searchTerm = browser ? $page.url.searchParams.get("q") ?? "" : ""
 	$: filteredItems = items.filter((item) => {
-		return item.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase());
+		return item.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
 	})
 
 	const search = (event: CustomEvent<{ textFilter: string }>) => {
-		const { textFilter } = event.detail;
-		goto(`?q=${textFilter}`, { replaceState: true });
-	};
+		const { textFilter } = event.detail
+		goto(`?q=${textFilter}`, { replaceState: true })
+	}
 </script>
 
 <section class="{Elevated()} {Color.background.light({ translucent: true })} overlap-container">

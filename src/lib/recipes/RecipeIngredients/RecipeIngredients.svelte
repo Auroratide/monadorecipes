@@ -1,11 +1,11 @@
 <script lang="ts">
-	import type { MeasuredIngredient } from "../Recipe";
-	import { Font } from "$lib/design/Font";
-	import { Color } from "$lib/design/Color";
-	import { ItemTable, ItemTextCell, ItemIconCell } from "$lib/design/ItemTable";
-	import { IngredientTypeIcon } from "../IngredientTypeIcon";
-	import { RarityIndicator } from "$lib/rarity/RarityIndicator";
-	import { FormattedMeasure } from "../Measure";
+	import type { MeasuredIngredient } from "../Recipe"
+	import { Font } from "$lib/design/Font"
+	import { Color } from "$lib/design/Color"
+	import { ItemTable, ItemTextCell, ItemIconCell } from "$lib/design/ItemTable"
+	import { IngredientTypeIcon } from "../IngredientTypeIcon"
+	import { RarityIndicator } from "$lib/rarity/RarityIndicator"
+	import { FormattedMeasure } from "../Measure"
 
 	export let ingredients: MeasuredIngredient[]
 </script>

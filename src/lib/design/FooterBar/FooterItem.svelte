@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { Color } from "../Color";
-	import { Spacing } from "../Spacing";
+	import { Color } from "../Color"
+	import { Spacing } from "../Spacing"
 
-	export let href: string | undefined = undefined;
-	export let text: string;
-	export let printOnly: boolean = false;
+	export let href: string | undefined = undefined
+	export let text: string
+	export let printOnly: boolean = false
 </script>
 
 <li class:print-only={printOnly}>

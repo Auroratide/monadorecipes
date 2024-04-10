@@ -1,13 +1,13 @@
 <script lang="ts">
-	import { Font } from "../Font";
-	import { Color } from "../Color";
-	import { Spacing } from "../Spacing";
-	import { Elevated } from "../Elevated";
-	import { TriangleCorners } from "../TriangleCorners";
-	import { ContainerPadding } from "../Container";
+	import { Font } from "../Font"
+	import { Color } from "../Color"
+	import { Spacing } from "../Spacing"
+	import { Elevated } from "../Elevated"
+	import { TriangleCorners } from "../TriangleCorners"
+	import { ContainerPadding } from "../Container"
 
-	export let title: string;
-	export let subtitle: string;
+	export let title: string
+	export let subtitle: string
 </script>
 
 <hgroup class="{Elevated({ useFilter: true })}">

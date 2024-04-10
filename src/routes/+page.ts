@@ -7,7 +7,7 @@ export const load: PageLoad = async ({ fetch }) => {
 		if (res.ok) {
 			return res.json()
 		} else {
-			error(500, "Could not fetch recipes");
+			error(500, "Could not fetch recipes")
 		}
 	})
 }

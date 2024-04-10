@@ -1,13 +1,13 @@
 <script lang="ts">
-	import type { QuestItem } from "./QuestItem";
-	import { Elevated } from "../Elevated";
-	import { Color } from "../Color";
-	import { Font } from "../Font";
-	import { Spacing } from "../Spacing";
-	import ResponsiveImage from "$lib/image/ResponsiveImage/ResponsiveImage.svelte";
+	import type { QuestItem } from "./QuestItem"
+	import { Elevated } from "../Elevated"
+	import { Color } from "../Color"
+	import { Font } from "../Font"
+	import { Spacing } from "../Spacing"
+	import ResponsiveImage from "$lib/image/ResponsiveImage/ResponsiveImage.svelte"
 
-	export let baseUrl: string;
-	export let item: QuestItem;
+	export let baseUrl: string
+	export let item: QuestItem
 </script>
 
 <a class="{Elevated()} overlap-container set-aspect-ratio" href="{baseUrl}/{item.id}">

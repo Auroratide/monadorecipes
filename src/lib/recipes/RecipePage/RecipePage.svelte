@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Page } from "$lib/design/Page"
 	import { Font } from "$lib/design/Font"
-	import { Color } from "$lib/design/Color"
 	import { TitledPanel } from "$lib/design/TitledPanel"
 	import { QuestPanel } from "$lib/design/QuestPanel"
 	import { RarityIndicator } from "$lib/rarity/RarityIndicator"
@@ -17,11 +16,11 @@
 	import { ResponsiveImage } from "$lib/image/ResponsiveImage"
 	import { RecipeTypeIcon } from "$lib/recipes/RecipeTypeIcon"
 	import type { Recipe } from "../Recipe"
-	import { buildOpenGraph, OpenGraphMeta } from "$lib/open-graph";
-	import { RecipeIngredients } from "../RecipeIngredients";
-	import { NoPrint } from "$lib/design/NoPrint";
+	import { buildOpenGraph, OpenGraphMeta } from "$lib/open-graph"
+	import { RecipeIngredients } from "../RecipeIngredients"
+	import { NoPrint } from "$lib/design/NoPrint"
 	
-	export let recipe: Recipe;
+	export let recipe: Recipe
 
 	$: openGraph = buildOpenGraph({
 		title: recipe.name,

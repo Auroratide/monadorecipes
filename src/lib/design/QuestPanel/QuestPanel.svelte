@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { Color } from "$lib/design/Color";
-	import { Font } from "$lib/design/Font";
-	import { Elevated } from "$lib/design/Elevated";
+	import { Color } from "$lib/design/Color"
+	import { Font } from "$lib/design/Font"
+	import { Elevated } from "$lib/design/Elevated"
 </script>
 
 <section class="{Color.background.light()} {Color.text.dark()} {Elevated()} padded column">

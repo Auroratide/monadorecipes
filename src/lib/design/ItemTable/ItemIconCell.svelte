@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { Spacing } from "../Spacing";
+	import { Spacing } from "../Spacing"
 
-	export let align: "left" | "center" | "right" = "left";
-	export let noSpace: boolean = false;
+	export let align: "left" | "center" | "right" = "left"
+	export let noSpace: boolean = false
 </script>
 
 <td class:no-space={noSpace}>

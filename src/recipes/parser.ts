@@ -1,8 +1,8 @@
-import { parse as parseHtml, HTMLElement } from "node-html-parser";
-import { RecipeType, type Recipe, RecipeSource, type MeasuredIngredient } from "$lib/recipes/Recipe";
-import type { Rarity } from "$lib/rarity/Rarity";
-import { IngredientType } from "$lib/recipes/Ingredient";
-import { MeasureAmountFraction, type Measure, MeasureUnit, MeasureAmountDecimal, asPlural } from "$lib/recipes/Measure";
+import { parse as parseHtml, HTMLElement } from "node-html-parser"
+import { RecipeType, type Recipe, RecipeSource, type MeasuredIngredient } from "$lib/recipes/Recipe"
+import type { Rarity } from "$lib/rarity/Rarity"
+import { IngredientType } from "$lib/recipes/Ingredient"
+import { MeasureAmountFraction, type Measure, MeasureUnit, MeasureAmountDecimal, asPlural } from "$lib/recipes/Measure"
 import type { Image } from "$lib/image/Image"
 
 export function parseRecipe(rawHtml: string, attributes: Record<string, unknown>, imageSources: Image): Recipe {
@@ -210,7 +210,7 @@ function parseMeasure(measure: string): Measure | undefined {
 		}
 	}
 
-	const isEmpty = measure.match(/^\-$/)
+	const isEmpty = measure.match(/^-$/)
 	if (isEmpty) {
 		return undefined
 	}
