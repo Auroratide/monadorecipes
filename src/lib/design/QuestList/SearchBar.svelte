@@ -3,21 +3,29 @@
 	import { Color } from "../Color"
 	import { Container } from "../Container"
 	import { Elevated } from "../Elevated"
-	import { VisuallyHidden } from "../VisuallyHidden"
 	import { createEventDispatcher } from "svelte"
 	import { Spacing } from "../Spacing"
 	import { page } from "$app/stores"
 	import { browser } from "$app/environment"
+	import SearchIcon from "$lib/design/icons/SearchIcon.svelte"
 
 	const dispatch = createEventDispatcher()
 
 	let textFilter = browser ? $page.url.searchParams.get("q") ?? "" : ""
 	let searchField: HTMLInputElement
 
+	const search = () => {
+		const currentFilter = $page.url.searchParams.get("q")
+
+		if (currentFilter !== textFilter)  {
+			dispatch("search", {
+				textFilter,
+			})
+		}
+	}
+
 	const submit = () => {
-		dispatch("search", {
-			textFilter,
-		})
+		search()
 
 		// keep focus after a soft page refresh
 		if (browser) {
@@ -37,8 +45,20 @@
 <div class="{Elevated({ useFilter: true })}">
 	<search class="{Container()} {Color.background.banner()} {TriangleCorners({})} overlap-top centered">
 		<form on:submit|preventDefault={submit} method="get">
-			<label for="text-filter" class="{VisuallyHidden()}">Search</label>
-			<input bind:this={searchField} id="text-filter" type="search" name="q" bind:value={textFilter} placeholder="Search" class="invisible-input {Spacing.centeredLabel()} long-input" />
+			<div class="with-centered-icon">
+				<label for="text-filter"><SearchIcon /></label>
+				<p>{textFilter ? textFilter : "Search"}</p>
+				<input
+					bind:this={searchField}
+					id="text-filter"
+					type="search"
+					name="q"
+					bind:value={textFilter}
+					on:blur={search}
+					placeholder="Search"
+					class="invisible-input {Spacing.centeredLabel()} long-input"
+				/>
+			</div>
 		</form>
 	</search>
 </div>
@@ -71,24 +91,49 @@
 		cursor: pointer;
 	}
 
-	.invisible-input:focus {
-		cursor: text;
-	}
+	.invisible-input:focus { cursor: text; }
 
 	.invisible-input::placeholder {
 		opacity: 1;
-		color: var(--color-text-emphasized);
+		color: var(--color-text-regular);
 	}
 
-	.invisible-input:focus::placeholder {
-		opacity: 0;
+	.invisible-input:focus::placeholder { opacity: 0; }
+
+	.long-input { min-width: 30ch; }
+	.centered { text-align: center; }
+
+	/* All this gymnasitcs is to place the icon next to centered input text, regardless of what that text is. */
+	.with-centered-icon {
+		position: relative;
+		display: flex;
+		align-items: center;
 	}
 
-	.long-input {
-		min-width: 30ch;
+	.with-centered-icon:focus-within label { display: none; }
+
+	.with-centered-icon input {
+		position: absolute;
+		inset-block-start: 50%;
+		inset-inline-start: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
 	}
 
-	.centered {
-		text-align: center;
+	.with-centered-icon p {
+		margin: 0;
+		visibility: hidden;
+	}
+
+	.with-centered-icon label {
+		cursor: pointer;
+		position: absolute;
+		z-index: 2;
+		transform: translateX(-2em);
+		block-size: 100%;
+		inline-size: 1.5em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 </style>
