@@ -18,7 +18,6 @@ const config = {
 			base: BASE_PATH,
 		},
 		alias: {
-			"$data": "src/data",
 			"$recipes": "src/recipes",
 		},
 	},

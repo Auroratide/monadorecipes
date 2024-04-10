@@ -4,7 +4,7 @@
 	import { Container } from "$lib/design/Container"
 	import { Backdrop, BackdropScene } from "$lib/design/Backdrop"
 	import CookingIcon from "../icons/CookingIcon.svelte"
-	import { siteDescription } from "$data/description"
+	import { siteDescription } from "$lib/site-info"
 
 	export let title: string
 	export let description: string = siteDescription

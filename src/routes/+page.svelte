@@ -8,7 +8,7 @@
 	import CookingIcon from "$lib/design/icons/CookingIcon.svelte"
 	import type { Recipe } from "$lib/recipes/Recipe"
 	import { buildOpenGraph, OpenGraphMeta } from "$lib/open-graph"
-	import { siteDescription } from "$data/description"
+	import { siteDescription } from "$lib/site-info"
 
 	export let data: PageData
 	$: list = data.items.filter((item: Recipe) => !item.unlisted)
