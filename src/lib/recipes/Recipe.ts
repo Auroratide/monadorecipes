@@ -21,6 +21,7 @@ export const RecipeSource = {
 	Mythra: "Mythra's \"Creative\" Cuisine",
 	Pyra: "Pyra's Cooking",
 	Vess: "Vess's Dumplings",
+	Manana: "Manana's Menu",
 } as const
 export type RecipeSource = typeof RecipeSource[keyof typeof RecipeSource]
 

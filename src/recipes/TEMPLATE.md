@@ -7,7 +7,7 @@ published: false
 One- or two-sentence short description of the food.
 
 * Type: Meat | Veggie | Staple | Dessert | Seafood
-* Source: Aegaeon's Refined Cuisine | Crossette's Cooking | Jin's Home Cooking | Just Desserts | Mythra's "Creative" Cuisine | Pyra's Cooking | Vess's Dumplings
+* Source: Aegaeon's Refined Cuisine | Crossette's Cooking | Jin's Home Cooking | Just Desserts | Mythra's "Creative" Cuisine | Pyra's Cooking | Vess's Dumplings | Manana's Menu
 * Time: ## minutes
 * Rarity: 1 | 2 | 3
 
