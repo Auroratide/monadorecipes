@@ -1,9 +1,10 @@
-<script lang="ts">
+<script lang="ts" generics="T">
 	import { Font } from "$lib/design/Font"
 	import { Color } from "$lib/design/Color"
 	import { TriangleCorners } from "$lib/design/TriangleCorners"
 
-	export let items: unknown[]
+	// eslint-disable-next-line no-undef
+	export let items: T[]
 	export let headings: string[]
 </script>
 
