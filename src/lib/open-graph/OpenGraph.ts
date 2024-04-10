@@ -4,4 +4,5 @@ export type OpenGraph = {
 	description: string,
 	image: string,
 	url: string,
+	type: "website" | "article",
 }

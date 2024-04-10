@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<meta property="og:title" content={value.title} />
+	<meta property="og:type" content={value.type} />
 	<meta property="og:description" content={value.description} />
 	<meta property="og:image" content={value.image} />
 	<meta property="og:url" content={value.url} />

@@ -27,6 +27,7 @@
 		description: recipe.description,
 		image: recipe.image.fallback.src,
 		relativeUrl: Url.recipes(recipe.id),
+		type: "article",
 	})
 </script>
 
