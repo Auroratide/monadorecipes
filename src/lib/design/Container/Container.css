@@ -1,5 +1,5 @@
 :root {
-	--container-width: 1050px;
+	--container-width: 72.5rem;
 	--container-padding: clamp(0.5rem, 1.5vw, 2rem);
 }
 

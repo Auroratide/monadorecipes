@@ -21,7 +21,7 @@
 			<h1 class="{Font.size.stars(5)} {Spacing.centeredLabel({ alignment: "left" })}" style="{Spacing.stars(5)}">{title}</h1>
 		</div>
 	</div>
-	<nav aria-label="Site" class="{Font.size.stars(4)} {Color.background.darkShiny()} {Color.border.dark()} bottom-border right-border rounded-corner">
+	<nav aria-label="Site" class="{Font.size.stars(3)} {Color.background.darkShiny()} {Color.border.dark()} bottom-border right-border rounded-corner">
 		<div class="{ContainerPadding({ side: "left" })}">
 			<span class="{Spacing.centeredLabel({ alignment: "left" })}" style="{Spacing.stars(1)}">
 				<a href="{Url.home()}" class="{Color.text.muted()}">More Recipes</a>
