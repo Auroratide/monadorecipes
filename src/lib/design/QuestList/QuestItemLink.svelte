@@ -4,7 +4,8 @@
 	import { Color } from "../Color"
 	import { Font } from "../Font"
 	import { Spacing } from "../Spacing"
-	import ResponsiveImage from "$lib/image/ResponsiveImage/ResponsiveImage.svelte"
+	import { ResponsiveImage } from "$lib/image/ResponsiveImage"
+	import { Bracketed } from "$lib/design/Bracketed"
 
 	export let baseUrl: string
 	export let item: QuestItem
@@ -12,7 +13,11 @@
 
 <a class="{Elevated()} overlap-container set-aspect-ratio" href="{baseUrl}/{item.id}">
 	<ResponsiveImage image={item.image} alt="" />
-	<p class="{Color.text.regular()} {Color.background.shiny({ translucent: true })} {Font.size.stars(3)} {Spacing.centeredLabel()} overlap-bottom">{item.name}</p>
+	<p class="{Color.text.regular()} {Color.background.shiny({ translucent: true })} {Font.size.stars(3)} {Spacing.centeredLabel()} overlap-bottom">
+		<Bracketed>
+			{item.name}
+		</Bracketed>
+	</p>
 </a>
 
 <style>
