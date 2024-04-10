@@ -12,12 +12,15 @@
 	ol {
 		padding: 0;
 		counter-reset: directions;
+		margin: 0;
 	}
 
 	li {
 		list-style: none;
-		margin-bottom: 1rem;
+		margin-block-end: 1.75rem;
 	}
+
+	li:last-child { margin-block-end: 0; }
 
 	li::before {
 		display: block;
@@ -25,7 +28,7 @@
 		font-weight: bold;
 		font-size: var(--font-size-1-star);
 		color: var(--color-text-emphasized);
-		-webkit-text-stroke: 0.01em var(--color-bg-medium);
+		-webkit-text-stroke: 0.005em var(--color-bg-medium);
 		margin-bottom: 0.25rem;
 		counter-increment: directions;
 	}
