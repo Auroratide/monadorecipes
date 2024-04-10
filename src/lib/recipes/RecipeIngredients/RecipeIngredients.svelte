@@ -16,8 +16,8 @@
 			<IngredientTypeIcon type={item.type} />
 		</ItemIconCell>
 		<ItemTextCell>
-			<span>
-				{item.name}
+			<span class="flex-row">
+				<span>{item.name}</span>
 				{#if item.preparation}
 					<span class="{Font.size.stars(1)}">({item.preparation})</span>
 				{/if}
@@ -39,6 +39,14 @@
 </div>
 
 <style>
+	.flex-row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.75ch;
+	}
+
 	@media print {
 		.recipe-ingredients :global(table) {
 			border-collapse: collapse;
