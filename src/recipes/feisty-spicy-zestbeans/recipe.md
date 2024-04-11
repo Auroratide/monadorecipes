@@ -4,7 +4,7 @@ published: true
 
 # Feisty-Spicy Zestbeans
 
-A spicy, crimson bean soup sprinkled with nuts that goes good with bread or chips.
+A spicy, crimson bean and peanut soup that goes good with bread or chips.
 
 * Type: Veggie
 * Source: Manana's Menu
@@ -22,14 +22,14 @@ A spicy, crimson bean soup sprinkled with nuts that goes good with bread or chip
 | Vegetable Broth      | 2 cups         | 1      | Vegetable |
 | Chipotle in Adobo Pepper | 7 oz       | 3      | Vegetable |
 | Raw Peanuts (deshelled) | 1/2 cup       | 2      | Nut       |
-| Onion (chopped)      | 1              | 1      | Vegetable |
+| Onion (chopped)      | 1/2              | 1      | Vegetable |
 | Garlic (minced)      | 1 clove        | 1      | Vegetable |
 | Hot Chili Powder     | 1 1/2 teaspoons | 2      | Spice     |
 | Paprika              | 1 teaspoon     | 1      | Spice     |
 | Cumin                | 1 teaspoon     | 2      | Spice     |
 | Oregano              | 1/2 teaspoon   | 1      | Spice     |
 | Salt and Pepper      | -              | 1      | Spice     |
-| Olive Oil            | 3 tablespoons  | 1      | Oil       |
+| Olive Oil            | 2 tablespoons  | 1      | Oil       |
 | Dinner Rolls (optional) | -           | 2      | Grain     |
 
 ## Directions
@@ -51,7 +51,11 @@ A spicy, crimson bean soup sprinkled with nuts that goes good with bread or chip
 * Crimson Moonbloom: 3
 * Fire Apricot: 2
 
-A couple of paragraphs on why we chose to make the recipe the way we did based on the above ingredients.
+Manana's recipe adds spice and excitement to the otherwise bland military meal. Her most significant innovation is the inclusion of Fire Apricots, which add both burn and veggie variety.
+
+In our intepretation, the Fire Apricots are chipotle peppers. To make the recipe even spicier and give it its red tint, chili powder, paprika, and cumin are used, representing the crimson moonbloom and prickle spice.
+
+Finally, the peanuts are what set this recipe apart from normal non-fantasy bean soup recipes. Manana adds Cracker Nuts, and therefore so do we. Despite simmering in the soup, the peanuts retain their crunchiness and contrast well with the soft beans and peppers.
 
 ## References
 
