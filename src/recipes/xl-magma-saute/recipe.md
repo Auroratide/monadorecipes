@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # XL Magma Saute
@@ -49,5 +49,3 @@ A quick magma-colored vegetarian sauté.
 Named for its swift sauté method, this dish focuses on vibrant orange and yellow veggies, sidelining greens for a fiery 'magma' color. We favor acorn squash as Sumpkins for its texture and availability, hefty carrots as Meaty Carrots to emulate meatiness, and bell peppers as Starpeppers for their vaguely star-like shape and compatibility with stir-fry dishes.
 
 For the Barbed Tomato, we are using General Tso's sauce since it contains tomato paste. For the final ingredient, Hustle Hyacinth, we tried corn since the hyacinth is also used in a salsa, a dessert pie, and considered a "vegetable" item in Xenoblade 2. Although atypical in sautés, it adds both a bubbly texture to the "magma" and a unique flavor to the dish.
-
-Todo: Rethink general tso's sauce
