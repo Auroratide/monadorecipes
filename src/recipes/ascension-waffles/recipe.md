@@ -4,7 +4,7 @@ published: true
 
 # Ascension Waffles
 
-Brined chicken friend in waffle batter and served with spicy mango syrup.
+Brined chicken fried in waffle batter and served with spicy mango syrup.
 
 * Type: Dessert
 * Source: Mythra's "Creative" Cuisine
@@ -22,26 +22,30 @@ Brined chicken friend in waffle batter and served with spicy mango syrup.
 | Garlic Powder        | 1 teaspoon     | 1      | Spice     |
 | Black Pepper         | 1 teaspoon     | 1      | Spice     |
 | Water                | 8 cups         | 1      | Liquid    |
+| Mango, chopped       | 1 1/2 cups     | 2      | Fruit     |
+| Granulated Sugar     | 1 cups         | 1      | Spice     |
+| Water                | 3/4 cups       | 1      | Liquid    |
+| Red Pepper Flakes    | 1 teaspoon     | 2      | Spice     |
 | Chicken Breast, thin | 2 lbs.         | 2      | Meat      |
 | Pancake/Waffle Mix   | 2 cups         | 1      | Grain     |
 | Egg                  | 1 egg          | 1      | Meat      |
 | Water, Cold          | 1 cups         | 1      | Liquid    |
-| Mango, chopped       | 1 cup          | 2      | Fruit     |
-| Granulated Sugar     | 1 cups         | 1      | Spice     |
-| Water                | 3/4 cups       | 1      | Liquid    |
-| Red Pepper Flakes    | 1 teaspoon     | 2      | Spice     |
 | Vegetable Oil        | -              | 1      | Oil       |
 | Bell Pepper          | 1              | 1      | Vegetable |
 
 ## Directions
 
-1. Chop the bok choy, separating the stems from the leaves. Chop the stems into very thin slices. The leaves will be used later.
-2. Pour the olive oil in a pan under medium heat. Saute the garlic with the bok choy stems until the stems soften, about 3 minutes.
-3. Stir in the red pepper flakes, some salt and pepper, wine, and tomatoes and cook until the juice starts to come out of the tomatoes, about 3 minutes.
-4. Add water, capers, and olives. Cover and simmer for 5 miniutes.
-5. Season the fish with salt, then add to the pan nestled within the sauce. Cover and cook until the fish is opaque, about 10 minutes.
-6. Layer the bok choy leaves on the bottom of serving bowls. Place the fish on top of the leaves, then spoon the sauce over the fish.
-7. Serve with crusty bread and enjoy!
+1. Dissolve salt and brown sugar in 8 cups water in a large pot. Bring to a boil, then remove from heat and allow to cool. Add vinegar, black pepper, allspice, and garlic powder.
+2. Cut chicken into waffle-sized pieces. Add chicken, submerging completely. Brine for 1.5-2 hours in a refrigerator. Complete steps 3-6 while chicken is brining.
+3. While chicken is brining, add mango, granulated sugar, red pepper flakes, and 3/4 cups water to a saucepan. Stir together and bring to a boil, then reduce heat and simmer for 10 minutes.
+4. Remove from heat and allow to cool 3 minutes. Press the mango mixture into a fine mesh, separating syrup from the mango. Add syrup back to the saucepan, reduce again for 5 minutes. Let syrup cool completely.
+5. In a large mixing bowl, combine 2 cups pancake/waffle mix, egg, and 1 cup cold water. Mix ingredients just enough to homogenize. 
+6. Cut bell pepper into small slices. These will primarily serve as garnish and/or a fresh snap to the savory dish.
+7. After brining, rinse chicken completely with water. In a large pan, add vegetable oil until the pan has about 1/2 inch oil in it. Heat on medium high.
+8. Add chicken to the waffle batter mix, covering each side with batter. Once oil is heated, add chicken to the hot oil and fry for 4-5 minutes on each side. Do not overcrowd the pan.
+9. After frying both sides, remove chicken to a breathable rack with paper towels underneath.
+10. Serve with bell peppers and mango syrup and enjoy!
+11. NOTES: Do not spice the batter. Try mango pulp instead of mango pieces. Might try adding self-rising flour to waffle batter mix. Is there a way to fry the chicken without overfrying the batter?
 
 ## Interpretation
 
@@ -50,12 +54,10 @@ Brined chicken friend in waffle batter and served with spicy mango syrup.
 * Vinegar Leaf: 1
 * Rhogul Birdmeat: 1
 
-Acqua Pazza is the name of a real fish recipe, Italian for "crazy water". Firm, white fish cooked with small, juicy tomatoes is a common theme among recipes, and this fits well with Pyra's use of Emblazoned Ray and Whisper Tomatoes.
-
-Where this recipe differs from most is in the use of Bok Choy cabbage instead of fennel, in order to represent the Puri Leaf Cabbage. Bok Choy's stem provides a similar texture, albeit with a milder flavor.
-
-We use red pepper flakes to represent the Spirit Clematis, as clematis plants may have been used in the past as a pepper substitute prior to the discovery of its toxicity. Finally, to emphasize the "Pearl" part of the dish's name, whole olives are used to give a pearl-like appearance.
+Description here.
 
 ## References
 
-* https://www.ciaoitalia.com/recipes/acqua-pazza-2
+* https://www.thespruceeats.com/poultry-brine-recipe-333865
+* https://veggiedesserts.com/mango-syrup/
+* https://iheartrecipes.com/waffle-fried-chicken-recipe/
