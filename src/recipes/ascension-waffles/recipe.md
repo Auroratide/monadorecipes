@@ -16,7 +16,7 @@ Brined chicken friend in waffle batter and served with spicy mango syrup.
 | Ingredient           | Qualtity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | White Vinegar        | 1/4 cups       | 1      | Liquid    |
-| Brown Sugar          | 2 tablespoons  | 1      | Sugar     |
+| Brown Sugar          | 2 tablespoons  | 1      | Spice     |
 | Salt                 | 1/2 cups       | 1      | Spice     |
 | Allspice             | 1 teaspoon     | 3      | Spice     |
 | Garlic Powder        | 1 teaspoon     | 1      | Spice     |
@@ -27,7 +27,7 @@ Brined chicken friend in waffle batter and served with spicy mango syrup.
 | Egg                  | 1 egg          | 1      | Meat      |
 | Water, Cold          | 1 cups         | 1      | Liquid    |
 | Mango, chopped       | 1 cup          | 2      | Fruit     |
-| Granulated Sugar     | 1 cups         | 1      | Sugar     |
+| Granulated Sugar     | 1 cups         | 1      | Spice     |
 | Water                | 3/4 cups       | 1      | Liquid    |
 | Red Pepper Flakes    | 1 teaspoon     | 2      | Spice     |
 | Vegetable Oil        | -              | 1      | Oil       |
