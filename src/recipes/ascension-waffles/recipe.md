@@ -28,7 +28,7 @@ Brined chicken fried in waffle batter and served with spicy mango syrup.
 | Red Pepper Flakes    | 1 teaspoon     | 2      | Spice     |
 | Chicken Breast, thin | 2 lbs.         | 2      | Meat      |
 | Pancake/Waffle Mix   | 2 cups         | 1      | Grain     |
-| Egg                  | 1 egg          | 1      | Meat      |
+| Egg                  | 1              | 1      | Meat      |
 | Water, Cold          | 1 cups         | 1      | Liquid    |
 | Vegetable Oil        | -              | 1      | Oil       |
 | Bell Pepper          | 1              | 1      | Vegetable |
