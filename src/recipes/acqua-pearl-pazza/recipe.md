@@ -27,7 +27,7 @@ Fish cooked in a spicy tomato-based soup with pearl-like olives.
 | Salt                 | -              | 1      | Spice     |
 | Black Pepper         | -              | 1      | Spice     |
 | Swai Fish (6-oz fillets) | 4          | 2      | Fish      |
-| Crusty Breat         | -              | 1      | Grain     |
+| Crusty Bread         | -              | 1      | Grain     |
 
 ## Directions
 
