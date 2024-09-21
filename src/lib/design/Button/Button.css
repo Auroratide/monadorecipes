@@ -42,7 +42,6 @@ a.button:hover, a.button:focus {
 	bottom: 0;
 	left: 0;
 	background: linear-gradient(hsla(300, 52%, 50%, 0.925), hsla(296, 55%, 59%, 0.925) 50%, hsla(297, 58%, 53%, 0.925) 54%, hsla(295, 66%, 47%, 0.925));
-	clip-path: polygon(var(--triangle-corners-width) 0, calc(100% - var(--triangle-corners-width)) 0, 100% 50%, calc(100% - var(--triangle-corners-width)) 100%, var(--triangle-corners-width) 100%, 0 50%);
 	z-index: -1;
 }
 

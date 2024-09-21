@@ -20,7 +20,7 @@
 	</thead>
 	<tbody>
 		{#each items as item}
-			<tr class="{Color.background.medium()} {TriangleCorners({})}">
+			<tr class="tr-triangle-borders {TriangleCorners({ type: "custom" })}">
 				<slot {item}></slot>
 			</tr>
 		{/each}
@@ -38,21 +38,4 @@
 	}
 
 	.normal-weight { font-weight: normal; }
-
-	tr {
-		margin-bottom: 1px;
-	}
-
-	tr > :global(td) {
-		padding-inline: 0.5em;
-		line-height: 1;
-	}
-
-	tr > :global(td:first-child) {
-		padding-inline-start: 1.5em;
-	}
-
-	tr > :global(td:last-child) {
-		padding-inline-end: 1.5em;
-	}
 </style>

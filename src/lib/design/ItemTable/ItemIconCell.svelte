@@ -1,18 +1,13 @@
 <script lang="ts">
 	import { Spacing } from "../Spacing"
+	import ItemBaseCell from "./ItemBaseCell.svelte"
 
 	export let align: "left" | "center" | "right" = "left"
 	export let noSpace: boolean = false
 </script>
 
-<td class:no-space={noSpace}>
+<ItemBaseCell {noSpace}>
 	<span class="{Spacing.centeredIcon({ alignment: align })}" style="{Spacing.stars(3)}">
 		<slot></slot>
 	</span>
-</td>
-
-<style>
-	.no-space {
-		padding: 0;
-	}
-</style>
+</ItemBaseCell>

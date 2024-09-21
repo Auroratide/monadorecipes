@@ -1,5 +1,5 @@
 export type TriangleCornersOptions = {
-	type?: "both" | "right"
+	type?: "both" | "right" | "left" | "custom"
 }
 
 export const TriangleCorners = ({
