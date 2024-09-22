@@ -48,4 +48,10 @@
 	}
 
 	.no-space { padding: 0; }
+
+	@media print {
+		td::before, td::after {
+			display: none;
+		}
+	}
 </style>
