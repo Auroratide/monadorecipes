@@ -9,7 +9,7 @@
 	$: htag = `h${titleLevel}`
 </script>
 
-<div class="{Color.background.banner({ translucent: true })} {Spacing.panel()} {Color.border.dark({ outset: true })} bordered bolt-container">
+<div class="{Color.background.banner({ translucent: true })} {Spacing.panel()} {Color.border.dark({ outset: true })} bordered bolt-container simple-hrs">
 	{#if title}
 		<svelte:element this={htag} class="{Font.size.stars(1)} {Color.text.muted()} {Spacing.after()}">
 			{title}
@@ -49,5 +49,14 @@
 
 	.last-no-margin > :global(*:last-child) {
 		margin-bottom: 0;
+	}
+
+	.simple-hrs :global(hr) {
+		max-inline-size: 10em;
+		block-size: 0.0625em;
+		margin-block: 1.5em;
+		border: none;
+		background-color: var(--color-border-regular);
+		opacity: 0.4;
 	}
 </style>

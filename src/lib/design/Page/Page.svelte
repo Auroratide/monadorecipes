@@ -8,6 +8,7 @@
 
 	export let title: string
 	export let description: string = siteDescription
+	export let backdrop: BackdropScene = BackdropScene.TornaCamp
 </script>
 
 <svelte:head>
@@ -15,7 +16,7 @@
 	<meta property="description" content={description} />
 </svelte:head>
 
-<Backdrop scene={BackdropScene.TornaCamp} />
+<Backdrop scene={backdrop} />
 <Header {title}>
 	<slot slot="icon" name="header-icon">
 		<CookingIcon />
