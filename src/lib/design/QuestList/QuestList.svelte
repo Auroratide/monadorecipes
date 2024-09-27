@@ -8,6 +8,8 @@
 	import { goto } from "$app/navigation"
 	import { page } from "$app/stores"
 	import { browser } from "$app/environment"
+	import { flip } from "svelte/animate"
+	import { fade } from "svelte/transition"
 
 	export let baseUrl: string
 	export let items: QuestItem[]
@@ -26,15 +28,14 @@
 <section class="{Elevated()} {Color.background.light({ translucent: true })} overlap-container">
 	<SearchBar on:search={search} />
 	<div class="{Container()} pad-block">
-		{#if filteredItems.length > 0}
-			<ul class="no-list three-columns">
-				{#each filteredItems as item (item.id)}
-					<li>
-						<QuestItemLink {baseUrl} {item} />
-					</li>
-				{/each}
-			</ul>
-		{:else}
+		<ul class="no-list three-columns">
+			{#each filteredItems as item, i (item.id)}
+				<li in:fade={{ duration: 150, delay: i * 10 }} animate:flip={{ duration: 150 }}>
+					<QuestItemLink {baseUrl} {item} />
+				</li>
+			{/each}
+		</ul>
+		{#if filteredItems.length === 0}
 			<p class="{Color.text.dark()} center" aria-live="assertive">No recipes found for "{searchTerm}".</p>
 		{/if}
 	</div>
