@@ -78,3 +78,53 @@ img-zoom { display: block; }
 @page {
    margin: 0.25in 0.5in;
 }
+
+/* VIEW TRANSITIONS */
+
+@keyframes slide-from-right {
+	from {
+		transform: translateX(2em);
+		opacity: 0;
+	} to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slide-from-left {
+	from {
+		transform: translateX(-2em);
+		opacity: 0;
+	} to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+::view-transition-new(ingredients),
+::view-transition-new(recipe-info),
+::view-transition-new(directions),
+::view-transition-new(interpretation),
+::view-transition-new(recipe-list),
+::view-transition-new(legal),
+::view-transition-new(about) {
+	transform: translateX(-2em);
+	opacity: 0;
+	animation: slide-from-left 0.25s ease-out;
+	animation-delay: 0.125s;
+	z-index: 1;
+}
+
+::view-transition-group(footer) {
+	z-index: 10;
+}
+
+@media screen and (min-width: 800px) {
+	::view-transition-new(recipe-info) {
+		transform: translateX(2em);
+		opacity: 0;
+		animation: slide-from-right 0.25s ease-out;
+		animation-delay: 0.125s;
+		z-index: 1;
+	}
+}

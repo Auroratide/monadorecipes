@@ -36,7 +36,7 @@
 	<RecipeTypeIcon slot="header-icon" type={recipe.type} />
 	<div class="print:two-columns">
 		<div class="{TwoOneColumn()} print:invert print:small-column">
-			<div class="{OneColumn()}">
+			<div class="{OneColumn()}" style:view-transition-name="recipe-info">
 				<div class="print:square-images print:bordered-images">
 					<QuestPanel>
 						<img-zoom slot="image">
@@ -58,17 +58,19 @@
 					</BasicPanel>
 				</div>
 			</div>
-			<TitledPanel title="Ingredients">
-				<RecipeIngredients ingredients={recipe.ingredients} />
-			</TitledPanel>
+			<div style:view-transition-name="ingredients">
+				<TitledPanel title="Ingredients">
+					<RecipeIngredients ingredients={recipe.ingredients} />
+				</TitledPanel>
+			</div>
 		</div>
-		<div class="print:large-column">
+		<div class="print:large-column" style:view-transition-name="directions">
 			<TitledPanel title="Directions">
 				<RecipeSteps steps={recipe.directions.steps} />
 			</TitledPanel>
 		</div>
 	</div>
-	<div class="{NoPrint()}">
+	<div class="{NoPrint()}" style:view-transition-name="interpretation">
 		<TitledPanel title="Interpretation">
 			<div class="{TwoOneColumn()}" style:--container-width="calc(1050px - 2rem)">
 				<BasicPanel title="Game Ingredients" titleLevel={3}>
@@ -136,5 +138,9 @@
 		align-items: center;
 		justify-content: center;
 		flex-wrap: wrap;
+	}
+
+	.transition-recipe-info {
+		view-transition-name: recipe-info;
 	}
 </style>

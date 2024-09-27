@@ -33,7 +33,7 @@
 	</PageTitle>
 </header>
 <main>
-	<QuestList baseUrl={Url.recipes()} items={list} />
+	<QuestList baseUrl={Url.recipes()} items={list} viewtransition="recipe-list" />
 </main>
 <Footer />
 

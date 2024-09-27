@@ -13,6 +13,7 @@
 
 	export let baseUrl: string
 	export let items: QuestItem[]
+	export let viewtransition: string | undefined = undefined
 
 	$: searchTerm = browser ? $page.url.searchParams.get("q") ?? "" : ""
 	$: filteredItems = items.filter((item) => {
@@ -28,7 +29,7 @@
 <section class="{Elevated()} {Color.background.light({ translucent: true })} overlap-container">
 	<SearchBar on:search={search} />
 	<div class="{Container()} pad-block">
-		<ul class="no-list three-columns">
+		<ul class="no-list three-columns" style:view-transition-name="{viewtransition}">
 			{#each filteredItems as item, i (item.id)}
 				<li in:fade={{ duration: 150, delay: i * 10 }} animate:flip={{ duration: 150 }}>
 					<QuestItemLink {baseUrl} {item} />
