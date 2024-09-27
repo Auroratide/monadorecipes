@@ -6,6 +6,8 @@
 	import { Spacing } from "$lib/design/Spacing"
 	import { Url } from "$lib/Url"
 	import CookingIcon from "../icons/CookingIcon.svelte"
+	import topbarBody from "./topbar-body.png"
+	import topbarCorner from "./topbar-corner.png"
 
 	export let title: string
 </script>
@@ -21,7 +23,7 @@
 			<h1 class="{Font.size.stars(5)} {Spacing.centeredLabel({ alignment: "left" })}" style="{Spacing.stars(5)}">{title}</h1>
 		</div>
 	</div>
-	<nav aria-label="Site" class="{Font.size.stars(3)} {Color.background.darkShiny()} {Color.border.dark()} bottom-border right-border rounded-corner">
+	<nav aria-label="Site" class="{Font.size.stars(3)} inverse-rounded-corner" style:--bg-body="url('{topbarBody}')" style:--bg-corner="url('{topbarCorner}')">
 		<div class="{ContainerPadding({ side: "left" })}">
 			<span class="{Spacing.centeredLabel({ alignment: "left" })}" style="{Spacing.stars(1)}">
 				<a href="{Url.home()}" class="{Color.text.muted()}">More Recipes</a>
@@ -41,18 +43,20 @@
 		padding: 2rem 2rem;
 	}
 
-	.bottom-border {
-		border-bottom-width: 0.0625em;
-		border-bottom-style: solid;
-	}
-
-	.right-border {
-		border-right-width: 0.0625em;
-		border-right-style: solid;
-	}
-
-	.rounded-corner {
-		border-radius: 0 0 2em 0;
+	.inverse-rounded-corner {
+		background-image: var(--bg-body);
+		background-repeat: repeat-x;
+		position: relative;
+		height: 33px;
+	} .inverse-rounded-corner::after {
+		content: "";
+		position: absolute;
+		inset-block-start: 0;
+		inset-inline-end: -55px;
+		display: block;
+		background-image: var(--bg-corner);
+		inline-size: 55px;
+		block-size: 33px;
 	}
 
 	nav {
