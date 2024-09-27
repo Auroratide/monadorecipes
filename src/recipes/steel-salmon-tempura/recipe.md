@@ -13,16 +13,14 @@ A crispy dish of several different fish and carrots fried with tempura batter, s
 
 ## Ingredients
 
-("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
-
 | Ingredient           | Qualtity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
-| Salmon               | 1-2 fillets    | 2      | Fish      |
-| Tilapia              | 1-2 fillets    | 2      | Fish      |
+| Salmon               | 1 fillet       | 2      | Fish      |
+| Tilapia              | 1 fillet       | 2      | Fish      |
 | Carrots              | 2              | 1      | Vegetable |
 | Tempura Batter Mix   | 1 cup          | 2      | Grain     |
-| Italian Seasoning    | 1-2 teaspoons  | 1      | Spice     |
-| Vegetable Oil        | 3-4 cups       | 1      | Oil       |
+| Italian Seasoning    | 2 teaspoons    | 1      | Spice     |
+| Vegetable Oil        | 3 cups         | 1      | Oil       |
 | Cold Water           | 3/4 cup        | 1      | Liquid    |
 | Rice (optional)      | 2 cups         | 1      | Grain     |
 | Soy Sauce            | 2 tablespoons  | 1      | Liquid    |
