@@ -7,6 +7,7 @@ export const MeasureUnit = {
 	Quantity: "quantity",
 	Cloves: "cloves",
 	Cans: "cans",
+	Fillets: "fillets",
 } as const
 export type MeasureUnit = typeof MeasureUnit[keyof typeof MeasureUnit]
 export const pluralizedMeasureUnit = (unit: MeasureUnit, amount: MeasureAmount): string => {
@@ -28,6 +29,7 @@ export const asPlural = (singular: string): MeasureUnit => {
 	case "quantity": return MeasureUnit.Quantity
 	case "clove": return MeasureUnit.Cloves
 	case "can": return MeasureUnit.Cans
+	case "fillet": return MeasureUnit.Fillets
 	default: return singular as MeasureUnit
 	}
 }
