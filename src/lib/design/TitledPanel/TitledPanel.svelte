@@ -10,7 +10,7 @@
 
 <section class="reposition-for-overlap">
 	<h2 class="{Font.size.stars(3)} {TriangleCorners({ type: "right" })} {Color.background.shiny()} {Spacing.centeredLabel({ alignment: "left" })} overlap-bottom label-padding partial-width">{title}</h2>
-	<div class="{Color.background.dark({ translucent: true })} {Color.border.dark()} panel-padding space-for-top-overlap {Bordered()}">
+	<div class="{Color.background.dark({ frilled: true })} {Color.border.dark()} panel-padding space-for-top-overlap {Bordered()}">
 		<slot></slot>
 	</div>
 </section>

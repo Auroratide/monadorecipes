@@ -2,6 +2,10 @@ type CanBeTranslucent = {
 	translucent?: boolean
 }
 
+type CanBeFrilled = {
+	frilled?: boolean
+}
+
 type CanBeOutset = {
 	outset?: boolean,
 }
@@ -14,7 +18,7 @@ export const Color = {
 		dark: () => "color-text-dark",
 	},
 	background: {
-		dark: (options: CanBeTranslucent = {}) => `color-bg-dark${options.translucent ? " color-bg-translucent" : ""}`,
+		dark: (options: CanBeTranslucent & CanBeFrilled = {}) => `color-bg-dark${options.translucent ? " color-bg-translucent" : ""}${options.frilled ? " color-bg-frilled" : ""}`,
 		medium: () => "color-bg-medium",
 		light: (options: CanBeTranslucent = {}) => `color-bg-light${options.translucent ? " color-bg-translucent" : ""}`,
 		banner: (options: CanBeTranslucent = {}) => `color-bg-banner${options.translucent ? " color-bg-translucent" : ""}`,

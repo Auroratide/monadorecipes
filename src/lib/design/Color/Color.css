@@ -5,7 +5,25 @@
 	--color-text-dark: hsl(213 23% 23%);
 
 	--color-bg-dark: hsl(237 80% 10%);
-	--color-bg-dark-translucent: hsl(237 80% 10% / 0.8);
+	--color-bg-dark-translucent: hsl(237 80% 10% / 0.75);
+	--color-bg-frill-1: hsl(240 5% 72% / 0.62);
+	--color-bg-frill-2: hsl(240 12% 35% / 0.67);
+	--color-bg-frill-3: hsl(236 30% 19% / 0.67);
+	--color-bg-dark-frilled: linear-gradient(135deg,
+		var(--color-bg-frill-1),
+		var(--color-bg-frill-1) 0.67em,
+		var(--color-bg-frill-2) 0.67em,
+		var(--color-bg-frill-2) 1.67em,
+		var(--color-bg-frill-3) 1.67em,
+		var(--color-bg-frill-3) 2.67em,
+		var(--color-bg-dark-translucent) 2.67em,
+		var(--color-bg-dark-translucent) calc(100% - 3em),
+		var(--color-bg-frill-3) calc(100% - 3em),
+		var(--color-bg-frill-3) calc(100% - 2em),
+		var(--color-bg-frill-2) calc(100% - 2em),
+		var(--color-bg-frill-2) calc(100% - 1em),
+		var(--color-bg-frill-1) calc(100% - 1em)
+	);
 	--color-bg-medium: hsl(235 55% 36%);
 	--color-bg-light: hsl(218 35% 85% / 0.9);
 	--color-bg-light-translucent: hsl(218 35% 85% / 0.667);
@@ -17,7 +35,7 @@
 
 	--color-border-regular: hsl(208 94% 93%);
 	--color-border-muted: hsl(224 46% 74%);
-	--color-border-dark: hsl(240 14% 46%);
+	--color-border-dark: hsl(223 40% 20%);
 	--color-border-dark-outset: hsl(230 42% 17%);
 	--color-border-selected: hsl(323 84% 68%);
 	--color-border-selected-muted: hsl(260 57% 60%);
@@ -41,6 +59,7 @@
 .color-bg-shiny { background: var(--color-bg-shiny); }
 .color-bg-dark-shiny { background: var(--color-bg-dark-shiny); }
 .color-bg-dark.color-bg-translucent { background-color: var(--color-bg-dark-translucent); }
+.color-bg-dark.color-bg-frilled { background: var(--color-bg-dark-frilled); }
 .color-bg-light.color-bg-translucent { background-color: var(--color-bg-light-translucent); }
 .color-bg-banner.color-bg-translucent { background: var(--color-bg-banner-translucent); }
 .color-bg-shiny.color-bg-translucent { background: var(--color-bg-shiny-translucent); }
