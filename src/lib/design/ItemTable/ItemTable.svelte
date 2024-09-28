@@ -6,6 +6,8 @@
 	// eslint-disable-next-line no-undef
 	export let items: T[]
 	export let headings: string[]
+	// eslint-disable-next-line no-undef
+	export let rowclass: ((item: T) => string) | undefined = undefined
 </script>
 
 <table class="spaced-rows full-width">
@@ -20,7 +22,7 @@
 	</thead>
 	<tbody>
 		{#each items as item}
-			<tr class="tr-triangle-borders {TriangleCorners({ type: "custom" })}">
+			<tr class="tr-triangle-borders {TriangleCorners({ type: "custom" })} {rowclass?.(item)}">
 				<slot {item}></slot>
 			</tr>
 		{/each}

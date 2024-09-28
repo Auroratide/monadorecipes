@@ -58,7 +58,7 @@
 					</BasicPanel>
 				</div>
 			</div>
-			<div style:view-transition-name="ingredients">
+			<div style:view-transition-name="ingredients" style:inline-size="100%">
 				<TitledPanel title="Ingredients">
 					<RecipeIngredients ingredients={recipe.ingredients} />
 				</TitledPanel>

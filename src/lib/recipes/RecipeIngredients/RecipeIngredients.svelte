@@ -11,7 +11,7 @@
 </script>
 
 <div class="recipe-ingredients">
-	<ItemTable let:item headings={["", "Name", "Rarity", "Needed"]} items={ingredients}>
+	<ItemTable let:item headings={["", "Name", "Rarity", "Needed"]} items={ingredients} rowclass={(item) => item.measure == null ? "no-measure" : ""}>
 		<ItemIconCell align="center" noSpace>
 			<IngredientTypeIcon type={item.type} />
 		</ItemIconCell>
@@ -63,6 +63,11 @@
 			gap: 0.333em;
 			grid-template-columns: auto auto 1fr;
 			margin-block-end: 0.333em;
+			place-items: start;
+		}
+
+		.recipe-ingredients :global(tr.no-measure td:nth-child(4))  {
+			display: none;
 		}
 
 		.recipe-ingredients :global(td) {
@@ -76,7 +81,7 @@
 
 		.recipe-ingredients :global(td:nth-child(1)) {
 			font-size: 0.667rem;
-			padding: 0;
+			padding: 0.0625em 0 0 0;
 		}
 
 		.recipe-ingredients :global(td:nth-child(4)) {
