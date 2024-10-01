@@ -2,9 +2,9 @@
 published: true
 ---
 
-# Pyra's Pearl Pazza
+# Pyra's Acqua Pazza
 
-Fish cooked in a spicy tomato-based soup with pearl-like olives.
+Fish cooked in a spicy tomato-based soup with a spicy kick.
 
 * Type: Seafood
 * Source: Crossette's Cooking
