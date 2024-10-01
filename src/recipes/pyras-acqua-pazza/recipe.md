@@ -4,7 +4,7 @@ published: true
 
 # Pyra's Acqua Pazza
 
-Fish cooked in a spicy tomato-based soup with a spicy kick.
+Fish cooked in a tomato-based soup with a very spicy kick.
 
 * Type: Seafood
 * Source: Crossette's Cooking
