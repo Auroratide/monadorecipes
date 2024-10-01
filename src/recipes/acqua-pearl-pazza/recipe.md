@@ -17,6 +17,7 @@ Fish cooked in a spicy tomato-based soup with pearl-like olives.
 | -------------------- | -------------- | ------ | --------- |
 | Olive Oil            | 2 tablespoons  | 2      | Oil       |
 | Garlic (sliced)      | 2 cloves       | 1      | Vegetable |
+| Red Onion (diced)    | 1/2            | 1      | Vegetable |
 | Bok Choy             | 1 1/2 cups     | 2      | Vegetable |
 | Red Pepper Flakes    | 1/2 teaspoon   | 1      | Spice     |
 | Capers               | 2 tablespoons  | 2      | Vegetable |
@@ -32,7 +33,7 @@ Fish cooked in a spicy tomato-based soup with pearl-like olives.
 ## Directions
 
 1. Chop the bok choy, separating the stems from the leaves. Chop the stems into very thin slices. The leaves will be used later.
-2. Pour the olive oil in a pan under medium heat. Saute the garlic with the bok choy stems until the stems soften, about 3 minutes.
+2. Pour the olive oil in a pan under medium heat. Saute the garlic and onions with the bok choy stems until the stems soften, about 3 minutes.
 3. Stir in the red pepper flakes, some salt and pepper, wine, and tomatoes and cook until the juice starts to come out of the tomatoes, about 3 minutes.
 4. Add water, capers, and olives. Cover and simmer for 5 miniutes.
 5. Season the fish with salt, then add to the pan nestled within the sauce. Cover and cook until the fish is opaque, about 10 minutes.
