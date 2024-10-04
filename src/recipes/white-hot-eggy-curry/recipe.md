@@ -13,7 +13,7 @@ A very spicy Japanese-style curry that uses eggs and mushrooms in place of meat.
 
 ## Ingredients
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Rice                 | -              | 1      | Grain     |
 | Potatos (cubed)      | 3              | 1      | Vegetable |

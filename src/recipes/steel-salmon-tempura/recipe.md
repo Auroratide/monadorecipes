@@ -13,7 +13,7 @@ A crispy dish of several different fish and carrots fried with tempura batter, s
 
 ## Ingredients
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Salmon               | 1 fillet       | 2      | Fish      |
 | Tilapia              | 1 fillet       | 2      | Fish      |

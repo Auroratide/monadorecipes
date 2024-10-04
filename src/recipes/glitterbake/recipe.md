@@ -13,7 +13,7 @@ Layers of creamy baked potatoes glittered with vegetables.
 
 ## Ingredients
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Gold Idaho Potatoes (sliced) | 2.5 pounds | 1  | Vegetable |
 | Carrots (minced)     | 2              | 1      | Vegetable |

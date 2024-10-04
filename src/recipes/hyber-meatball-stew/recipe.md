@@ -13,7 +13,7 @@ Hearty stew topped with a unique avocado blend.
 
 ## Ingredients
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Frozen Meatballs     | 1 pound        | 3      | Meat      |
 | Vegetable Oil        | 1 tablespoon   | 1      | Oil       |

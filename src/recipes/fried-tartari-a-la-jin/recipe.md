@@ -14,7 +14,7 @@ A delicious fried meat dish.
 
 ## Ingredients
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Chicken Breast (cubed) | 1 pound      | 2      | Meat      |
 | Beef (cubed)         | 1 pound        | 2      | Meat      |

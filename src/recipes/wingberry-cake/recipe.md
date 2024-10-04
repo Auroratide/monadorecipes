@@ -15,7 +15,7 @@ A cranberry and almond upside-down coffee cake made with honey instead of vanill
 
 ("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Brown Sugar          | 2/3 cups       | 2      | Spice     |
 | Butter               | 1/3 cups       | 1      | Oil       |

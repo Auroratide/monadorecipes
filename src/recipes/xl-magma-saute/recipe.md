@@ -15,7 +15,7 @@ A quick magma-colored vegetarian sauté.
 
 ("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Onion (diced)        | 1 cup          | 1      | Vegetable |
 | Acorn Squash (sliced)| 2 cups         | 2      | Vegetable |

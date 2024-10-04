@@ -15,7 +15,7 @@ One- or two-sentence short description of the food.
 
 ("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | <name here>          | 2/3 cups       | 1      | Meat      |
 | <name here>          | 1 1/2 cups     | 2      | Vegetable |

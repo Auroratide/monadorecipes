@@ -15,7 +15,7 @@ A spicy, crimson bean and peanut soup that goes good with bread or chips.
 
 ("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Pinto Beans (15-oz can) | 2 cans      | 2      | Vegetable |
 | Fire-roasted Diced Tomatoes (14-oz can) | 1 can | 2 | Vegetable |

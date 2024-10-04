@@ -13,7 +13,7 @@ Fish cooked in a spicy tomato-based soup with pearl-like olives.
 
 ## Ingredients
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Olive Oil            | 2 tablespoons  | 2      | Oil       |
 | Garlic (sliced)      | 2 cloves       | 1      | Vegetable |

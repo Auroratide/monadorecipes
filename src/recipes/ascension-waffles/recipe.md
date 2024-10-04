@@ -13,7 +13,7 @@ Brined chicken fried in waffle batter and served with spicy mango syrup.
 
 ## Ingredients
 
-| Ingredient           | Qualtity       | Rarity | Type      |
+| Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | White Vinegar        | 1/4 cups       | 1      | Liquid    |
 | Brown Sugar          | 2 tablespoons  | 1      | Spice     |
