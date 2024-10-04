@@ -22,13 +22,13 @@
 
 <svelte:head>
 	<title>Monado Recipes: Cook Food from Xenoblade Chronicles</title>
-	<meta property="description" content={siteDescription} />
+	<meta name="description" content={siteDescription} />
 </svelte:head>
 
 <OpenGraphMeta value={openGraph} />
 <Backdrop scene={BackdropScene.Titans} />
 <header class="space-within">
-	<PageTitle title="Monado Recipes" subtitle="Xenoblade Chronicles Cuisine">
+	<PageTitle title="Monado Recipes" subtitle="Real Xenoblade Chronicles Recipes">
 		<CookingIcon slot="icon" />
 	</PageTitle>
 </header>
