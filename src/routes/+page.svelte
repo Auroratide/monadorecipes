@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-	<title>Monado Recipes: Eat Food from Xenoblade Chronicles</title>
+	<title>Monado Recipes: Cook Food from Xenoblade Chronicles</title>
 	<meta property="description" content={siteDescription} />
 </svelte:head>
 

@@ -13,7 +13,7 @@
 
 <svelte:head>
 	<title>{title} | Monado Recipes</title>
-	<meta property="description" content={description} />
+	<meta name="description" content={description} />
 </svelte:head>
 
 <Backdrop scene={backdrop} />
