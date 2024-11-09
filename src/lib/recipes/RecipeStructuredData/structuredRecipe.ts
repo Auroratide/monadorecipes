@@ -38,7 +38,7 @@ function structuredIngredient(ingredient: MeasuredIngredient): string {
 			const numerator = measure.amount.numerator % measure.amount.denominator
 			const denominator = measure.amount.denominator
 
-			measureString = `${whole > 0 ? `${whole}` : ""}${numerator > 0 ? `${numerator}/${denominator}` : ""}`
+			measureString = `${whole > 0 ? `${whole} ` : ""}${numerator > 0 ? `${numerator}/${denominator}` : ""}`
 		}
 
 		measureString += ` ${pluralizedMeasureUnit(measure.unit, measure.amount)}`
