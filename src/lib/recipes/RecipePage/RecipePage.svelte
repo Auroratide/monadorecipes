@@ -19,6 +19,7 @@
 	import { buildOpenGraph, OpenGraphMeta } from "$lib/open-graph"
 	import { RecipeIngredients } from "../RecipeIngredients"
 	import { NoPrint } from "$lib/design/NoPrint"
+	import { RecipeStructuredData } from "../RecipeStructuredData"
 	
 	export let recipe: Recipe
 
@@ -32,6 +33,7 @@
 </script>
 
 <OpenGraphMeta value={openGraph} />
+<RecipeStructuredData value={recipe} />
 <Page title="{recipe.name}" description={recipe.description}>
 	<RecipeTypeIcon slot="header-icon" type={recipe.type} />
 	<div class="print:two-columns">
