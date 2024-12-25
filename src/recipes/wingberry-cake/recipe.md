@@ -24,7 +24,7 @@ A cranberry and almond upside-down coffee cake made with honey instead of vanill
 | Butter               | 1/2 cups       | 1      | Oil       |
 | White Sugar          | 3/4 cups       | 1      | Spice     |
 | Eggs                 | 2              | 1      | Meat      |
-| Honey                | 3 teaspoons    | 1      | Spice     |
+| Honey                | 2 tablespoons  | 1      | Spice     |
 | Sour Cream           | 1 cup          | 2      | Dairy     |
 | Flour                | 1 1/2 cups     | 1      | Spice     |
 | Baking Powder        | 1 1/2 teaspoons| 1      | Spice     |
