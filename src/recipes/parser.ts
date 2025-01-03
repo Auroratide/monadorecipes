@@ -223,7 +223,7 @@ function readSimpleList(node: HTMLElement): {
 	next: HTMLElement | null,
 } {
 	const items = Array.from(node.querySelectorAll("li"))
-		.map((item) => item.textContent)
+		.map((item) => item.innerHTML)
 
 	return {
 		content: items,

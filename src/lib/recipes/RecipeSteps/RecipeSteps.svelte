@@ -4,7 +4,7 @@
 
 <ol>
 	{#each steps as step}
-		<li><p>{step}</p></li>
+		<li><p>{@html step}</p></li>
 	{/each}
 </ol>
 
