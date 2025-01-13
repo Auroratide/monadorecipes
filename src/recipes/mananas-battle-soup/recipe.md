@@ -13,8 +13,6 @@ A hearty chowder with vegetables and chicken. A perfect comfort food.
 
 ## Ingredients
 
-("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
-
 | Ingredient                | Quantity       | Rarity | Type      |
 | --------------------      | -------------- | ------ | --------- |
 | Butter                    | 1/2 cups       | 1      | Oil       |
@@ -41,7 +39,7 @@ A hearty chowder with vegetables and chicken. A perfect comfort food.
 4. Melt the butter in a large pot. Stir in the spring onions, bell pepper, garlic, and diced carrot and cook for about 2 minutes. Season with a pinch of salt.
 5. Stir flour into the pan and cook until flour gives a slightly toasted smell. Be careful not to burn the flour. You may need to stir in the 1 cup of optional water if it is too thick. Final consistency should be between a sauce and a paste.
 6. Pour 1 cup vegetable stock into the mixture and bring to a simmer for about 5 minutes.
-3. Pour the remaining 3 cups of vegetable stock, the potatoes, radishes, shredded chicken, and chopped carrot into the pot. Stir until combined and simmer for 5 minutes. Lightly season with salt and pepper.
+7. Pour the remaining 3 cups of vegetable stock, the potatoes, radishes, shredded chicken, and chopped carrot into the pot. Stir until combined and simmer for 5 minutes. Lightly season with salt and pepper.
 8. Stir in heavy cream and smoked paprika. Bring to a boil, reduce heat to low, and simmer until potatoes are tender, 15-20 minutes. Stir occasionally. Add salt and pepper to taste.
 
 ## Interpretation
@@ -56,4 +54,4 @@ For the Bunnit Meat, we opted for chicken. Bunnits appear like rabbits in the ga
 
 ## References
 
-* (https://www.allrecipes.com/recipe/232546/easy-chicken-and-corn-chowder/)
+* https://www.allrecipes.com/recipe/232546/easy-chicken-and-corn-chowder/
