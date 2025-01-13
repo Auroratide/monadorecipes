@@ -27,8 +27,8 @@ A hearty chowder with vegetables and chicken. A perfect comfort food.
 | Vegetable Stock           | 4 cups         | 1      | Liquid    |
 | Water (optional)          | 1 cup          | 1      | Liquid    |
 | Heavy Cream               | 2 cups         | 2      | Dairy     |
-| Smoked Paprika            | 2-3 teaspoons  | 3      | Spice     |
-| Salt & Pepper             | to taste       | 1      | Spice     |
+| Smoked Paprika            | 2 teaspoons    | 3      | Spice     |
+| Salt & Pepper             | -              | 1      | Spice     |
 
 
 ## Directions
