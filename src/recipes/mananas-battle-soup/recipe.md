@@ -15,14 +15,14 @@ A hearty chowder with vegetables and chicken. A perfect comfort food.
 
 | Ingredient                | Quantity       | Rarity | Type      |
 | --------------------      | -------------- | ------ | --------- |
-| Butter                    | 1/2 cups       | 1      | Oil       |
-| Spring Onion, chopped     | 1 cup          | 2      | Vegetable |
-| Carrot                    | 2              | 1      | Vegetable |
+| Butter                    | 1/3 cup        | 1      | Oil       |
+| Spring Onion (chopped)    | 1 cup          | 2      | Vegetable |
+| Carrot                    | 4              | 1      | Vegetable |
 | Bell Pepper               | 1              | 1      | Vegetable |
 | Garlic                    | 2 cloves       | 1      | Vegetable |
-| Russet Potato             | 4              | 1      | Vegetable |
-| Small Radishes, quartered | 1 1/2 cups     | 3      | Vegetable |
-| All-Purpose Flour         | 1/2 cup        | 1      | Grain     |
+| Russet Potato             | 3              | 1      | Vegetable |
+| Radishes (quartered)      | 1 1/2 cups     | 3      | Vegetable |
+| Flour                     | 1/2 cup        | 1      | Grain     |
 | Cooked Rotisserie Chicken | 2 cups         | 2      | Meat      |
 | Vegetable Stock           | 4 cups         | 1      | Liquid    |
 | Water (optional)          | 1 cup          | 1      | Liquid    |
