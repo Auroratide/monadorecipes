@@ -23,7 +23,7 @@ export function structuredRecipe(recipe: Recipe): StructuredRecipe {
 		"image": recipe.image.fallback.src,
 		"cookTime": `PT${recipe.timeInMinutes}M`,
 		"recipeIngredient": recipe.ingredients.map(structuredIngredient),
-		"recipeInstructions": recipe.directions.steps,
+		"recipeInstructions": recipe.directions.steps.map((it) => it.description),
 	}
 }
 

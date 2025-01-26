@@ -35,10 +35,10 @@ A cranberry and almond upside-down coffee cake made with honey instead of vanill
 ## Directions
 
 1. Preheat oven to 350°F (175°C). Grease a 9×9-inch baking pan.
-2. Sift together the flour, baking powder, baking soda, nutmeg, and salt. Set aside.
-3. In a saucepan over medium heat, combine brown sugar and the ⅓ cup of butter. Bring to a boil, then pour into the bottom of the baking pan.
-4. Sprinkle the cranberries and almonds over the brown sugar mixture.
-5. In a large bowl, cream together the remaining ½ cup of butter and the white sugar until light and fluffy. Beat in the eggs one at a time, then stir in the honey. Beat in the flour mixture alternately with the sour cream. Spread the batter over the cranberries and almonds.
+2. Sift together the flour, baking powder, baking soda, nutmeg, and salt. Set aside. [Flour: 1 1/2 cups, Baking Powder: 1 1/2 teaspoons, Baking Soda: 1 teaspoon, Nutmeg: 1/2 teaspoon, Salt: 1/4 teaspoon]
+3. In a saucepan over medium heat, combine brown sugar and the ⅓ cup of butter. Bring to a boil, then pour into the bottom of the baking pan. [Brown Sugar: 2/3 cups, Butter: 1/3 cups]
+4. Sprinkle the cranberries and almonds over the brown sugar mixture. [Cranberries: 1 1/4 cups, Almonds (chopped): 1/2 cups]
+5. In a large bowl, cream together the remaining ½ cup of butter and the white sugar until light and fluffy. Beat in the eggs one at a time, then stir in the honey. Beat in the flour mixture alternately with the sour cream. Spread the batter over the cranberries and almonds. [Butter: 1/2 cups, White Sugar: 3/4 cups, Eggs: 2, Honey: 2 tablespoons, Sour Cream: 1 cup]
 6. Bake for 50 minutes, or until an inserted toothpick comes out clean.
 7. Cool in the pan for 15 minutes, then invert onto a serving plate. Enjoy!
 

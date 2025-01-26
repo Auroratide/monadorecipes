@@ -29,9 +29,9 @@ A very spicy Japanese-style curry that uses eggs and mushrooms in place of meat.
 ## Directions
 
 1. Start cooking the rice in your favorite rice cooker.
-2. Heat two tablespoons of oil into a medium sized pot on medium-high heat. Stir the onions, carrots, potatoes, and tomato paste in the oil for about 5 minutes. Season with salt if desired.
-3. Pour 2¾ cups of water into the pot and add the sliced mushrooms. Let boil, then reduce heat and simmer, covered, for 15 minutes or until the potatoes are tender.
-4. Add the Golden Curry Mix and the can of boiled quail eggs (strained of water). Allow to simmer uncovered for another 5 minutes, stirring constantly so the curry mix dissolves.
+2. Heat two tablespoons of oil into a medium sized pot on medium-high heat. Stir the onions, carrots, potatoes, and tomato paste in the oil for about 5 minutes. Season with salt if desired. [Oil: 2 tablespoons, Onion (chopped): 1/2 cup, Carrots (cubed): 1 cup, Potatoes (cubed): 1 cup, Tomato Paste: 2 tablespoons]
+3. Pour 2¾ cups of water into the pot and add the sliced mushrooms. Let boil, then reduce heat and simmer, covered, for 15 minutes or until the potatoes are tender. [Portobello Mushrooms (sliced): 8 oz]
+4. Add the Golden Curry Mix and the can of boiled quail eggs (strained of water). Allow to simmer uncovered for another 5 minutes, stirring constantly so the curry mix dissolves. [Golden Curry Mix: 3.2 oz, Boiled Quail Eggs (15-oz can): 1 can]
 5. Serve over rice and enjoy!
 
 ## Interpretation

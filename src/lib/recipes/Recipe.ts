@@ -58,6 +58,11 @@ export const IngredientPreparation = {
 } as const
 export type IngredientPreparation = typeof IngredientPreparation[keyof typeof IngredientPreparation] | ReturnType<typeof IngredientPreparation.Custom>
 
+export type DirectionStep = {
+	description: string,
+	ingredients: Pick<MeasuredIngredient, "name" | "measure" | "preparation">[],
+}
+
 export type Directions = {
-	steps: string[],
+	steps: DirectionStep[],
 }

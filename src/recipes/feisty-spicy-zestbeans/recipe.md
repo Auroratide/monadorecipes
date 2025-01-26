@@ -34,13 +34,13 @@ A spicy, crimson bean and peanut soup that goes good with bread or chips.
 
 ## Directions
 
-1. Heat olive oil in a large pot over medium-high heat.
-2. Cook the chopped onions until translucent, about 5 minutes.
-3. Add garlic, cumin, oregano, chili powder, and paprika. Cook for about half a minute.
-4. Stir in tomatoes and chipotle peppers. Cook together for about 1 minute.
-5. Drain the pinto beans. Pour in the vegetable stock and add the beans. Season with salt and pepper and bring it to a boil.
+1. Heat olive oil in a large pot over medium-high heat. [Olive Oil: 2 tablespoons]
+2. Cook the chopped onions until translucent, about 5 minutes. [Onion (chopped): 1/2]
+3. Add garlic, cumin, oregano, chili powder, and paprika. Cook for about half a minute. [Garlic (minced): 1 clove, Cumin: 1 teaspoon, Oregano: 1/2 teaspoon, Chili Powder: 1 1/2 teaspoons, Paprika: 1 teaspoon]
+4. Stir in tomatoes and chipotle peppers. Cook together for about 1 minute. [Tomatoes (14-oz can): 1 can, Chipotle Peppers: 7 oz]
+5. Drain the pinto beans. Pour in the vegetable stock and add the beans. Season with salt and pepper and bring it to a boil. [Pinto Beans (15-oz can): 2 cans, Vegetable Broth: 2 cups]
 6. Reduce the heat and cover the pot. Simmer for 10 minutes, stirring occasionally.
-7. Add the peanuts to the pot and simmer for an additional 10 minutes, stirring occasionally.
+7. Add the peanuts to the pot and simmer for an additional 10 minutes, stirring occasionally. [Raw Peanuts (deshelled): 1/2 cup]
 8. Serve with toasted rolls!
 
 ## Interpretation

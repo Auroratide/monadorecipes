@@ -34,11 +34,11 @@ A very filling cabbage pancake based on Japanese Okonomiyaki.
 
 ## Directions
 
-1. Peel off the skin of the Taro Root, then grate it into a bowl.
-2. In a large bowl, mix the flour, salt, sugar, and baking powder. Then, mix in the grated taro and the dashi stock. Set a bowl aside; it is best to allow it to rest for about an hour to let the batter fluff, but it's ok to let it sit for as long as it takes to do Steps 3 and 4.
-3. Mince the green cabbage, discarding the core. Make sure you dry the cabbage well, since it will be going into the batter.
-4. Chop the stems off the Bok Choy and set the leaves aside. The stems can either be minced and mixed with the green cabbage, or discarded.
-5. Take the batter bowl. Mix in the Minced Ginger and eggs. Then, add the cabbage into the batter and mix thoroughly.
+1. Peel off the skin of the Taro Root, then grate it into a bowl. [Taro Root: 6 oz]
+2. In a large bowl, mix the flour, salt, sugar, and baking powder. Then, mix in the grated taro and the dashi stock. Set a bowl aside; it is best to allow it to rest for about an hour to let the batter fluff, but it's ok to let it sit for as long as it takes to do Steps 3 and 4. [Flour: 1 cup, Salt: 1/2 teaspoon, Sugar: 1/4 teaspoon, Baking Powder: 1/4 teaspoon, Dashi: 3/4 cup]
+3. Mince the green cabbage, discarding the core. Make sure you dry the cabbage well, since it will be going into the batter. [Cabbage: 1/2 heads]
+4. Chop the stems off the Bok Choy and set the leaves aside. The stems can either be minced and mixed with the green cabbage, or discarded. [Bok Choy: 1/2 cup]
+5. Take the batter bowl. Mix in the Minced Ginger and eggs. Then, add the cabbage into the batter and mix thoroughly. [Minced Ginger: 1 teaspoon, Eggs: 4]
 6. Preheat oil in a frying pan over medium heat. Once hot, add a scoop of the batter to the pan, and use a spatula to shape it into a thin pancake. If your pan is large enough, you can cook more than one pancake at a time.
 7. Place some bok choy leaves on top of each pancake in the pan. Cover the pan and let cook for about 5 minutes. Then, flip each pancake over and let the other side cook, for about 4 minutes.
 8. Remove the cooked pancakes and repeat Steps 6 and 7 until all the batter is used.

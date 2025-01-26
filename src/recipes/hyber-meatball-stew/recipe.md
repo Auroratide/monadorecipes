@@ -30,14 +30,14 @@ Hearty stew topped with a unique avocado blend.
 
 ## Directions
 
-1. Cut the potatoes and cabbage into large chunks. Set aside.
-2. In a large pot, heat the oil over medium heat. Brown the meatballs in the oil for about 3 minutes.
-3. In the pot, mix together the tomato soup and broth. Season with salt, italian seasoning, and onion powder.
+1. Cut the potatoes and cabbage into large chunks. Set aside. [Russet Potatoes (cubed): 2, Cabbage (chopped): 1/2]
+2. In a large pot, heat the oil over medium heat. Brown the meatballs in the oil for about 3 minutes. [Meatballs: 1 pound]
+3. In the pot, mix together the tomato soup and broth. Season with salt, italian seasoning, and onion powder. [Condenced Tomato Soup: 1 can, Beef Broth: 1 can, Italian Seasoning: 1 teaspoon, Onion Powder: 1 teaspoon]
 4. Bring to a boil, then reduce heat and simmer for about 10 minutes.
-5. After the 10 minutes, add in the potatoes and simmer for another 5 minutes.
-6. Add the cabbage and simmer for another 5 minutes.
-7. While simmering, make the avocado topping. Squeeze the limes into a mixing bowl. Mash the avocado in with the lime juice until the consistency is smooth.
-8. Remove the stew from heat. Garnish the top of the stew with chopped parsley.
+5. After the 10 minutes, add in the potatoes and simmer for another 5 minutes. [Russet Potatoes (cubed): 2]
+6. Add the cabbage and simmer for another 5 minutes. [Cabbage (chopped): 1/2]
+7. While simmering, make the avocado topping. Squeeze the limes into a mixing bowl. Mash the avocado in with the lime juice until the consistency is smooth. [Avocado (ripe): 2, Lime: 2]
+8. Remove the stew from heat. Garnish the top of the stew with chopped parsley. [Parsley (chopped): 1/4 cup]
 9. Serve the stew with a spoon of the avocado blend on top. Goes good with bread!
 
 ## Interpretation

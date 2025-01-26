@@ -1,5 +1,5 @@
 import { parse as parseHtml, HTMLElement } from "node-html-parser"
-import { RecipeType, type Recipe, RecipeSource, type MeasuredIngredient } from "$lib/recipes/Recipe"
+import { RecipeType, type Recipe, RecipeSource, type MeasuredIngredient, type DirectionStep } from "$lib/recipes/Recipe"
 import type { Rarity } from "$lib/rarity/Rarity"
 import { IngredientType } from "$lib/recipes/Ingredient"
 import { MeasureAmountFraction, type Measure, MeasureUnit, MeasureAmountDecimal, asPlural } from "$lib/recipes/Measure"
@@ -56,7 +56,7 @@ export function parseRecipe(rawHtml: string, attributes: Record<string, unknown>
 		},
 		description: description.join("\n"),
 		ingredients: ingredients,
-		directions: { steps: directions },
+		directions: { steps: directions.map(parseDirectionStep) },
 		gameIngredients: gameIngredients,
 		interpretation: interpretation.join(""),
 		references: references,
@@ -228,6 +228,41 @@ function readSimpleList(node: HTMLElement): {
 	return {
 		content: items,
 		next: node.nextElementSibling,
+	}
+}
+
+function parseDirectionStep(value: string): DirectionStep {
+	const matched = value.match(/(.*?)\s*(\[.*?\])$/)
+	if (matched != null) {
+		const [, description, ingredientsRaw] = matched
+
+		// [ [name, measure] ]
+		const ingredients = ingredientsRaw
+			.slice(1, ingredientsRaw.length - 1)
+			.split(",")
+			.map((it) => it.trim())
+			.map((it) => it.split(":").map((it) => it.trim()))
+
+
+		const parsedIngredients = ingredients.map(([name, measure]) => {
+			const nameAndPrep = parseIngredientName(name)
+			const parsedMeasure = parseMeasure(measure)
+
+			return {
+				...nameAndPrep,
+				measure: parsedMeasure,
+			}
+		})
+
+		return {
+			description: description,
+			ingredients: parsedIngredients,
+		}
+	} else {
+		return {
+			description: value,
+			ingredients: [],
+		}
 	}
 }
 

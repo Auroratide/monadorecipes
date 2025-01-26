@@ -32,11 +32,11 @@ Fish cooked in a spicy tomato-based soup with pearl-like olives.
 
 ## Directions
 
-1. Chop the bok choy, separating the stems from the leaves. Chop the stems into very thin slices. The leaves will be used later.
-2. Pour the olive oil in a pan under medium heat. Saute the garlic and onions with the bok choy stems until the stems soften, about 3 minutes.
-3. Stir in the red pepper flakes, some salt and pepper, wine, and tomatoes and cook until the juice starts to come out of the tomatoes, about 3 minutes.
-4. Add water, capers, and olives. Cover and simmer for 5 miniutes.
-5. Season the fish with salt, then add to the pan nestled within the sauce. Cover and cook until the fish is opaque, about 10 minutes.
+1. Chop the bok choy, separating the stems from the leaves. Chop the stems into very thin slices. The leaves will be used later. [Bok Choy: 1 1/2 cups]
+2. Pour the olive oil in a pan under medium heat. Saute the garlic and onions with the bok choy stems until the stems soften, about 3 minutes. [Olive Oil: 2 tablespoons, Garlic (sliced): 2 cloves, Red Onion (diced): 1/2]
+3. Stir in the red pepper flakes, some salt and pepper, wine, and tomatoes and cook until the juice starts to come out of the tomatoes, about 3 minutes. [Red Pepper Flakes: 1/2 teaspoon, White Wine: 1/2 cups, Cherry Tomatoes (halved): 2 cups]
+4. Add water, capers, and olives. Cover and simmer for 5 miniutes. [Water: 1/2 cups, Capers: 2 tablespoons, Olives: 1/2 cups]
+5. Season the fish with salt, then add to the pan nestled within the sauce. Cover and cook until the fish is opaque, about 10 minutes. [Swai Fish: 4]
 6. Layer the bok choy leaves on the bottom of serving bowls. Place the fish on top of the leaves, then spoon the sauce over the fish.
 7. Serve with crusty bread and enjoy!
 

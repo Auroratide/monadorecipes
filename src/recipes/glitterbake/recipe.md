@@ -32,15 +32,15 @@ Layers of creamy baked potatoes glittered with vegetables.
 ## Directions
 
 1. Preheat the oven to 350°F (175°C), and prepare a 7 &times; 11 &times; 2 inch pan.
-2. Skin and thinnly slice the potatoes, about ⅛ inches thick (3 mm).
-3. Thinnly cut the zucchini, about ⅛ inches thick (3 mm), and quarter the slices into wedges.
-4. Mince the carrots into very small pieces.
-5. Mix together the butter, heavy cream, minced garlic, salt, pepper, thyme, and red pepper flakes.
-6. **Layer 1**: Spread ⅓ of the potatoes, zucchini, and carrots into the pan. Pour ⅓ of the cream mixture over the potaoes. Sprinkle ⅓ of each of the cheeses over the layer. If you are including scallops, layer all of them here together with the potatoes.
-7. **Layer 2**: Repeat the first layer.
+2. Skin and thinnly slice the potatoes, about ⅛ inches thick (3 mm). [Potatoes: 2.5 pounds]
+3. Thinnly cut the zucchini, about ⅛ inches thick (3 mm), and quarter the slices into wedges. [Zucchini: 1]
+4. Mince the carrots into very small pieces. [Carrots: 2]
+5. Mix together the butter, heavy cream, minced garlic, salt, pepper, thyme, and red pepper flakes. [Butter (melted): 2 tablespoons, Heavy Cream: 1 1/2 cups, Garlic (minced): 2 cloves, Salt: 1 teaspoon, Pepper: 1/2 teaspoon, Thyme: 1/2 teaspoon, Red Pepper Flakes: 1 teaspoon]
+6. **Layer 1**: Spread ⅓ of the potatoes, zucchini, and carrots into the pan. Pour ⅓ of the cream mixture over the potaoes. Sprinkle ⅓ of each of the cheeses over the layer. If you are including scallops, layer all of them here together with the potatoes. [Swiss Cheese: 1/3 cup, Mild Cheddar Cheese: 1/3 cup]
+7. **Layer 2**: Repeat the first layer. [Swiss Cheese: 1/3 cup, Mild Cheddar Cheese: 1/3 cup]
 8. **Layer 3**: Repeat the second layer, except do _not_ include the last bit of cheese and carrots. Save the cheese and carrots for later.
 9. Cover the pan with aluminum foil and bake for 1 hour 30 minutes.
-10. After baking, top with the remaining cheese and carrots and bake, uncovered, for an additional 15 minutes.
+10. After baking, top with the remaining cheese and carrots and bake, uncovered, for an additional 15 minutes. [Swiss Cheese: 1/3 cup, Mild Cheddar Cheese: 1/3 cup]
 11. Let stand for 5 minutes before serving!
 
 ## Interpretation

@@ -26,10 +26,10 @@ Simple avocado and onion salad that's very quick to prep.
 
 ## Directions
 
-1. Prepare the vegetables: cut the red onion into thin slices, cube the tomatoes, and cut the avocado into bite-sized chunks. As a tip, the avocado is best when slightly under-ripe.
-2. Drain the corn.
-3. Toss together the lettuce, avocado, red onion, tomato, corn, and black pepper.
-4. In a separate bowl, juice the limes. Add the extra virgin olive oil and mix thoroughly.
+1. Prepare the vegetables: cut the red onion into thin slices, cube the tomatoes, and cut the avocado into bite-sized chunks. As a tip, the avocado is best when slightly under-ripe. [Red Onion: 1/2, Tomatoes: 2, Avocados (under-ripe): 2]
+2. Drain the corn. [Corn: 8 oz]
+3. Toss together the lettuce, avocado, red onion, tomato, corn, and black pepper. [Lettuce: 5oz, Avocados (sliced): 2, Red Onions (sliced): 1/2, Tomatoes (cubed): 2, Corn: 8 oz]
+4. In a separate bowl, juice the limes. Add the extra virgin olive oil and mix thoroughly. [Limes: 2, Extra Virgin Olive Oil: 1 tablespoon]
 5. Dress the salad with the lime and enjoy this simple recipe!
 
 ## Interpretation

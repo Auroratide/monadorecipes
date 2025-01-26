@@ -32,11 +32,11 @@ A delicious fried meat dish.
 
 ## Directions
 
-1. Mix the flour, oregano, paprika, cumin, salt, and pepper in a bowl. Coat the chicken and beef with this mixture.
-2. Heat the oil in a pan over medium-high heat. Pan-fry the chicken and beef until golden brown. It is best to fry each meat separately since they cook at different rates. Chicken takes about 5 to 6 minutes on one side and 2 minutes on the other, while beef takes about 4 minutes on one side and 1 minute on the other.
+1. Mix the flour, oregano, paprika, cumin, salt, and pepper in a bowl. Coat the chicken and beef with this mixture. [Flour: 1 cup, Oregano: 1 teaspoon, Paprika: 1 teaspoon, Cumin: 1 teaspoon, Chicken: 1 pound, Beef: 1 pound]
+2. Heat the oil in a pan over medium-high heat. Pan-fry the chicken and beef until golden brown. It is best to fry each meat separately since they cook at different rates. Chicken takes about 5 to 6 minutes on one side and 2 minutes on the other, while beef takes about 4 minutes on one side and 1 minute on the other. [Vegetable Oil: 1 tablespoon, Chicken: 1 pound, Beef: 1 pound]
 3. Remove the meat and set them aside, but keep the remaining oil in the pan.
-4. Add the tomato paste and garlic to the pan and mix with the oil over medium heat. Gradually stir in the honey.
-5. After about 1 minute, add in all the meat to the pan and stir until the meat is coated. Sprinkle some oregano for garnish.
+4. Add the tomato paste and garlic to the pan and mix with the oil over medium heat. Gradually stir in the honey. [Tomato Paste: 2 tablespoons, Garlic (minced): 1 teaspoon, Honey: 1 tablespoon]
+5. After about 1 minute, add in all the meat to the pan and stir until the meat is coated. Sprinkle some oregano for garnish. [Oregano: 1 teaspoon]
 6. Serve with rice!
 
 ## Interpretation

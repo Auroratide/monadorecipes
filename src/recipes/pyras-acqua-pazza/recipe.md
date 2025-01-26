@@ -32,12 +32,12 @@ Fish cooked in a tomato-based soup with a very spicy kick.
 
 ## Directions
 
-1. Chop the bok choy, separating the stems from the leaves. Chop the stems into very thin slices. The leaves will be used later. Chop the stems off the red peppers off as well.
-2. Pour the olive oil in a pan under medium heat. Saute the garlic and onions with the bok choy stems until the stems soften, about 3 minutes.
-3. Add the thai red peppers and tomatoes and cook until the juice starts to come out of the tomatoes, about 3 minutes. Add the red pepper flakes, salt, and pepper as well.
-4. Turn the heat to high and add in the wine. Let it boil for 2-3 minutes.
-5. Add water and olives. Leave uncovered and simmer for 10 minutes.
-6. Season the fish with salt, then add to the pan nestled within the sauce. Cover and cook until the fish is opaque, about 10 minutes.
+1. Chop the bok choy, separating the stems from the leaves. Chop the stems into very thin slices. The leaves will be used later. Chop the stems off the red peppers off as well. [Bok Choy: 1 1/2 cups, Thai Red Peppers: 8]
+2. Pour the olive oil in a pan under medium heat. Saute the garlic and onions with the bok choy stems until the stems soften, about 3 minutes. [Olive Oil: 2 tablespoons, Garlic (sliced): 2 cloves, Red Onions (diced): 1/2]
+3. Add the thai red peppers and tomatoes and cook until the juice starts to come out of the tomatoes, about 3 minutes. Add the red pepper flakes, salt, and pepper as well. [Thai Red Peppers: 8, Cherry Tomatoes (halved): 2 cups]
+4. Turn the heat to high and add in the wine. Let it boil for 2-3 minutes. [White Wine: 2/3 cups]
+5. Add water and olives. Leave uncovered and simmer for 10 minutes. [Water: 1 cup, Olives: 1/2 cups]
+6. Season the fish with salt, then add to the pan nestled within the sauce. Cover and cook until the fish is opaque, about 10 minutes. [Swai Fish: 4 fillets]
 7. Layer the bok choy leaves on the bottom of serving bowls. Place the fish on top of the leaves, then spoon the sauce over the fish.
 8. Serve with crusty bread and enjoy!
 

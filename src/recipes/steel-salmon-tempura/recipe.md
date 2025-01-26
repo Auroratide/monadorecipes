@@ -29,14 +29,14 @@ A crispy dish of several different fish and carrots fried with tempura batter, s
 
 ## Directions
 
-1. Refrigerate water while preparing other ingredients. The water must be ice cold before use in the tempura batter.
-2. Heat the oil in a fryer or pot, aiming for approximately 330 degrees Farenheit.
-3. Slice the fish into thin pieces, about 1.5 x1.5 inches in dimension and about 1/3 inches thick. The size does not need to be precise, so long as the pieces are thin enough to cook through in a short fry time.
-4. Slice the carrots into thin, chip-like pieces. These should be very thin, almost 1/8 inches in thickness.
-5. Combine tempura batter mix with italian seasoning. Briefly mix the tempura batter and cold water. Do not thoroughly mix - small clumps in the batter are better for the tempura crust.
-6. Once the oil is ready, dip pieces of fish/carrot into the batter until completely covered, then carefully lower into the oil. Fry pieces for ~2 minutes. Do not overcrowd the oil with pieces.
-7. After ~2 minutes, remove pieces onto a rack with paper towels underneath. Repeat step 6 until all the fish and carrots are fried.
-8. Prepare the soy sauce, optionally mixing in lime juice, for dipping. Serve with rice.
+1. Refrigerate water while preparing other ingredients. The water must be ice cold before use in the tempura batter. [Water: 3/4 cups]
+2. Heat the oil in a fryer or pot, aiming for approximately 330°F (165°C). [Vegetable Oil: 3 cups]
+3. Slice the fish into thin pieces, about 1.5 &times; 1.5 inches in dimension and about ⅓ inches thick. The size does not need to be precise, so long as the pieces are thin enough to cook through in a short fry time. [Salmon: 1 fillet, Tilapia: 1 fillet]
+4. Slice the carrots into thin, chip-like pieces. These should be very thin, almost ⅛ inches in thickness. [Carrots: 2]
+5. Combine tempura batter mix with italian seasoning. Briefly mix the tempura batter and cold water. Do not thoroughly mix - small clumps in the batter are better for the tempura crust. [Tempura Batter: 1 cup, Italian Seasoning: 2 teaspoons, Water: 3/4 cups]
+6. Once the oil is ready, dip pieces of fish/carrot into the batter until completely covered, then carefully lower into the oil. Fry pieces for about 2 minutes. Do not overcrowd the oil with pieces.
+7. After about 2 minutes, remove pieces onto a rack with paper towels underneath. Repeat step 6 until all the fish and carrots are fried.
+8. Prepare the soy sauce, optionally mixing in lime juice, for dipping. Serve with rice. [Soy Sauce: 2 tablespoons, Lime Juice: 1 teaspoon, Rice: 2 cups]
 
 ## Interpretation
 
