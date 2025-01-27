@@ -8,7 +8,8 @@ A cranberry and almond upside-down coffee cake made with honey instead of vanill
 
 * Type: Dessert
 * Source: Jin's Home Cooking
-* Time: 80 minutes
+* Prep: 25 minutes
+* Time: 50 minutes
 * Rarity: 3
 
 ## Ingredients

@@ -8,7 +8,8 @@ Layers of creamy baked potatoes glittered with vegetables.
 
 * Type: Staple
 * Source: Pyra's Cooking
-* Time: 130 minutes
+* Prep: 30 minutes
+* Time: 90 minutes
 * Rarity: 1
 
 ## Ingredients

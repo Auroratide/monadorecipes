@@ -9,7 +9,9 @@ export type StructuredRecipe = {
 	"name": string,
 	"description": string,
 	"image": string,
+	"prepTime": IsoDuration,
 	"cookTime": IsoDuration,
+	"totalTime": IsoDuration,
 	"recipeIngredient": string[],
 	"recipeInstructions": string[],
 }
@@ -21,7 +23,9 @@ export function structuredRecipe(recipe: Recipe): StructuredRecipe {
 		"name": recipe.name,
 		"description": recipe.description,
 		"image": recipe.image.fallback.src,
+		"prepTime": `PT${recipe.prepInMinutes}M`,
 		"cookTime": `PT${recipe.timeInMinutes}M`,
+		"totalTime": `PT${recipe.timeInMinutes + recipe.prepInMinutes}M`,
 		"recipeIngredient": recipe.ingredients.map(structuredIngredient),
 		"recipeInstructions": recipe.directions.steps.map((it) => it.description),
 	}

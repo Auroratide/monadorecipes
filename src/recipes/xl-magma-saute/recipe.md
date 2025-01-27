@@ -8,7 +8,8 @@ A quick magma-colored vegetarian sauté.
 
 * Type: Veggie
 * Source: Jin's Home Cooking
-* Time: 20 minutes
+* Prep: 15 minutes
+* Time: 10 minutes
 * Rarity: 2
 
 ## Ingredients

@@ -8,7 +8,8 @@ Hearty stew topped with a unique avocado blend.
 
 * Type: Veggie
 * Source: Aegaeon's Refined Cuisine
-* Time: 35 minutes
+* Prep: 10 minutes
+* Time: 25 minutes
 * Rarity: 2
 
 ## Ingredients

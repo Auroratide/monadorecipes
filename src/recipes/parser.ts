@@ -50,6 +50,7 @@ export function parseRecipe(rawHtml: string, attributes: Record<string, unknown>
 		source: meta.source,
 		rarity: meta.rarity,
 		timeInMinutes: meta.timeInMinutes,
+		prepInMinutes: meta.prepInMinutes,
 		image: {
 			...imageSources,
 			alt: name,
@@ -98,18 +99,19 @@ function readHtmlUntil(node: HTMLElement, stop: (node: HTMLElement) => boolean):
 }
 
 function readMetaList(node: HTMLElement): {
-	content: Pick<Recipe, "type" | "source" | "rarity" | "timeInMinutes">
+	content: Pick<Recipe, "type" | "source" | "rarity" | "timeInMinutes" | "prepInMinutes">
 	next: HTMLElement | null,
  } {
 	const list = Array.from(node.querySelectorAll("li"))
-	if (list.length !== 4) {
-		throw new RecipeParserError("The meta list should have 4 things in this order: Type, Source, Time, Rarity")
+	if (list.length !== 5) {
+		throw new RecipeParserError("The meta list should have 5 things in this order: Type, Source, Prep, Time, Rarity")
 	}
 
 	const type = extractRegexValue(/Type: (.+)/, list[0].textContent).toLocaleLowerCase()
 	const source = extractRegexValue(/Source: (.+)/, list[1].textContent)
-	const timeInMinutes = parseInt(extractRegexValue(/Time: (\d+) minutes/, list[2].textContent))
-	const rarity = parseInt(extractRegexValue(/Rarity: (\d+)/, list[3].textContent))
+	const prepInMinutes = parseInt(extractRegexValue(/Prep: (\d+) minutes/, list[2].textContent))
+	const timeInMinutes = parseInt(extractRegexValue(/Time: (\d+) minutes/, list[3].textContent))
+	const rarity = parseInt(extractRegexValue(/Rarity: (\d+)/, list[4].textContent))
 
 	validateOneOf(type, Object.values(RecipeType))
 	validateOneOf(source, Object.values(RecipeSource))
@@ -120,6 +122,7 @@ function readMetaList(node: HTMLElement): {
 			type: type as RecipeType,
 			source: source as RecipeSource,
 			rarity: rarity as Rarity,
+			prepInMinutes: prepInMinutes,
 			timeInMinutes: timeInMinutes,
 		},
 		next: node.nextElementSibling,

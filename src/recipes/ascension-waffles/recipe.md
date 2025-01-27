@@ -8,7 +8,8 @@ Brined chicken fried in waffle batter and served with spicy mango syrup.
 
 * Type: Dessert
 * Source: Mythra's "Creative" Cuisine
-* Time: 150 minutes
+* Prep: 120 minutes
+* Time: 30 minutes
 * Rarity: 2
 
 ## Ingredients

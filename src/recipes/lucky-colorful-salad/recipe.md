@@ -8,7 +8,8 @@ Simple avocado and onion salad that's very quick to prep.
 
 * Type: Veggie
 * Source: Jin's Home Cooking
-* Time: 15 minutes
+* Prep: 15 minutes
+* Time: 2 minutes
 * Rarity: 1
 
 ## Ingredients

@@ -50,7 +50,9 @@
 				<div class="{NoPrint()}">
 					<BasicPanel title="Info">
 						<FlatDl>
-							<dt>Time</dt>
+							<dt>Prep Time</dt>
+							<dd>{recipe.prepInMinutes} min</dd>
+							<dt>Cook Time</dt>
 							<dd>{recipe.timeInMinutes} min</dd>
 							<dt>Source</dt>
 							<dd>{recipe.source}</dd>

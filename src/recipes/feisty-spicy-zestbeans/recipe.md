@@ -8,7 +8,8 @@ A spicy, crimson bean and peanut soup that goes good with bread or chips.
 
 * Type: Veggie
 * Source: Manana's Menu
-* Time: 35 minutes
+* Prep: 10 minutes
+* Time: 25 minutes
 * Rarity: 2
 
 ## Ingredients

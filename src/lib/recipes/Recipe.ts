@@ -33,6 +33,7 @@ export type Recipe = {
 	source: RecipeSource,
 	rarity: Rarity,
 	timeInMinutes: number,
+	prepInMinutes: number,
 	image: Image & WithAlt,
 	description: string,
 	ingredients: MeasuredIngredient[],

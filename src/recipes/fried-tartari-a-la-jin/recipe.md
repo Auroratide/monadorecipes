@@ -9,7 +9,8 @@ A delicious fried meat dish.
 
 * Type: Meat
 * Source: Jin's Home Cooking
-* Time: 30 minutes
+* Prep: 10 minutes
+* Time: 20 minutes
 * Rarity: 3
 
 ## Ingredients

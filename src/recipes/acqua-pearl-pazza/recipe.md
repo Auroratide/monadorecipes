@@ -8,7 +8,8 @@ Fish cooked in a spicy tomato-based soup with pearl-like olives.
 
 * Type: Seafood
 * Source: Pyra's Cooking
-* Time: 40 minutes
+* Prep: 15 minutes
+* Time: 25 minutes
 * Rarity: 3
 
 ## Ingredients

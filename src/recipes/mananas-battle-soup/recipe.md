@@ -8,7 +8,8 @@ A hearty chowder with vegetables and chicken. A perfect comfort food.
 
 * Type: Staple
 * Source: Manana's Menu
-* Time: 60 minutes
+* Prep: 20 minutes
+* Time: 35 minutes
 * Rarity: 1
 
 ## Ingredients

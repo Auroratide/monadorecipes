@@ -8,7 +8,8 @@ Fish cooked in a tomato-based soup with a very spicy kick.
 
 * Type: Seafood
 * Source: Crossette's Cooking
-* Time: 45 minutes
+* Prep: 15 minutes
+* Time: 25 minutes
 * Rarity: 2
 
 ## Ingredients

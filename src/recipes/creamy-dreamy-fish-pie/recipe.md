@@ -8,7 +8,8 @@ A creamy, yet savory pie made with fish and grapes.
 
 * Type: Staple
 * Source: Manana's Menu
-* Time: 60 minutes
+* Prep: 15 minutes
+* Time: 45 minutes
 * Rarity: 2
 
 ## Ingredients

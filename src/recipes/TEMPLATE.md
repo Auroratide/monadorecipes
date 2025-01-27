@@ -8,6 +8,7 @@ One- or two-sentence short description of the food.
 
 * Type: Meat | Veggie | Staple | Dessert | Seafood
 * Source: Aegaeon's Refined Cuisine | Crossette's Cooking | Jin's Home Cooking | Just Desserts | Mythra's "Creative" Cuisine | Pyra's Cooking | Vess's Dumplings | Manana's Menu
+* Prep: ## minutes
 * Time: ## minutes
 * Rarity: 1 | 2 | 3
 
@@ -24,7 +25,7 @@ One- or two-sentence short description of the food.
 
 ## Directions
 
-1. One to two sentences.
+1. One to two sentences. [Ingredient: amount, Ingredient: amount]
 2. One to two sentences.
 3. One to two sentences.
 

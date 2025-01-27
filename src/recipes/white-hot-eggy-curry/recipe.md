@@ -8,7 +8,8 @@ A very spicy Japanese-style curry that uses eggs and mushrooms in place of meat.
 
 * Type: Staple
 * Source: Crossette's Cooking
-* Time: 50 minutes
+* Prep: 15 minutes
+* Time: 30 minutes
 * Rarity: 2
 
 ## Ingredients

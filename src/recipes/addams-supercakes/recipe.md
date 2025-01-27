@@ -8,7 +8,8 @@ A very filling cabbage pancake based on Japanese Okonomiyaki.
 
 * Type: Veggie
 * Source: Pyra's Cooking
-* Time: 75 minutes
+* Prep: 15 minutes
+* Time: 60 minutes
 * Rarity: 2
 
 ## Ingredients

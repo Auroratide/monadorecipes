@@ -8,7 +8,8 @@ A crispy dish of several different fish and carrots fried with tempura batter, s
 
 * Type: Seafood
 * Source: Aegaeon's Refined Cuisine
-* Time: 30 minutes
+* Prep: 15 minutes
+* Time: 15 minutes
 * Rarity: 2
 
 ## Ingredients
