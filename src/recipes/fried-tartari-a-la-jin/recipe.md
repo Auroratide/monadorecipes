@@ -1,6 +1,11 @@
 ---
 id: fried-tartari-a-la-jin
 published: true
+tags:
+  - stir fry
+  - fried
+  - american
+  - meat
 ---
 
 # Fried Tartari à la Jin

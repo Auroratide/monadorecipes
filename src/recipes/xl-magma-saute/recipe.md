@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - stir fry
+  - fried
+  - vietnamese
+  - squash
 ---
 
 # XL Magma Saute

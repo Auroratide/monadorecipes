@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - casserole
+  - baked
+  - french
+  - potato
 ---
 
 # Glitterbake

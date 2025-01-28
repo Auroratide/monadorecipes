@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - salad
+  - tossed
+  - american
+  - avocado
 ---
 
 # Lucky Colorful Salad

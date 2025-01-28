@@ -1,5 +1,11 @@
 ---
 published: true
+tags:
+  - curry
+  - simmered
+  - japanese
+  - eggs
+  - spicy
 ---
 
 # White-Hot Eggy Curry

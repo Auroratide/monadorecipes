@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - pancakes
+  - fried
+  - japanese
+  - cabbage
 ---
 
 # Addam's Supercakes

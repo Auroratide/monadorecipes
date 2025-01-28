@@ -12,6 +12,7 @@ export function parseRecipe(rawHtml: string, attributes: Record<string, unknown>
 	const name = h1.textContent
 	const id = (attributes.id as string) ?? idOf(name)
 	const unlisted = attributes.published === false
+	const tags = (attributes.tags as string[]) ?? []
 
 	const { content: description, next: metaList } =
 		readTextUntil(h1.nextElementSibling!, (node) => node.tagName !== "P")
@@ -46,6 +47,7 @@ export function parseRecipe(rawHtml: string, attributes: Record<string, unknown>
 		id: id,
 		name: name,
 		unlisted: unlisted,
+		tags: tags,
 		type: meta.type,
 		source: meta.source,
 		rarity: meta.rarity,

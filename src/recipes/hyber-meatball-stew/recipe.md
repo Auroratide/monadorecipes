@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - stew
+  - simmered
+  - american
+  - beef
 ---
 
 # Hyber Meatball Stew

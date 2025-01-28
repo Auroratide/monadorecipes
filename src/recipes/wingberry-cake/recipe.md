@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - cake
+  - baked
+  - american
+  - cranberry
 ---
 
 # Wingberry Cake

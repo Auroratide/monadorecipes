@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - waffles
+  - fried
+  - american
+  - chicken
 ---
 
 # Ascension Waffles

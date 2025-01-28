@@ -29,6 +29,7 @@ export type Recipe = {
 	id: string,
 	name: string,
 	unlisted?: boolean,
+	tags: string[],
 	type: RecipeType,
 	source: RecipeSource,
 	rarity: Rarity,

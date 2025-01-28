@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - pazza
+  - soup
+  - italian
+  - fish
 ---
 
 # Pyra's Acqua Pazza

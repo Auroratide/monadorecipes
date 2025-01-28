@@ -1,5 +1,11 @@
 ---
 published: false
+tags:
+  - single word, what is the food (e.g. pie)
+  - how it is made (e.g. baked)
+  - nationality (e.g. british)
+  - most important ingredient (e.g. fish)
+  - anything else noteworthy (e.g. spicy)
 ---
 
 # Name of Food

@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - soup
+  - simmered
+  - french
+  - potato
 ---
 
 # Manana's Battle Soup

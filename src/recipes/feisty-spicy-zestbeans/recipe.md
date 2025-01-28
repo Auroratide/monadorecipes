@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - beans
+  - soup
+  - american
+  - spicy
 ---
 
 # Feisty-Spicy Zestbeans

@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - tempura
+  - fried
+  - japanese
+  - fish
 ---
 
 # Steel Salmon Tempura

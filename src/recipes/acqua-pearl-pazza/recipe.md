@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - pazza
+  - soup
+  - italian
+  - fish
 ---
 
 # Acqua Pearl Pazza

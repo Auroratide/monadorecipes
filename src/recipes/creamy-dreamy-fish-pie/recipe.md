@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - pie
+  - baked
+  - british
+  - fish
 ---
 
 # Creamy-Dreamy Fish Pie
