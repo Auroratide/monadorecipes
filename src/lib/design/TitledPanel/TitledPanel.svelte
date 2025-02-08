@@ -10,7 +10,7 @@
 
 <section class="reposition-for-overlap">
 	<h2 class="{Font.size.stars(3)} {TriangleCorners({ type: "right" })} {Color.background.shiny()} {Spacing.centeredLabel({ alignment: "left" })} overlap-bottom label-padding partial-width">{title}</h2>
-	<div class="{Color.background.dark({ frilled: true })} {Color.border.dark()} panel-padding space-for-top-overlap {Bordered()}">
+	<div class="{Color.background.dark({ frilled: true })} {Color.border.dark()} panel-padding space-for-top-overlap {Bordered()} typographic">
 		<slot></slot>
 	</div>
 </section>
@@ -44,6 +44,15 @@
 
 	.space-for-top-overlap {
 		padding-top: 1.5rem;
+	}
+
+	.typographic :global(p) {
+		line-height: 1.5;
+	} .typographic :global(li) {
+		margin-block-end: 0.5em;
+	} .typographic :global(h3) {
+		font-size: 1.125em;
+		margin-block: 2em 0.5em;
 	}
 
 	@media print {
