@@ -21,22 +21,24 @@ Simple avocado and onion salad that's very quick to prep.
 
 | Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
-| Avocado (under-ripe) | 2              | 1      | Vegetable |
 | Red Onion (sliced)   | 1/2            | 1      | Vegetable |
 | Tomato (cubed)       | 2              | 1      | Vegetable |
-| Lime                 | 2              | 1      | Fruit     |
 | Baby Lettuce Mix     | 5 oz           | 1      | Vegetable |
 | Whole Kernel Corn    | 8 oz           | 1      | Vegetable |
 | Extra Virgin Olive Oil | 1 tablespoon | 2      | Oil       |
-| Black Pepper         | 1 teaspoon     | 1      | Spice     |
+| Avocado (ripe)       | 1              | 1      | Vegetable |
+| Lime Juice           | 3 tablespoons  | 1      | Fruit     |
+| Water                | 3/4 cup        | 1      | Liquid    |
+| Salt                 | 1/2 teaspoon   | 1      | Spice     |
+| Black Pepper         | 1/2 teaspoon   | 1      | Spice     |
+| Garlic Powder        | 1/2 teaspoon   | 1      | Spice     |
 
 ## Directions
 
-1. Prepare the vegetables: cut the red onion into thin slices, cube the tomatoes, and cut the avocado into bite-sized chunks. As a tip, the avocado is best when slightly under-ripe. [Red Onion: 1/2, Tomatoes: 2, Avocados (under-ripe): 2]
-2. Drain the corn. [Corn: 8 oz]
-3. Toss together the lettuce, avocado, red onion, tomato, corn, and black pepper. [Lettuce: 5oz, Avocados (sliced): 2, Red Onions (sliced): 1/2, Tomatoes (cubed): 2, Corn: 8 oz]
-4. In a separate bowl, juice the limes. Add the extra virgin olive oil and mix thoroughly. [Limes: 2, Extra Virgin Olive Oil: 1 tablespoon]
-5. Dress the salad with the lime and enjoy this simple recipe!
+1. Make the dressing: Combine the avocado, water, olive oil, lime juice, garlic powder, salt, and black pepper in a blender. Blend until creamy. The avocado is best when ripened. [Extra Virgin Olive Oil: 1 tablespoon, Avocado (ripe): 1, Lime Juice: 3 tablespoons, Water: 3/4 cup, Salt: 1/2 teaspoon; Black Pepper: 1/2 teaspoon, Garlic Powder: 1/2 teaspoon]
+2. Prepare the vegetables: cut the red onion into thin slices, cube the tomatoes, and drain the corn. [Red Onion: 1/2, Tomatoes: 2, Corn: 8 oz]
+3. Toss together the lettuce, red onion, tomato, and corn. [Lettuce: 5 oz, Avocados (sliced): 2, Red Onions (sliced): 1/2, Tomatoes (cubed): 2, Corn: 8 oz]
+4. Dress the salad with the avocado dressing from step 1, and enjoy this simple recipe!
 
 ## Interpretation
 
@@ -51,3 +53,4 @@ We use lime to emulate the sour flavor of Alrest's Sour Avocados. Besides that, 
 ## References
 
 * https://www.simplyrecipes.com/recipes/tomato_onion_avocado_salad/
+* https://www.loveandlemons.com/avocado-dressing/
