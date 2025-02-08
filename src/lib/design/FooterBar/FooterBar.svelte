@@ -14,6 +14,9 @@
 		</ul>
 	</div>
 </footer>
+<div class="footer-space">
+	<!-- Occupy space footer would have taken -->
+</div>
 
 <style>
 	.padded {
@@ -55,4 +58,6 @@
 	.shadowed {
 		box-shadow: 0 0 0.2em var(--color-bg-light);
 	}
+
+	.footer-space { block-size: 1em; }
 </style>
