@@ -10,12 +10,16 @@ type CanBeOutset = {
 	outset?: boolean,
 }
 
+type CanBeOnFocus = {
+	onFocus?: boolean,
+}
+
 export const Color = {
 	text: {
 		regular: () => "color-text-regular",
 		muted: () => "color-text-muted",
 		emphasized: () => "color-text-emphasized",
-		dark: () => "color-text-dark",
+		dark: (options: CanBeOnFocus = {}) => `color-text-dark${options.onFocus ? " color-text-dark-focus" : ""}`,
 	},
 	background: {
 		dark: (options: CanBeTranslucent & CanBeFrilled = {}) => `color-bg-dark${options.translucent ? " color-bg-translucent" : ""}${options.frilled ? " color-bg-frilled" : ""}`,

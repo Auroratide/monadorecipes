@@ -1,4 +1,5 @@
 ---
+id: mananas-battle-soup
 published: true
 tags:
   - soup

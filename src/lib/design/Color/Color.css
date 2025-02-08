@@ -51,6 +51,11 @@
 .color-text-muted { color: var(--color-text-muted); }
 .color-text-emphasized { color: var(--color-text-emphasized); }
 .color-text-dark { color: var(--color-text-dark); }
+.color-text-dark-focus:hover,
+.color-text-dark-focus:focus {
+	color: var(--color-text-dark);
+	filter: brightness(0.5);
+}
 
 .color-bg-dark { background-color: var(--color-bg-dark); }
 .color-bg-medium { background-color: var(--color-bg-medium); }

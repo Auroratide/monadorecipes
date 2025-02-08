@@ -15,5 +15,6 @@ export const Url = {
 
 export const External = {
 	source: "https://github.com/Auroratide/monadorecipes",
-	feedback: (recipeName: string) => `https://docs.google.com/forms/d/e/1FAIpQLSfLOkLIR_d8yebtq12OzKP1Uf1Zux0x7Kg-gIHcslhuw0hzrA/viewform?usp=pp_url&entry.1258368236=${encodeURIComponent(recipeName)}`,
+	issue: () => "https://github.com/Auroratide/monadorecipes/issues/new?template=Blank+issue",
+	feedback: (recipeName?: string) => `https://docs.google.com/forms/d/e/1FAIpQLSfLOkLIR_d8yebtq12OzKP1Uf1Zux0x7Kg-gIHcslhuw0hzrA/viewform${ recipeName != null ? `?usp=pp_url&entry.1258368236=${encodeURIComponent(recipeName)}` : ""}`,
 } as const
