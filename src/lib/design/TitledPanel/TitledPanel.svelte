@@ -50,9 +50,10 @@
 		line-height: 1.5;
 	} .typographic :global(li) {
 		margin-block-end: 0.5em;
-	} .typographic :global(h3) {
+	} .typographic :global(> h3) {
 		font-size: 1.125em;
 		margin-block: 2em 0.5em;
+		color: var(--color-text-emphasized);
 	}
 
 	@media print {
