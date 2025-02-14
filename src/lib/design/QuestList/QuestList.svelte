@@ -5,9 +5,6 @@
 	import { Container } from "../Container"
 	import { Elevated } from "../Elevated"
 	import { Color } from "../Color"
-	import { goto } from "$app/navigation"
-	import { page } from "$app/stores"
-	import { browser } from "$app/environment"
 	import { flip } from "svelte/animate"
 	import { fade } from "svelte/transition"
 
@@ -15,19 +12,15 @@
 	export let items: QuestItem[]
 	export let viewtransition: string | undefined = undefined
 
-	$: searchTerm = browser ? $page.url.searchParams.get("q") ?? "" : ""
+	let searchTerm = ""
+
 	$: filteredItems = items.filter((item) => {
 		return item.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
 	})
-
-	const search = (event: CustomEvent<{ textFilter: string }>) => {
-		const { textFilter } = event.detail
-		goto(`?q=${textFilter}`, { replaceState: true })
-	}
 </script>
 
 <section class="{Elevated()} {Color.background.light({ translucent: true })} overlap-container">
-	<SearchBar on:search={search} />
+	<SearchBar bind:searchTerm />
 	<div class="{Container()} pad-block">
 		<ul class="no-list three-columns" style:view-transition-name="{viewtransition}">
 			{#each filteredItems as item, i (item.id)}
@@ -48,7 +41,7 @@
 	}
 
 	.pad-block {
-		padding-block: 3rem;
+		padding-block: 1rem 3rem;
 	}
 
 	.no-list {

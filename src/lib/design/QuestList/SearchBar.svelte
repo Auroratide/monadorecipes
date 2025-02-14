@@ -3,58 +3,23 @@
 	import { Color } from "../Color"
 	import { Container } from "../Container"
 	import { Elevated } from "../Elevated"
-	import { createEventDispatcher } from "svelte"
 	import { Spacing } from "../Spacing"
-	import { page } from "$app/stores"
-	import { browser } from "$app/environment"
 	import SearchIcon from "$lib/design/icons/SearchIcon.svelte"
 
-	const dispatch = createEventDispatcher()
-
-	let textFilter = browser ? $page.url.searchParams.get("q") ?? "" : ""
-	let searchField: HTMLInputElement
-
-	const search = () => {
-		const currentFilter = $page.url.searchParams.get("q")
-
-		if (currentFilter !== textFilter)  {
-			dispatch("search", {
-				textFilter,
-			})
-		}
-	}
-
-	const submit = () => {
-		search()
-
-		// keep focus after a soft page refresh
-		if (browser) {
-			setTimeout(() => searchField.focus(), 2)
-		}
-	}
-
-	let lastInput = ""
-	$: {
-		if (textFilter === "" && textFilter !== lastInput) {
-			submit()
-		}
-		lastInput = textFilter
-	}
+	export let searchTerm: string
 </script>
 
-<div class="{Elevated({ useFilter: true })}">
+<div class="over-content {Elevated({ useFilter: true })}">
 	<search class="{Container()} {Color.background.banner()} {TriangleCorners({})} overlap-top centered">
-		<form on:submit|preventDefault={submit} method="get">
+		<form>
 			<div class="with-centered-icon">
 				<label for="text-filter"><SearchIcon /></label>
-				<p>{textFilter ? textFilter : "Search"}</p>
+				<p>{searchTerm ? searchTerm : "Search"}</p>
 				<input
-					bind:this={searchField}
 					id="text-filter"
 					type="search"
 					name="q"
-					bind:value={textFilter}
-					on:blur={search}
+					bind:value={searchTerm}
 					placeholder="Search"
 					class="invisible-input {Spacing.centeredLabel()} long-input"
 				/>
@@ -77,11 +42,13 @@
 		justify-content: center;
 	}
 
+	.over-content {
+		position: relative;
+		z-index: 2;
+	}
+
 	.overlap-top {
-		position: absolute;
-		top: 0;
-		left: 50%;
-		transform: translate(-50%, -50%);
+		transform: translateY(-50%);
 	}
 
 	.invisible-input {
