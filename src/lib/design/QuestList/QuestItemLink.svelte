@@ -33,8 +33,8 @@
 
 	a:hover, a:focus {
 		outline-offset: 0;
-		outline: 0.333em solid var(--color-border-selected);
-		animation: var(--anim-focus);
+		outline: 0.333em solid var(--color-selected);
+		animation: var(--anim-border-focus);
 	}
 
 	p {
