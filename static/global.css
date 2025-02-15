@@ -21,7 +21,8 @@ input, textarea {
 a:focus-visible,
 button:focus-visible,
 input:focus,
-img-zoom:focus-within {
+img-zoom:focus-within,
+summary:focus-visible {
    outline: 0.1875em solid var(--color-selected);
    animation: var(--anim-border-focus);
 }

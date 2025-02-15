@@ -11,7 +11,10 @@
 	import { siteDescription } from "$lib/site-info"
 
 	export let data: PageData
-	$: list = data.items.filter((item: Recipe) => !item.unlisted)
+	$: list = data.items.filter((item: Recipe) => !item.unlisted).map((item: Recipe) => ({
+		...item,
+		filterTerms: [item.source, item.type],
+	}))
 
 	const openGraph = buildOpenGraph({
 		title: "All Recipes",

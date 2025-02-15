@@ -4,26 +4,48 @@
 	import { Container } from "../Container"
 	import { Elevated } from "../Elevated"
 	import { Spacing } from "../Spacing"
-	import SearchIcon from "$lib/design/icons/SearchIcon.svelte"
+	import { RecipeSource, RecipeType } from "$lib/recipes/Recipe"
+	import SelectMenu from "./SelectMenu.svelte"
+	import { VisuallyHidden } from "../VisuallyHidden"
 
 	export let searchTerm: string
+	export let sourceFilter: string
+	export let typeFilter: string
+
+	const sourceOptions = [{ id: "source-all", value: "", label: "All" }].concat(
+		Object.entries(RecipeSource).map(([id, name]) => ({
+			id: id,
+			value: name,
+			label: name,
+		})),
+	)
+
+	const typeOptions = [{ id: "type-all", value: "", label: "All" }].concat(
+		Object.entries(RecipeType).map(([id, name]) => ({
+			id: id,
+			value: name,
+			label: name,
+		})),
+	)
 </script>
 
 <div class="over-content {Elevated({ useFilter: true })}">
-	<search class="{Container()} {Color.background.banner()} {TriangleCorners({})} overlap-top centered">
+	<search class="{Container()} overlap-top centered">
+		<div class="{Color.background.banner()} {TriangleCorners({})} pseudo-background"></div>
 		<form>
-			<div class="with-centered-icon">
-				<label for="text-filter"><SearchIcon /></label>
-				<p>{searchTerm ? searchTerm : "Search"}</p>
+			<div class="relative">
+				<label for="text-filter" class="{VisuallyHidden()}">Search</label>
 				<input
 					id="text-filter"
 					type="search"
 					name="q"
 					bind:value={searchTerm}
 					placeholder="Search"
-					class="invisible-input {Spacing.centeredLabel()} long-input"
+					class="{Spacing.centeredLabel()} long-input"
 				/>
 			</div>
+			<SelectMenu label="Source" name="source" options={sourceOptions} bind:value={sourceFilter} />
+			<SelectMenu label="Category" name="type" options={typeOptions} bind:value={typeFilter} />
 		</form>
 	</search>
 </div>
@@ -39,7 +61,15 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-around;
+	} form > :global(*) {
+		flex: 1;
+	}
+
+	.pseudo-background {
+		position: absolute;
+		inset: 0;
+		z-index: -1;
 	}
 
 	.over-content {
@@ -51,56 +81,22 @@
 		transform: translateY(-50%);
 	}
 
-	.invisible-input {
+	.relative {
+		position: relative;
+	}
+
+	input[type="search"] {
 		background: none;
 		border: none;
 		color: var(--color-text-regular);
 		cursor: pointer;
+	} input[type="search"]::placeholder {
+		color: var(--color-text-emphasized);
+		transition: opacity 0.075s ease-out;
+	} input[type="search"]:focus::placeholder {
+		opacity: 0;
 	}
 
-	.invisible-input:focus { cursor: text; }
-
-	.invisible-input::placeholder {
-		opacity: 1;
-		color: var(--color-text-regular);
-	}
-
-	.invisible-input:focus::placeholder { opacity: 0; }
-
-	.long-input { min-width: 30ch; }
+	.long-input { inline-size: 100%; }
 	.centered { text-align: center; }
-
-	/* All this gymnasitcs is to place the icon next to centered input text, regardless of what that text is. */
-	.with-centered-icon {
-		position: relative;
-		display: flex;
-		align-items: center;
-	}
-
-	.with-centered-icon:focus-within label { display: none; }
-
-	.with-centered-icon input {
-		position: absolute;
-		inset-block-start: 50%;
-		inset-inline-start: 50%;
-		transform: translate(-50%, -50%);
-		z-index: 1;
-	}
-
-	.with-centered-icon p {
-		margin: 0;
-		visibility: hidden;
-	}
-
-	.with-centered-icon label {
-		cursor: pointer;
-		position: absolute;
-		z-index: 2;
-		transform: translateX(-2em);
-		block-size: 100%;
-		inline-size: 1.5em;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
 </style>

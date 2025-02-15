@@ -13,14 +13,20 @@
 	export let viewtransition: string | undefined = undefined
 
 	let searchTerm = ""
+	let sourceFilter = ""
+	let typeFilter = ""
 
 	$: filteredItems = items.filter((item) => {
 		return item.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
+	}).filter((item) => {
+		return sourceFilter === "" || item.filterTerms.includes(sourceFilter)
+	}).filter((item) => {
+		return typeFilter === "" || item.filterTerms.includes(typeFilter)
 	})
 </script>
 
 <section class="{Elevated()} {Color.background.light({ translucent: true })} overlap-container">
-	<SearchBar bind:searchTerm />
+	<SearchBar bind:searchTerm bind:sourceFilter bind:typeFilter />
 	<div class="{Container()} pad-block">
 		<ul class="no-list three-columns" style:view-transition-name="{viewtransition}">
 			{#each filteredItems as item, i (item.id)}

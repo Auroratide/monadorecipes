@@ -4,4 +4,5 @@ export type QuestItem = {
 	id: string,
 	image: Pick<Image, "sources" | "fallback">,
 	name: string,
+	filterTerms: string[],
 }
