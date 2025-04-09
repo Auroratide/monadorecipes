@@ -37,11 +37,17 @@ export type Recipe = {
 	prepInMinutes: number,
 	image: Image & WithAlt,
 	description: string,
-	ingredients: MeasuredIngredient[],
+	// ingredients: MeasuredIngredient[],
+	ingredients: IngredientGroup[],
 	directions: Directions,
 	gameIngredients: Record<string, number>,
 	interpretation: RichText,
 	references?: string[],
+}
+
+export type IngredientGroup = {
+	name: string,
+	ingredients: MeasuredIngredient[],
 }
 
 export type MeasuredIngredient = Ingredient & {

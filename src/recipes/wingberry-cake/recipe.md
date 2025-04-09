@@ -21,12 +21,10 @@ A cranberry and almond upside-down coffee cake made with honey instead of vanill
 
 ("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
 
+### Batter
+
 | Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
-| Brown Sugar          | 2/3 cups       | 2      | Spice     |
-| Butter               | 1/3 cups       | 1      | Oil       |
-| Cranberries          | 1 1/4 cups     | 3      | Fruit     |
-| Almonds (chopped)    | 1/2 cups       | 1      | Nut       |
 | Butter               | 1/2 cups       | 1      | Oil       |
 | White Sugar          | 3/4 cups       | 1      | Spice     |
 | Eggs                 | 2              | 1      | Meat      |
@@ -37,6 +35,15 @@ A cranberry and almond upside-down coffee cake made with honey instead of vanill
 | Baking Soda          | 1 teaspoon     | 1      | Spice     |
 | Nutmeg               | 1/2 teaspoon   | 3      | Spice     |
 | Salt                 | 1/4 teaspoon   | 1      | Spice     |
+
+### Topping
+
+| Ingredient           | Quantity       | Rarity | Type      |
+| -------------------- | -------------- | ------ | --------- |
+| Brown Sugar          | 2/3 cups       | 2      | Spice     |
+| Butter               | 1/3 cups       | 1      | Oil       |
+| Cranberries          | 1 1/4 cups     | 3      | Fruit     |
+| Almonds (chopped)    | 1/2 cups       | 1      | Nut       |
 
 ## Directions
 

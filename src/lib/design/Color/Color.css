@@ -33,6 +33,8 @@
 	--color-bg-shiny: linear-gradient(hsl(239 56% 50%), hsl(228 72% 60%) 50%, hsl(229 64% 56%) 52%, hsl(224 75% 60%));
 	--color-bg-shiny-translucent: linear-gradient(hsl(239 56% 50% / 0.925), hsl(228 72% 60% / 0.925) 50%, hsl(229 64% 56% / 0.925) 52%, hsl(224 75% 60% / 0.925));
 	--color-bg-dark-shiny: linear-gradient(hsl(233 85% 11% / 0.85), hsl(240 36% 21% / 0.85) 50%, hsl(240 83% 9% / 0.85) 52%, hsl(238 69% 10% / 0.85));
+	--color-bg-shiny-secondary: linear-gradient(hsl(300 52% 50% / 0.925), hsl(296 55% 59% / 0.925) 50%, hsl(297 58% 53% / 0.925) 54%, hsl(295 66% 47% / 0.925));
+	--color-bg-shiny-secondary-2: linear-gradient(hsl(195 68% 37%), hsl(192 63% 55%) 50%, hsl(192 60% 49%) 54%, hsl(188 85% 60%));
 
 	--color-border-regular: hsl(208 94% 93%);
 	--color-border-muted: hsl(224 46% 74%);
@@ -71,6 +73,7 @@
 .color-bg-light.color-bg-translucent { background-color: var(--color-bg-light-translucent); }
 .color-bg-banner.color-bg-translucent { background: var(--color-bg-banner-translucent); }
 .color-bg-shiny.color-bg-translucent { background: var(--color-bg-shiny-translucent); }
+.color-bg-shiny-secondary { background: var(--color-bg-shiny-secondary-2); }
 
 .color-border-regular { border-color: var(--color-border-regular); }
 .color-border-muted { border-color: var(--color-border-muted); }

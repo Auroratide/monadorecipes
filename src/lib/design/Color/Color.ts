@@ -28,6 +28,7 @@ export const Color = {
 		banner: (options: CanBeTranslucent = {}) => `color-bg-banner${options.translucent ? " color-bg-translucent" : ""}`,
 		shiny: (options: CanBeTranslucent = {}) => `color-bg-shiny${options.translucent ? " color-bg-translucent" : ""}`,
 		darkShiny: () => "color-bg-dark-shiny",
+		shinySecondary: () => "color-bg-shiny-secondary",
 	},
 	border: {
 		regular: () => "color-border-regular",

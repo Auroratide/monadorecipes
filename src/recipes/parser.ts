@@ -1,5 +1,5 @@
 import { parse as parseHtml, HTMLElement } from "node-html-parser"
-import { RecipeType, type Recipe, RecipeSource, type MeasuredIngredient, type DirectionStep } from "$lib/recipes/Recipe"
+import { RecipeType, type Recipe, RecipeSource, type MeasuredIngredient, type DirectionStep, type IngredientGroup } from "$lib/recipes/Recipe"
 import type { Rarity } from "$lib/rarity/Rarity"
 import { IngredientType } from "$lib/recipes/Ingredient"
 import { MeasureAmountFraction, type Measure, MeasureUnit, MeasureAmountDecimal, asPlural } from "$lib/recipes/Measure"
@@ -18,10 +18,10 @@ export function parseRecipe(rawHtml: string, attributes: Record<string, unknown>
 		readTextUntil(h1.nextElementSibling!, (node) => node.tagName !== "P")
 	const { content: meta, next: afterMeta } =
 		readMetaList(metaList!)
-	const { next: ingredientsTable } =
-		readTextUntil(afterMeta!, (node) => node.tagName === "TABLE")
+	const { next: ingredientsGroups } =
+		readTextUntil(afterMeta!, (node) => node.tagName === "TABLE" || node.tagName === "H3")
 	const { content: ingredients, next: afterIngredients } =
-		readIngredientsTable(ingredientsTable!)
+		readIngredientGroups(ingredientsGroups!)
 	const { next: stepsList } =
 		readTextUntil(afterIngredients!, (node) => node.tagName === "OL")
 	const { content: directions, next: afterDirections } =
@@ -128,6 +128,46 @@ function readMetaList(node: HTMLElement): {
 			timeInMinutes: timeInMinutes,
 		},
 		next: node.nextElementSibling,
+	}
+}
+
+function readIngredientGroups(node: HTMLElement): {
+	content: IngredientGroup[],
+	next: HTMLElement | null,
+} {
+	const groups: IngredientGroup[] = []
+
+	let next = node
+	if (node.tagName === "H3") {
+		while (next.tagName === "H3") {
+			const groupName = next.textContent
+			const table = next.nextElementSibling!
+	
+			const { content: ingredients, next: nextNode } = readIngredientsTable(table)
+	
+			const group = {
+				name: groupName,
+				ingredients: ingredients,
+			}
+	
+			groups.push(group)
+			next = nextNode!
+		}
+	} else {
+		const { content: ingredients, next: nextNode } = readIngredientsTable(node)
+
+		const group = {
+			name: "All Ingredients",
+			ingredients: ingredients,
+		}
+
+		groups.push(group)
+		next = nextNode!
+	}
+
+	return {
+		content: groups,
+		next: next,
 	}
 }
 
