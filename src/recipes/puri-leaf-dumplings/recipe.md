@@ -45,7 +45,7 @@ Traditional rice balls stuffed with a flounder and cabbage filling.
 * Flying Flounder: 2
 * Puri Leaf Cabbage: 2
 
-We know from the quest <i>Tranquility</i> that Vess's "dumplings" are traditional Japanese rice balls, onigiri. The ingredients match this two with a heavy emphasis on gromrice and salt.
+We know from the quest <i>Tranquility</i> that Vess's "dumplings" are traditional Japanese rice balls, onigiri. The ingredients match this with a heavy emphasis on gromrice and salt.
 
 Onigiri can be filled in many ways. Salmon and tuna are popular filling choices, but since Vess's recipe uses Flying Flounder, we opted to use flounder too. Using regular cabbage for the Puri Leaf Cabbage and mayonnaise to blend it with the flounder gives the onigiri a splendid crunch.
 
