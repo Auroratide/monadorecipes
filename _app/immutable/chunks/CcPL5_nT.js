@@ -1,1 +1,0 @@
-import{E as t}from"./DQfWXNEO.js";import{S as e}from"./KEnNeCFy.js";import{T as r}from"./Dh1A8VOV.js";const s=()=>`button ${t({useFilter:!0})} ${e.centeredLabel()} ${r({type:"both"})}`;export{s as B};
