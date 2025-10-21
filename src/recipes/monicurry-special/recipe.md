@@ -46,14 +46,14 @@ A rich and hearty curry, with a slight spicy kick.
 
 ## Directions
 
-1. Mix the red curry paste with the coriander, cumin, cinnamon, cloves, nutmeg, and cardamom in a bowl until thoroughly blended. Mixture should be very thick. [Red Curry Paste: 6 tablespoons]
-2. Chop the beef sausage into 1/2 thick coins. Optionally, leave a large section uncut to match the in-game image of the Monicurry Special.
-3. In a medium-sized pot, heat oil over a medium-high heat. Cook beef sausage until they gain color. Remove cooked beef sausage into a different container and set aside. 
-4. Lower heat to medium. Place 1/2 cup of coconut milk in the pot and bring to a boil. Add curry paste and stir well, until the mixture is very thick, after approximately 5 minutes. If mixture thickens too quickly, add a splash of coconut milk or water.
-5. While mixture is thickening, mix together 2 tablespoons of brown sugar and vinegar together. Add optional tomato paste if desired. 
-6. Once mixture is thickened, add remaining coconut milk and stir to mix. Add the remaining brown sugar, vinegar mixture, and 2 tablespoons of fish sauce. Bring to a boil.
-7. Add the beef sausage into the pot and cook partially covered. While this simmers, cook rice according to a rice cooker's instructions.
-8. Chop carrots and yam into 1-inch cuts/cubes. Cut onions into thin slices, and asparagus into 2-inch segments, throwing away the tough bottoms of the stems. 
+1. Mix the red curry paste with the coriander, cumin, cinnamon, cloves, nutmeg, and cardamom in a bowl until thoroughly blended. Mixture should be very thick. [Red Curry Paste: 6 tablespoons, Coriander: 2 teaspoons, Cumin: 2 teaspoons, Cinnamon: 2 teaspoons, Cloves: 1/2 teaspoon, Nutmeg: 1/4 teaspoon, Cardamom: 1/2 teaspoon]
+2. Chop the beef sausage into 1/2 thick coins. Optionally, leave a large section uncut to match the in-game image of the Monicurry Special. [Beef Sausage: 2 pounds]
+3. In a medium-sized pot, heat oil over a medium-high heat. Cook beef sausage until they gain color. Remove cooked beef sausage into a different container and set aside. [Oil: 1 tablespoon]
+4. Lower heat to medium. Place 1/2 cup of coconut milk in the pot and bring to a boil. Add curry paste and stir well, until the mixture is very thick, after approximately 5 minutes. If mixture thickens too quickly, add a splash of coconut milk or water. [Coconut Milk: 1/2 cup, Mixed Curry Paste: 6 tablespoons]
+5. While mixture is thickening, mix together 2 tablespoons of brown sugar and vinegar together. Add optional tomato paste if desired. [Brown Sugar: 2 tablespoons, Vinegar: 2 tablespoons]
+6. Once mixture is thickened, add remaining coconut milk and stir to mix. Add the remaining brown sugar, vinegar mixture, and 2 tablespoons of fish sauce. Bring to a boil. [Coconut Milk: 1 1/2 cups, Brown Sugar: 1 tablespoon, Fish Sauce: 2 tablespoons]
+7. Add the beef sausage into the pot and cook partially covered. While this simmers, cook rice according to a rice cooker's instructions. [Rice: 3 cups]
+8. Chop carrots and yam into 1-inch cuts/cubes. Cut onions into thin slices, and asparagus into 2-inch segments, throwing away the tough bottoms of the stems. [Carrots: 3, Yam: 1, Onion: 1, Asparagus: 1 cup]
 9. Throw in the chopped carrots and simmer for 10 minutes.
 10. Throw in the yam, onions, and asparagus, and simmer for 15 minutes while covered with a lid. 
 11. Taste sauce for additional seasoning. For saltiness, add fish sauce. Once 15 minutes pass, remove from heat and serve with finished rice.
