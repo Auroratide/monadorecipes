@@ -28,25 +28,25 @@ A rich and hearty curry, with a slight spicy kick.
 | Red Curry Paste      | 6 tablespoons  | 2      | Spice     |
 | Light Brown Sugar    | 3 tablespoons  | 1      | Spice     |
 | Vinegar              | 2 tablespoons  | 1      | Liquid    |
-| (optional) Tomato Paste | 1 tablespoon | 1     | Vegetable |
+| Tomato Paste (optional) | 1 tablespoon | 1     | Vegetable |
 | Fish Sauce           | 3 tablespoons  | 2      | Liquid    |
 | Oil                  | 1 tablespoon   | 1      | Oil       |
 | Beef Sausage         | 2 pounds       | 2      | Meat      |
-| Yam                  | 1 large        | 2      | Vegetable |
-| Onion                | 1 medium       | 1      | Vegetable |
+| Yam                  | 1        | 2      | Vegetable |
+| Onion                | 1       | 1      | Vegetable |
 | Carrot               | 3              | 1      | Vegetable |
-| Asparagus, chopped   | 1 cup          | 2      | Vegetable |
-| Coriander, ground    | 2 teaspoons    | 2      | Spice     |
-| Cumin, ground        | 2 teaspoons    | 1      | Spice     |
-| Cinnamon, ground     | 2 teaspoons    | 1      | Spice     |
-| Cloves, ground       | 1/2 teaspoon   | 3      | Spice     |
+| Asparagus (chopped)   | 1 cup          | 2      | Vegetable |
+| Coriander (ground)    | 2 teaspoons    | 2      | Spice     |
+| Cumin (ground)        | 2 teaspoons    | 1      | Spice     |
+| Cinnamon (ground)     | 2 teaspoons    | 1      | Spice     |
+| Cloves (ground)       | 1/2 teaspoon   | 3      | Spice     |
 | Nutmeg               | 1/4 teaspoon   | 3      | Spice     |
-| Cardamom, ground     | 1/2 teaspoon   | 3      | Spice     |
+| Cardamom (ground)     | 1/2 teaspoon   | 3      | Spice     |
 | Rice                 | 3 cups         | 1      | Grain     |
 
 ## Directions
 
-1. Mix the red curry paste with the coriander, cumin, cinnamon, cloves, nutmeg, and cardamom in a bowl until thoroughly blended. Mixture should be very thick. [Red Curry Paste, 6 tablespoons, Ingredient: amount]
+1. Mix the red curry paste with the coriander, cumin, cinnamon, cloves, nutmeg, and cardamom in a bowl until thoroughly blended. Mixture should be very thick. [Red Curry Paste: 6 tablespoons]
 2. Chop the beef sausage into 1/2 thick coins. Optionally, leave a large section uncut to match the in-game image of the Monicurry Special.
 3. In a medium-sized pot, heat oil over a medium-high heat. Cook beef sausage until they gain color. Remove cooked beef sausage into a different container and set aside. 
 4. Lower heat to medium. Place 1/2 cup of coconut milk in the pot and bring to a boil. Add curry paste and stir well, until the mixture is very thick, after approximately 5 minutes. If mixture thickens too quickly, add a splash of coconut milk or water.
