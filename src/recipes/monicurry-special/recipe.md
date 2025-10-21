@@ -1,0 +1,74 @@
+---
+published: false
+tags:
+  - curry
+  - simmered
+  - thai
+  - sausage
+  - spicy
+---
+
+# Monicurry Special
+
+A rich and hearty curry, with a slight spicy kick. 
+
+* Type: Staple
+* Source: Manana's Menu
+* Prep: 15 minutes
+* Time: 45 minutes
+* Rarity: 2
+
+## Ingredients
+
+("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
+
+| Ingredient           | Quantity       | Rarity | Type      |
+| -------------------- | -------------- | ------ | --------- |
+| Coconut Milk         | 2 cups         | 1      | Dairy     |
+| Red Curry Paste      | 6 tablespoons  | 2      | Spice     |
+| Light Brown Sugar    | 3 tablespoons  | 1      | Spice     |
+| Vinegar              | 2 tablespoons  | 1      | Liquid    |
+| (optional) Tomato Paste | 1 tablespoon | 1     | Vegetable |
+| Fish Sauce           | 3 tablespoons  | 2      | Liquid    |
+| Oil                  | 1 tablespoon   | 1      | Oil       |
+| Beef Sausage         | 2 pounds       | 2      | Meat      |
+| Yam                  | 1 large        | 2      | Vegetable |
+| Onion                | 1 medium       | 1      | Vegetable |
+| Carrot               | 3              | 1      | Vegetable |
+| Asparagus, chopped   | 1 cup          | 2      | Vegetable |
+| Coriander, ground    | 2 teaspoons    | 2      | Spice     |
+| Cumin, ground        | 2 teaspoons    | 1      | Spice     |
+| Cinnamon, ground     | 2 teaspoons    | 1      | Spice     |
+| Cloves, ground       | 1/2 teaspoon   | 3      | Spice     |
+| Nutmeg               | 1/4 teaspoon   | 3      | Spice     |
+| Cardamom, ground     | 1/2 teaspoon   | 3      | Spice     |
+| Rice                 | 3 cups         | 1      | Grain     |
+
+## Directions
+
+1. Mix the red curry paste with the coriander, cumin, cinnamon, cloves, nutmeg, and cardamom in a bowl until thoroughly blended. Mixture should be very thick. [Red Curry Paste, 6 tablespoons, Ingredient: amount]
+2. Chop the beef sausage into 1/2 thick coins. Optionally, leave a large section uncut to match the in-game image of the Monicurry Special.
+3. In a medium-sized pot, heat oil over a medium-high heat. Cook beef sausage until they gain color. Remove cooked beef sausage into a different container and set aside. 
+4. Lower heat to medium. Place 1/2 cup of coconut milk in the pot and bring to a boil. Add curry paste and stir well, until the mixture is very thick, after approximately 5 minutes. If mixture thickens too quickly, add a splash of coconut milk or water.
+5. While mixture is thickening, mix together 2 tablespoons of brown sugar and vinegar together. Add optional tomato paste if desired. 
+6. Once mixture is thickened, add remaining coconut milk and stir to mix. Add the remaining brown sugar, vinegar mixture, and 2 tablespoons of fish sauce. Bring to a boil.
+7. Add the beef sausage into the pot and cook partially covered. While this simmers, cook rice according to a rice cooker's instructions.
+8. Chop carrots and yam into 1-inch cuts/cubes. Cut onions into thin slices, and asparagus into 2-inch segments, throwing away the tough bottoms of the stems. 
+9. Throw in the chopped carrots and simmer for 10 minutes.
+10. Throw in the yam, onions, and asparagus, and simmer for 15 minutes while covered with a lid. 
+11. Taste sauce for additional seasoning. For saltiness, add fish sauce. Once 15 minutes pass, remove from heat and serve with finished rice.
+
+## Interpretation
+
+* Tasty Sausage: 3
+* Pink Asparagus: 1
+* Thousand Carrot: 3
+* Frangible Yam: 2
+* Lucky Spice: 1
+
+The Monicurry special is WOM. WOM. Yams can substitute starchy potatoes in many recipes. IDK.
+
+## References
+
+* https://hot-thai-kitchen.com/massaman-curry/
+* https://hot-thai-kitchen.com/instant-pot-massaman/
