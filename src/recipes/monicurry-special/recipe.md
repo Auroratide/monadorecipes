@@ -26,8 +26,8 @@ A rich and hearty curry, with a slight spicy kick.
 | -------------------- | -------------- | ------ | --------- |
 | Coconut Milk         | 2 cups         | 1      | Dairy     |
 | Red Curry Paste      | 6 tablespoons  | 2      | Spice     |
-| Light Brown Sugar    | 3 tablespoons  | 1      | Spice     |
-| Vinegar              | 2 tablespoons  | 1      | Liquid    |
+| Light Brown Sugar    | 5 tablespoons  | 1      | Spice     |
+| Lime Juice              | 2 tablespoons  | 1      | Liquid    |
 | Tomato Paste (optional) | 1 tablespoon | 1     | Vegetable |
 | Fish Sauce           | 3 tablespoons  | 2      | Liquid    |
 | Oil                  | 1 tablespoon   | 1      | Oil       |
@@ -50,12 +50,12 @@ A rich and hearty curry, with a slight spicy kick.
 2. Chop the beef sausage into 1/2 thick coins. Optionally, leave a large section uncut to match the in-game image of the Monicurry Special. [Beef Sausage: 2 pounds]
 3. In a medium-sized pot, heat oil over a medium-high heat. Cook beef sausage until they gain color. Remove cooked beef sausage into a different container and set aside. [Oil: 1 tablespoon]
 4. Lower heat to medium. Place 1/2 cup of coconut milk in the pot and bring to a boil. Add curry paste and stir well, until the mixture is very thick, after approximately 5 minutes. If mixture thickens too quickly, add a splash of coconut milk or water. [Coconut Milk: 1/2 cup, Mixed Curry Paste: 6 tablespoons]
-5. While mixture is thickening, mix together 2 tablespoons of brown sugar and vinegar together. Add optional tomato paste if desired. [Brown Sugar: 2 tablespoons, Vinegar: 2 tablespoons]
-6. Once mixture is thickened, add remaining coconut milk and stir to mix. Add the remaining brown sugar, vinegar mixture, and 2 tablespoons of fish sauce. Bring to a boil. [Coconut Milk: 1 1/2 cups, Brown Sugar: 1 tablespoon, Fish Sauce: 2 tablespoons]
+5. While mixture is thickening, mix together 2 tablespoons of brown sugar and vinegar together. Add optional tomato paste if desired. [Brown Sugar: 2 tablespoons, Lime Juice: 2 tablespoons]
+6. Once mixture is thickened, add remaining coconut milk and stir to mix. Add the remaining brown sugar, lime juice mixture, and 2 tablespoons of fish sauce. Bring to a boil. [Coconut Milk: 1 1/2 cups, Brown Sugar: 3 tablespoons, Fish Sauce: 2 tablespoons]
 7. Add the beef sausage into the pot and cook partially covered. While this simmers, cook rice according to a rice cooker's instructions. [Rice: 3 cups]
 8. Chop carrots and yam into 1-inch cuts/cubes. Cut onions into thin slices, and asparagus into 2-inch segments, throwing away the tough bottoms of the stems. [Carrots: 3, Yam: 1, Onion: 1, Asparagus: 1 cup]
-9. Throw in the chopped carrots and simmer for 10 minutes.
-10. Throw in the yam, onions, and asparagus, and simmer for 15 minutes while covered with a lid. 
+9. Throw in the chopped carrots and asparagus, and simmer for 10 minutes.
+10. Throw in the yam and onions, and simmer for 15 minutes while covered with a lid. 
 11. Taste sauce for additional seasoning. For saltiness, add fish sauce. Once 15 minutes pass, remove from heat and serve with finished rice.
 
 ## Interpretation
