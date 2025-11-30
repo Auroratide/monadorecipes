@@ -66,7 +66,11 @@ A rich and hearty curry, with a slight spicy kick.
 * Frangible Yam: 2
 * Lucky Spice: 1
 
-The Monicurry special is WOM. WOM. Yams can substitute starchy potatoes in many recipes. IDK.
+We decided that, based on the name and in-game image, Manana's Monicurry special is some form of curry with sausage. When researching curries with sausage, the Thai Massaman curry caught our eye for its ingredient list and deep red color. 
+
+Massaman curry has ties to the Malay people, many of whom are Muslim, so we decided to respect this Islamic background and interpreted the Tasty Sausage as a beef sausage rather than a pork sausage. 
+
+Yam for Frangible Yam, asparagus for Pink Asparagus, and carrots for Thousand Carrots are easy additions to the main curry recipe, and the Lucky Spice counts for the rich spice profile of this curry, adding a light but noticeable kick to the dish. 
 
 ## References
 
