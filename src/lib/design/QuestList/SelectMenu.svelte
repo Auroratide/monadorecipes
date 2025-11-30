@@ -12,14 +12,19 @@
 		value: string,
 		label: string,
 	}[]
+
+	let detailsEl: HTMLDetailsElement
+	const onSelect = () => {
+		if (detailsEl) detailsEl.open = false
+	}
 </script>
 
-<details use:dismissable use:radioFocus name="search-select">
+<details bind:this={detailsEl} use:dismissable use:radioFocus name="search-select">
 	<summary class="{Spacing.centeredLabel()}">{label}</summary>
 	<div class="menu">
 		{#each options as option}
 			<div class="option">
-				<input id="filter-{option.id}" type="radio" bind:group={value} value="{option.value}" {name} class="{VisuallyHidden()}" />
+				<input id="filter-{option.id}" type="radio" bind:group={value} value="{option.value}" {name} class="{VisuallyHidden()}" on:change={onSelect} />
 				<label for="filter-{option.id}" class="cap">{option.label}</label>
 			</div>
 		{/each}
