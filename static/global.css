@@ -111,7 +111,7 @@ img-zoom { display: block; }
 ::view-transition-new(about) {
 	transform: translateX(-2em);
 	opacity: 0;
-	animation: slide-from-left 0.25s ease-out;
+	animation: slide-from-left 0.25s ease-out forwards;
 	animation-delay: 0.125s;
 	z-index: 1;
 }
@@ -124,7 +124,7 @@ img-zoom { display: block; }
 	::view-transition-new(recipe-info) {
 		transform: translateX(2em);
 		opacity: 0;
-		animation: slide-from-right 0.25s ease-out;
+		animation: slide-from-right 0.25s ease-out forwards;
 		animation-delay: 0.125s;
 		z-index: 1;
 	}
