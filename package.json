@@ -35,6 +35,6 @@
 		"pnpm": "^8.0.0"
 	},
 	"dependencies": {
-		"@auroratide/img-zoom": "^0.1.6"
+		"@auroratide/img-zoom": "^0.1.8"
 	}
 }
