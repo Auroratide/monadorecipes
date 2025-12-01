@@ -49,15 +49,21 @@
 	.horizontal-list:last-child { justify-content: flex-end; }
 
 	.fixed-to-bottom {
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		right: 0;
+		inline-size: 100%;
 	}
 
 	.shadowed {
 		box-shadow: 0 0 0.2em var(--color-bg-light);
 	}
 
-	.footer-space { block-size: 1em; }
+	@media screen and (min-width: 800px) {
+		.fixed-to-bottom {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+		.footer-space { block-size: 1em; }
+	}
 </style>
