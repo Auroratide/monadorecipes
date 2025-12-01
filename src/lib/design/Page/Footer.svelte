@@ -21,7 +21,7 @@
 		<FooterItem href="{Url.about()}" text="About">
 			<StapleIcon slot="icon" />
 		</FooterItem>
-		<FooterItem href="{Url.legalDisclaimers()}" text="Legal Disclaimers">
+		<FooterItem href="{Url.legalDisclaimers()}" text="Legal">
 			<BookIcon slot="icon" />
 		</FooterItem>
 		<FooterItem href="{External.source}" text="Open source">
