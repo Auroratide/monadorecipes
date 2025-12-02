@@ -15,7 +15,7 @@
 			{title}
 		</svelte:element>
 	{/if}
-	<div class="last-no-margin">
+	<div class="last-no-margin typographic">
 		<slot></slot>
 	</div>
 	<div aria-hidden="true" class="bolt top left"></div>
@@ -58,5 +58,9 @@
 		border: none;
 		background-color: var(--color-border-regular);
 		opacity: 0.4;
+	}
+
+	.typographic :global(li) {
+		margin-block-end: 0.5em;
 	}
 </style>

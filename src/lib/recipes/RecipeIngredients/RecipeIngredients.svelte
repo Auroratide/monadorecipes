@@ -6,9 +6,6 @@
 	import { IngredientTypeIcon } from "../IngredientTypeIcon"
 	import { RarityIndicator } from "$lib/rarity/RarityIndicator"
 	import { FormattedMeasure } from "../Measure"
-	import { TriangleCorners } from "$lib/design/TriangleCorners"
-	import { Spacing } from "$lib/design/Spacing"
-	import { Elevated } from "$lib/design/Elevated"
 
 	export let ingredients: IngredientGroup[]
 </script>

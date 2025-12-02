@@ -24,6 +24,9 @@
 		<FooterItem href="{Url.legalDisclaimers()}" text="Legal">
 			<BookIcon slot="icon" />
 		</FooterItem>
+		<FooterItem href="{Url.accessibility()}" text="Accessibility">
+			<BookIcon slot="icon" />
+		</FooterItem>
 		<FooterItem href="{External.source}" text="Open source">
 			<GithubIcon slot="icon" />
 		</FooterItem>

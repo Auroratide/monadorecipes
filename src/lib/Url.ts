@@ -11,6 +11,7 @@ export const Url = {
 	recipes: (id = "") => `${base}${slash("recipes")}${slash(id)}`,
 	about: () => `${base}${slash("about")}`,
 	legalDisclaimers: () => `${base}${slash("legal-disclaimers")}`,
+	accessibility: () => `${base}${slash("accessibility")}`,
 } as const
 
 export const External = {
