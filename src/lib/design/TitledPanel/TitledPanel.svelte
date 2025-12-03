@@ -10,7 +10,7 @@
 
 <section class="reposition-for-overlap">
 	<h2 class="{Font.size.stars(3)} {TriangleCorners({ type: "right" })} {Color.background.shiny()} {Spacing.centeredLabel({ alignment: "left" })} overlap-bottom label-padding partial-width">{title}</h2>
-	<div class="{Color.background.dark({ frilled: true })} {Color.border.dark()} panel-padding space-for-top-overlap {Bordered()} typographic">
+	<div class="{Color.background.dark({ frilled: true })} {Color.border.dark()} panel-padding space-for-top-overlap {Bordered()} typographic no-decoration-break">
 		<slot></slot>
 	</div>
 </section>
@@ -18,8 +18,13 @@
 <style>
 	section { width: 100%; }
 
+	.no-decoration-break {
+		-webkit-box-decoration-break: clone;
+		box-decoration-break: clone;
+	}
+
 	.reposition-for-overlap {
-		transform: translateY(-1rem);
+		margin-block: -1rem 1rem;
 	}
 
 	.overlap-bottom {

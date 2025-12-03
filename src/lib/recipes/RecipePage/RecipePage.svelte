@@ -37,7 +37,7 @@
 <Page title="{recipe.name}" description={recipe.description}>
 	<RecipeTypeIcon slot="header-icon" type={recipe.type} />
 	<div class="print:two-columns">
-		<div class="{TwoOneColumn()} print:invert print:small-column">
+		<div class="{TwoOneColumn()} print:invert print:small-column print:auto-space">
 			<div class="{OneColumn()}" style:view-transition-name="recipe-info">
 				<div class="print:square-images print:bordered-images">
 					<QuestPanel>
@@ -112,6 +112,12 @@
 
 		.print\:invert > :global(*) {
 			flex: 1;
+		}
+
+		.print\:auto-space {
+			justify-content: flex-end;
+		} .print\:auto-space > :global(*) {
+			flex: 0 0 auto;
 		}
 
 		.print\:two-columns {

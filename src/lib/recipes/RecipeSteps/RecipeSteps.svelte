@@ -38,6 +38,7 @@
 	li {
 		list-style: none;
 		margin-block-end: 1.75rem;
+		break-inside: avoid;
 	}
 
 	li:last-child { margin-block-end: 0; }
