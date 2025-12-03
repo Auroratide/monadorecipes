@@ -108,6 +108,7 @@ img-zoom { display: block; }
 ::view-transition-new(interpretation),
 ::view-transition-new(recipe-list),
 ::view-transition-new(legal),
+::view-transition-new(accessibility),
 ::view-transition-new(about) {
 	transform: translateX(-2em);
 	opacity: 0;
