@@ -39,9 +39,9 @@ A decadent, layered, fruity chocolate cake.
 
 | Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
-| Strawberries         | 6 oz           | 1      | Fruit     |
-| Cherries (pitted)    | 6 oz           | 2      | Fruit     |
-| Raspberries          | 6 oz           | 2      | Fruit     |
+| Strawberries         | 4 oz           | 1      | Fruit     |
+| Cherries (pitted)    | 4 oz           | 2      | Fruit     |
+| Raspberries          | 4 oz           | 2      | Fruit     |
 | White Sugar          | 1/2 cup        | 1      | Spice     |
 | Vanilla Extract      | 2 teaspoons    | 2      | Spice     |
 
@@ -49,9 +49,9 @@ A decadent, layered, fruity chocolate cake.
 
 | Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
-| Strawberries         | 6 oz           | 1      | Fruit     |
-| Cherries (pitted)    | 6 oz           | 2      | Fruit     |
-| Raspberries          | 6 oz           | 2      | Fruit     |
+| Strawberries         | 4 oz           | 1      | Fruit     |
+| Cherries (pitted)    | 4 oz           | 2      | Fruit     |
+| Raspberries          | 4 oz           | 2      | Fruit     |
 | Chocolate Frosting   | 1 cup          | 2      | Dairy     |
 | Heavy Cream          | 1/2 cup        | 2      | Dairy     |
 | Dark Chocolate (chopped) | 3 oz       | 2      | Dairy     |
@@ -63,11 +63,11 @@ A decadent, layered, fruity chocolate cake.
 3. In a different bowl, mix the oil, eggs, vanilla extract, and sour cream. [Oil: 1/2 cup, Eggs: 2, Vanilla Extract: 2 teaspoons, Sour Cream: 1 cup]
 4. Pour the wet mixture (step 3) into the dry mixture (step 2), and whisk together. Add the coffee and whisk until the batter is thin. [Brewed Coffee: 1 cup]
 5. Divide the batter evenly between the pans, and bake for 23-26 minutes. The cakes are done when a toothpick comes out clean when inserted. When the cakes are done, allow them to cool for at least 15 minutes.
-6. While the cakes are baking, work on the Berry Filling. Blend the strawberries, cherries, and raspberries together into a puree. Add the puree, sugar, and vanilla into a large pot, simmering the mix over medium-low heat until thick, for about 30 minutes. Stir occasionally. Once thick, remove from heat and allow to cool. [Strawberries: 6 oz, Cherries (pitted): 6 oz, Raspberries: 6 oz, White Sugar: 1/2 cup, Vanilla Extract: 2 teaspoons]
+6. While the cakes are baking, work on the Berry Filling. Blend the strawberries, cherries, and raspberries together into a puree. Add the puree, sugar, and vanilla into a large pot, simmering the mix over medium-low heat until thick, for about 30 minutes. Stir occasionally. Once thick, remove from heat and allow to cool. [Strawberries: 4 oz, Cherries (pitted): 4 oz, Raspberries: 4 oz, White Sugar: 1/2 cup, Vanilla Extract: 2 teaspoons]
 7. Now prepare the Chocolate Drip. Heat heavy cream over medium heat until it is steaming. Then, pour it over the chopped chocolate in a bowl and let stand for 2 minutes. Stir the chocolate and cream until fully combined, then let cool for 10 minutes. [Heavy Cream: 1/2 cup, Chocolate (chopped): 3 oz]
 8. Finally, it's time to assemble the cake. Take one of the cake loaves, and thinly slice off the top so that it is completely level. Spread the Berry Filling over the top of this first layer.
 9. Take the second cake loaf and carefully put it on top of the first layer. Spread the chocolate frosting (not the drip) over the whole cake.
-10. Drip the Chocolate Drip over the cake in a decorative way, and finally place your remaining strawberries, cherries, and raspberries on top in a cute pattern. [Strawberries: 6 oz, Cherries: 6 oz, Raspberries: 6 oz]
+10. Drip the Chocolate Drip over the cake in a decorative way, and finally place your remaining strawberries, cherries, and raspberries on top in a cute pattern. [Strawberries: 4 oz, Cherries: 4 oz, Raspberries: 4 oz]
 11. Chill the cake and then serve!
 
 ## Interpretation
