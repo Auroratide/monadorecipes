@@ -208,107 +208,115 @@ function parseIngredientName(name: string): {
 	name: string,
 	preparation?: string,
 } {
-	const match = name.match(/(.+) \((.+)\)/)
-	if (match != null) {
-		return { name: match[1], preparation: match[2] }
-	}
-
-	return { name: name }
+	return recordParseFailure(name, () => {
+		const match = name.match(/(.+) \((.+)\)/)
+		if (match != null) {
+			return { name: match[1], preparation: match[2] }
+		}
+	
+		return { name: name }
+	})
 }
 
 // I'm too dumb to do this a better way
 function parseMeasure(measure: string): Measure | undefined {
-	const unit = (s: string) => (s ?? "") === "" ? MeasureUnit.Quantity : asPlural(s)
-
-	const isWholeAndFraction = measure.match(/^(\d+)\s+(\d+)\/(\d+)\s*(.*)$/)
-	if (isWholeAndFraction) {
-		const whole = parseInt(isWholeAndFraction[1])
-		const numer = parseInt(isWholeAndFraction[2])
-		const denom = parseInt(isWholeAndFraction[3])
-		return {
-			amount: MeasureAmountFraction(whole * denom + numer, denom),
-			unit: unit(isWholeAndFraction[4]),
+	return recordParseFailure(measure, () => {
+		const unit = (s: string) => (s ?? "") === "" ? MeasureUnit.Quantity : asPlural(s)
+	
+		const isWholeAndFraction = measure.match(/^(\d+)\s+(\d+)\/(\d+)\s*(.*)$/)
+		if (isWholeAndFraction) {
+			const whole = parseInt(isWholeAndFraction[1])
+			const numer = parseInt(isWholeAndFraction[2])
+			const denom = parseInt(isWholeAndFraction[3])
+			return {
+				amount: MeasureAmountFraction(whole * denom + numer, denom),
+				unit: unit(isWholeAndFraction[4]),
+			}
 		}
-	}
-
-	const isFraction = measure.match(/^(\d+)\/(\d+)\s*(.*)$/)
-	if (isFraction) {
-		return {
-			amount: MeasureAmountFraction(parseInt(isFraction[1]), parseInt(isFraction[2])),
-			unit: unit(isFraction[3]),
+	
+		const isFraction = measure.match(/^(\d+)\/(\d+)\s*(.*)$/)
+		if (isFraction) {
+			return {
+				amount: MeasureAmountFraction(parseInt(isFraction[1]), parseInt(isFraction[2])),
+				unit: unit(isFraction[3]),
+			}
 		}
-	}
-
-	const isDecimal = measure.match(/^(\d+\.\d+)\s*(.*)$/)
-	if (isDecimal) {
-		return {
-			amount: MeasureAmountDecimal(parseFloat(isDecimal[1])),
-			unit: unit(isDecimal[2]),
+	
+		const isDecimal = measure.match(/^(\d+\.\d+)\s*(.*)$/)
+		if (isDecimal) {
+			return {
+				amount: MeasureAmountDecimal(parseFloat(isDecimal[1])),
+				unit: unit(isDecimal[2]),
+			}
 		}
-	}
-
-	const isWhole = measure.match(/^(\d+)\s*(.*)$/)
-	if (isWhole) {
-		return {
-			amount: MeasureAmountFraction(parseInt(isWhole[1])),
-			unit: unit(isWhole[2]),
+	
+		const isWhole = measure.match(/^(\d+)\s*(.*)$/)
+		if (isWhole) {
+			return {
+				amount: MeasureAmountFraction(parseInt(isWhole[1])),
+				unit: unit(isWhole[2]),
+			}
 		}
-	}
-
-	const isEmpty = measure.match(/^-$/)
-	if (isEmpty) {
-		return undefined
-	}
-
-	throw new RecipeParserError(`Failed to parse measure ${measure}`)
+	
+		const isEmpty = measure.match(/^-$/)
+		if (isEmpty) {
+			return undefined
+		}
+	
+		throw new RecipeParserError(`Failed to parse measure ${measure}`)
+	})
 }
 
 function readSimpleList(node: HTMLElement): {
 	content: string[],
 	next: HTMLElement | null,
 } {
-	const items = Array.from(node.querySelectorAll("li"))
-		.map((item) => item.innerHTML)
-
-	return {
-		content: items,
-		next: node.nextElementSibling,
-	}
+	return recordParseFailure(node.textContent, () => {
+		const items = Array.from(node.querySelectorAll("li"))
+			.map((item) => item.innerHTML)
+	
+		return {
+			content: items,
+			next: node.nextElementSibling,
+		}
+	})
 }
 
 function parseDirectionStep(value: string): DirectionStep {
-	const matched = value.match(/(.*?)\s*(\[.*?\])$/)
-	if (matched != null) {
-		const [, description, ingredientsRaw] = matched
-
-		// [ [name, measure] ]
-		const ingredients = ingredientsRaw
-			.slice(1, ingredientsRaw.length - 1)
-			.split(",")
-			.map((it) => it.trim())
-			.map((it) => it.split(":").map((it) => it.trim()))
-
-
-		const parsedIngredients = ingredients.map(([name, measure]) => {
-			const nameAndPrep = parseIngredientName(name)
-			const parsedMeasure = parseMeasure(measure)
-
+	return recordParseFailure(value, () => {
+		const matched = value.match(/(.*?)\s*(\[.*?\])$/)
+		if (matched != null) {
+			const [, description, ingredientsRaw] = matched
+	
+			// [ [name, measure] ]
+			const ingredients = ingredientsRaw
+				.slice(1, ingredientsRaw.length - 1)
+				.split(",")
+				.map((it) => it.trim())
+				.map((it) => it.split(":").map((it) => it.trim()))
+	
+	
+			const parsedIngredients = ingredients.map(([name, measure]) => {
+				const nameAndPrep = parseIngredientName(name)
+				const parsedMeasure = parseMeasure(measure)
+	
+				return {
+					...nameAndPrep,
+					measure: parsedMeasure,
+				}
+			})
+	
 			return {
-				...nameAndPrep,
-				measure: parsedMeasure,
+				description: description,
+				ingredients: parsedIngredients,
 			}
-		})
-
-		return {
-			description: description,
-			ingredients: parsedIngredients,
+		} else {
+			return {
+				description: value,
+				ingredients: [],
+			}
 		}
-	} else {
-		return {
-			description: value,
-			ingredients: [],
-		}
-	}
+	})
 }
 
 function readGameIngredients(node: HTMLElement): {
@@ -351,5 +359,13 @@ function validateOneOf<T>(value: T, options: T[]) {
 class RecipeParserError extends Error {
 	constructor(message: string) {
 		super(message)
+	}
+}
+
+function recordParseFailure<T>(value: string, f: () => T): T {
+	try {
+		return f()
+	} catch (e) {
+		throw new RecipeParserError(`Failed to parse: ${value}`)
 	}
 }
