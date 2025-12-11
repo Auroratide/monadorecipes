@@ -18,8 +18,6 @@ A simple, but comforting vegetable soup with tomato and paprika.
 
 ## Ingredients
 
-("Type" can be one of: Meat; Fish; Vegetable; Fruit; Nut; Grain; Dairy; Spice; Oil; Liquid)
-
 | Ingredient           | Quantity       | Rarity | Type      |
 | -------------------- | -------------- | ------ | --------- |
 | Olive Oil            | 1 tablespoon   | 1      | Oil       |
@@ -58,4 +56,3 @@ With some celery and onions to add to the soup's main ingredients, and a combina
 
 ## References
 
-* None, purely headcannon
