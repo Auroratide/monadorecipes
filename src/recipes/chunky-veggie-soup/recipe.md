@@ -11,7 +11,7 @@ tags:
 A simple, but comforting vegetable soup with tomato and paprika.
 
 * Type: Veggie
-* Source: Manana's Menu
+* Source: Redeemed Menu
 * Prep: 15 minutes
 * Time: 30 minutes
 * Rarity: 1
