@@ -13,17 +13,7 @@
 <div class="recipe-ingredients">
 	{#each ingredients as group}
 		<section class="ingredient-group">
-			{#if ingredients.length > 1}
-				<!-- <h3 class="{Font.size.stars(2)}">
-					<span class="inline {Color.background.shinySecondary()} {TriangleCorners({ type: "both" })} {Spacing.centeredLabel()} {Elevated({ useFilter: true })}">{group.name}</span>
-				</h3> -->
-				<h3 class="{Font.size.stars(2)}">
-					<RarityIndicator rarity={1} />
-					<span>{group.name}</span>
-					<RarityIndicator rarity={1} />
-				</h3>
-			{/if}
-			<ItemTable let:item headings={["", "Name", "Rarity", "Needed"]} items={group.ingredients} rowclass={(item) => item.measure == null ? "no-measure" : ""}>
+			<ItemTable let:item caption={ingredients.length > 1 ? group.name : undefined} headings={["", "Name", "Rarity", "Needed"]} items={group.ingredients} rowclass={(item) => item.measure == null ? "no-measure" : ""}>
 				<ItemIconCell align="center" noSpace>
 					<IngredientTypeIcon type={item.type} />
 				</ItemIconCell>
@@ -59,10 +49,6 @@
 		flex-wrap: wrap;
 		align-items: center;
 		gap: 0.75ch;
-	}
-
-	h3 {
-		text-align: center;
 	}
 
 	.ingredient-group {
