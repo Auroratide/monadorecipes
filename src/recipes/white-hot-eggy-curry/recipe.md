@@ -57,4 +57,4 @@ Finally, it's easiest to use a prepackaged Roux, for example from Golden Curry. 
 
 ## References
 
-* https://www.sbfoods-worldwide.com/lp/us/golden-curry/
+* [Golden Curry](https://www.sbfoods-worldwide.com/lp/us/golden-curry/)

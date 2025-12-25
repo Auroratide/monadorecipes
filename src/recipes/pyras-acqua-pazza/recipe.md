@@ -60,5 +60,5 @@ We let the pazza stew for longer so the spice from the peppers can diffuse into 
 
 ## References
 
-* https://www.ciaoitalia.com/recipes/acqua-pazza-2
-* https://www.recipetineats.com/acqua-pazza-italian-poached-fish/
+* [Acqua Pazza by Ciao Italia](https://www.ciaoitalia.com/recipes/acqua-pazza-2)
+* [Acqua Pazza by Recipe Tin Eats](https://www.recipetineats.com/acqua-pazza-italian-poached-fish/)

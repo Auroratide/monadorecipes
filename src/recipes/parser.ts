@@ -33,12 +33,16 @@ export function parseRecipe(rawHtml: string, attributes: Record<string, unknown>
 	const { content: interpretation, next: afterInterpretation } =
 		readHtmlUntil(afterGameIngredients!, (node) => node.tagName !== "P")
 
-	let references: string[] | undefined = undefined
+	let references: {
+		name: string,
+		href: string,
+	}[] | undefined = undefined
 	if (afterInterpretation != null) {
 		const { next: referencesList } =
 			readTextUntil(afterInterpretation!, (node) => node.tagName === "UL")
+
 		const { content: parsedReferences } =
-			readSimpleList(referencesList!)
+			readSimpleList(referencesList!, parseLinkListItem)
 
 		references = parsedReferences
 	}
@@ -267,13 +271,13 @@ function parseMeasure(measure: string): Measure | undefined {
 	})
 }
 
-function readSimpleList(node: HTMLElement): {
-	content: string[],
+function readSimpleList<T = string>(node: HTMLElement, parser: (item: HTMLElement) => T = (item) => item.innerHTML as T): {
+	content: T[],
 	next: HTMLElement | null,
 } {
 	return recordParseFailure(node.textContent, () => {
 		const items = Array.from(node.querySelectorAll("li"))
-			.map((item) => item.innerHTML)
+			.map(parser)
 	
 		return {
 			content: items,
@@ -315,6 +319,18 @@ function parseDirectionStep(value: string): DirectionStep {
 				description: value,
 				ingredients: [],
 			}
+		}
+	})
+}
+
+function parseLinkListItem(value: HTMLElement): {
+	name: string,
+	href: string,
+} {
+	return recordParseFailure(value.innerHTML, () => {
+		return {
+			name: value.innerText,
+			href: value.querySelector("a")?.getAttribute("href") ?? "",
 		}
 	})
 }

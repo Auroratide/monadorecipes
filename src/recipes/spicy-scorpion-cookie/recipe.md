@@ -56,4 +56,4 @@ As for the scorpion? You can't generally buy scorpions or bugs, so instead we si
 
 ## References
 
-* https://www.allrecipes.com/recipe/10025/white-chocolate-macadamia-nut-cookies-iii/
+* [Macadamia Nut Cookies by allrecipes](https://www.allrecipes.com/recipe/10025/white-chocolate-macadamia-nut-cookies-iii/)

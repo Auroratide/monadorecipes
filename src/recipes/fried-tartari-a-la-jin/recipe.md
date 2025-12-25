@@ -74,5 +74,5 @@ Finally, we generally interpret Nest Extract to be honey, since they are collect
 
 ## References
 
-* https://www.recipetineats.com/salisbury-steak-with-mushroom-gravy/
-* https://www.foodandwine.com/recipes/honey-glazed-roasted-root-vegetables
+* [Salisbury Steak by Recipe Tin Eats](https://www.recipetineats.com/salisbury-steak-with-mushroom-gravy/)
+* [Roasted Root Vegetables by Food & Wine](https://www.foodandwine.com/recipes/honey-glazed-roasted-root-vegetables)

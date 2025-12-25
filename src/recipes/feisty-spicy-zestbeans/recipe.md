@@ -65,4 +65,4 @@ Finally, the peanuts are what set this recipe apart from normal non-fantasy bean
 
 ## References
 
-* https://www.maricruzavalos.com/sopa-de-frijoles-mexican-bean-soup/
+* [Sopa de Frijoles by M.A. Kitchen](https://www.maricruzavalos.com/sopa-de-frijoles-mexican-bean-soup/)

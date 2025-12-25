@@ -26,6 +26,11 @@ export const RecipeSource = {
 } as const
 export type RecipeSource = typeof RecipeSource[keyof typeof RecipeSource]
 
+export type ReferenceLink = {
+	name: string,
+	href: string,
+}
+
 export type Recipe = {
 	id: string,
 	name: string,
@@ -43,7 +48,7 @@ export type Recipe = {
 	directions: Directions,
 	gameIngredients: Record<string, number>,
 	interpretation: RichText,
-	references?: string[],
+	references?: ReferenceLink[],
 }
 
 export type IngredientGroup = {

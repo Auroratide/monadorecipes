@@ -53,4 +53,4 @@ In the quest, the piranhax appears as a red fish with the skin left on, so salmo
 
 ## References
 
-* https://sallysbakingaddiction.com/honey-garlic-salmon/
+* [Glazed Salmon by Sally's Baking](https://sallysbakingaddiction.com/honey-garlic-salmon/)

@@ -74,5 +74,4 @@ Yam for Frangible Yam, asparagus for Pink Asparagus, and carrots for Thousand Ca
 
 ## References
 
-* https://hot-thai-kitchen.com/massaman-curry/
-* https://hot-thai-kitchen.com/instant-pot-massaman/
+* [Massaman Curry by Hot Thai Kitchen](https://hot-thai-kitchen.com/massaman-curry/)

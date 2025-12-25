@@ -63,7 +63,6 @@ Description here.
 
 ## References
 
-* https://www.thespruceeats.com/poultry-brine-recipe-333865
-* https://veggiedesserts.com/mango-syrup/
-* https://iheartrecipes.com/waffle-fried-chicken-recipe/
-* Do not spice the batter. Try mango pulp instead of mango pieces. Might try adding self-rising flour to waffle batter mix. Is there a way to fry the chicken without overfrying the batter?
+* [Poultry Brine by The Spruce Eats](https://www.thespruceeats.com/poultry-brine-recipe-333865)
+* [Mango Syrup by Veggie Desserts](https://veggiedesserts.com/mango-syrup/)
+* [Waffle Fried Chicken by i heart recipes](https://iheartrecipes.com/waffle-fried-chicken-recipe/)

@@ -62,4 +62,4 @@ For the Bunnit Meat, we opted for chicken. Bunnits appear like rabbits in the ga
 
 ## References
 
-* https://www.allrecipes.com/recipe/232546/easy-chicken-and-corn-chowder/
+* [Chicken and Corn Chowder by allrecipes](https://www.allrecipes.com/recipe/232546/easy-chicken-and-corn-chowder/)

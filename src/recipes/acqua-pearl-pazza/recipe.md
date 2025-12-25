@@ -61,4 +61,4 @@ We use red pepper flakes to represent the Spirit Clematis, as clematis plants ma
 
 ## References
 
-* https://www.ciaoitalia.com/recipes/acqua-pazza-2
+* [Acqua Pazza by Ciao Italia](https://www.ciaoitalia.com/recipes/acqua-pazza-2)

@@ -65,4 +65,4 @@ Finally, the seaweed topping represents the Sea Berry. In the game, Sea Berries 
 
 ## References
 
-* https://www.justonecookbook.com/okonomiyaki/
+* [Okonomiyaki by Just One Cookbook](https://www.justonecookbook.com/okonomiyaki/)

@@ -56,4 +56,4 @@ First, for the Tornan Trout we use _seafood_ dumplings. Dumplings normally conta
 
 ## References
 
-* https://soupaddict.com/potsticker-soup/
+* [Potsticker Soup by Soup Addict](https://soupaddict.com/potsticker-soup/)

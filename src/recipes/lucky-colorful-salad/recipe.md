@@ -52,5 +52,4 @@ We use lime to emulate the sour flavor of Alrest's Sour Avocados. Besides that, 
 
 ## References
 
-* https://www.simplyrecipes.com/recipes/tomato_onion_avocado_salad/
-* https://www.loveandlemons.com/avocado-dressing/
+* [Avocado Dressing by Love & Lemons](https://www.loveandlemons.com/avocado-dressing/)

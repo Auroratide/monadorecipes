@@ -71,4 +71,4 @@ Finally, many coffee cake recipes ask for either vanilla extract or cinnamon. Fo
 
 ## References
 
-* https://www.allrecipes.com/recipe/26016/cranberry-upside-down-coffee-cake/
+* [Cranberry Coffee Cake by allrecipes](https://www.allrecipes.com/recipe/26016/cranberry-upside-down-coffee-cake/)

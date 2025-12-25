@@ -61,6 +61,17 @@
 						</FlatDl>
 					</BasicPanel>
 				</div>
+				{#if recipe.references != null && recipe.references.length > 0}
+					<div class="{NoPrint()}">
+						<BasicPanel title="References">
+							<ul class="reference-list">
+								{#each recipe.references as ref}
+									<li><a href="{ref.href}">{@html ref.name}</a></li>
+								{/each}
+							</ul>
+						</BasicPanel>
+					</div>
+				{/if}
 			</div>
 			<div style:view-transition-name="ingredients" style:inline-size="100%">
 				<TitledPanel title="Ingredients">
@@ -152,5 +163,14 @@
 
 	.transition-recipe-info {
 		view-transition-name: recipe-info;
+	}
+
+	.reference-list {
+		list-style-type: "- ";
+		padding-inline-start: 0.75em;
+	} .reference-list a {
+		text-decoration: none;
+	} .reference-list a:hover, .reference-list a:focus {
+		text-decoration: underline;
 	}
 </style>

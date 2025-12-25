@@ -65,4 +65,4 @@ Finally, we included scallops as the Oil Oysters in the recipe, since scallops a
 
 ## References
 
-* https://www.recipetineats.com/potatoes-au-gratin/
+* [Potatoes au Gratin by Recipe Tin Eats](https://www.recipetineats.com/potatoes-au-gratin/)

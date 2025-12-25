@@ -58,4 +58,4 @@ We opted for a pre-made tempura batter mix for simplicity, though it is simple e
 
 ## References
 
-* https://www.justonecookbook.com/tempura-recipe/
+* [Tempura by Just One Cookbook](https://www.justonecookbook.com/tempura-recipe/)

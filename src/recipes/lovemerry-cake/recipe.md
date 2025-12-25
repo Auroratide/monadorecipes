@@ -83,5 +83,5 @@ The ingredients are simple: mookah flour for the cake itself and an assortment o
 
 ## References
 
-* https://sallysbakingaddiction.com/triple-chocolate-layer-cake/
-* https://inbloombakery.com/chocolate-berry-cake/
+* [Triple Chocolate Cake by Sally's Baking](https://sallysbakingaddiction.com/triple-chocolate-layer-cake/)
+* [Chocolate Berry Cake by In Bloom Bakery](https://inbloombakery.com/chocolate-berry-cake/)

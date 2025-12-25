@@ -51,5 +51,5 @@ Onigiri can be filled in many ways. Salmon and tuna are popular filling choices,
 
 ## References
 
-* https://norecipes.com/tuna-mayo-onigiri/
-* https://www.okonomikitchen.com/vegan-onigiri-japanese-rice-ball-recipe/
+* [Tuna Mayo Onigiri by No Recipes](https://norecipes.com/tuna-mayo-onigiri/)
+* [Onigiri How-to by Okonomi Kitchen](https://www.okonomikitchen.com/vegan-onigiri-japanese-rice-ball-recipe/)

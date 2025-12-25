@@ -47,5 +47,5 @@ A couple of paragraphs on why we chose to make the recipe the way we did based o
 
 ## References
 
-* Link to reference
-* Link to reference
+* [Recipe Name by Name of Website](Link to reference)
+* [Recipe Name by Name of Website](Link to reference)

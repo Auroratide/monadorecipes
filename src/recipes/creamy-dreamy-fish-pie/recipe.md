@@ -60,5 +60,4 @@ Finally, the boronia is a flower, as depicted in the Creamy Dreamy Fish Pie's of
 
 ## References
 
-* https://www.allrecipes.com/recipe/139987/basic-bechamel-sauce/
-* https://www.reddit.com/r/AskUK/comments/s4kdyw/anyone_have_a_good_easy_to_make_for_a_beginner/
+* [Béchamel Sauce by allrecipes](https://www.allrecipes.com/recipe/139987/basic-bechamel-sauce/)
