@@ -62,8 +62,8 @@
 					</BasicPanel>
 				</div>
 				{#if recipe.references != null && recipe.references.length > 0}
-					<div class="{NoPrint()}">
-						<BasicPanel title="References">
+					<div>
+						<BasicPanel title="Based on">
 							<ul class="reference-list">
 								{#each recipe.references as ref}
 									<li><a href="{ref.href}">{@html ref.name}</a></li>

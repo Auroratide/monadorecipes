@@ -42,4 +42,11 @@
 	.lined :global(p:last-child) {
 		margin-bottom: 0;
 	}
+
+	/* Kind of a hack */
+	@media print {
+		.padded {
+			padding-block-end: 0;
+		}
+	}
 </style>

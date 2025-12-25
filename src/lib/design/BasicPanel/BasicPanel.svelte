@@ -63,4 +63,10 @@
 	.typographic :global(li) {
 		margin-block-end: 0.5em;
 	}
+
+	@media print {
+		.bordered {
+			border: none;
+		}
+	}
 </style>
