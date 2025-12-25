@@ -74,6 +74,10 @@ img-zoom { display: block; }
       background: none;
       color: black;
    }
+
+   a {
+      text-decoration: none;
+   }
 }
 
 @page {
