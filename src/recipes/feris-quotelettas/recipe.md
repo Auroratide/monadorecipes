@@ -1,6 +1,6 @@
 ---
 id: feris-quotelettas
-published: false
+published: true
 tags:
   - pork
   - fried
